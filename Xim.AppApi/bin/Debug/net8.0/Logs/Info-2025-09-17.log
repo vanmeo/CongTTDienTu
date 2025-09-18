@@ -1,0 +1,648 @@
+2025-09-17 07:37:35.8415-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\BTL86\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2025-09-17 07:37:36.0231-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2025-09-17 07:37:36.0957-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2025-09-17 07:37:36.0957-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2025-09-17 07:37:36.0957-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: C:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2025-09-17 07:37:36.8694-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2025-09-17 07:37:36.9933-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 134.3492ms
+
+
+2025-09-17 07:37:37.0925-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2025-09-17 07:37:37.9685-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 876.7754ms
+
+
+2025-09-17 07:37:46.9836-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall - application/json-patch+json 38
+
+
+2025-09-17 07:37:47.0028-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 07:37:47.0545-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 07:37:47.0814-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 07:37:47.2388-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 07:37:47.2747-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 180.1688ms
+
+
+2025-09-17 07:37:47.2747-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 07:37:47.2747-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall - 200 500 application/json;+charset=utf-8 293.9150ms
+
+
+2025-09-17 07:38:41.0064-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall - application/json-patch+json 38
+
+
+2025-09-17 07:38:41.0480-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 07:38:41.0694-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 07:38:41.0842-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 07:38:41.1184-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 07:38:41.1184-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 32.9392ms
+
+
+2025-09-17 07:38:41.1184-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 07:38:41.1184-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall - 200 500 application/json;+charset=utf-8 109.7107ms
+
+
+2025-09-17 07:38:42.8134-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall - application/json-patch+json 38
+
+
+2025-09-17 07:38:42.8134-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 07:38:42.8134-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 07:38:42.8175-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 07:38:42.8175-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 07:38:42.8175-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 7.2557ms
+
+
+2025-09-17 07:38:42.8175-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 07:38:42.8175-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall - 200 500 application/json;+charset=utf-8 15.6835ms
+
+
+2025-09-17 07:39:37.3134-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\BTL86\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2025-09-17 07:39:37.5058-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2025-09-17 07:39:37.5820-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2025-09-17 07:39:37.5820-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2025-09-17 07:39:37.5820-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: C:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2025-09-17 07:39:38.1176-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2025-09-17 07:39:38.2427-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 125.6002ms
+
+
+2025-09-17 07:39:38.3727-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2025-09-17 07:39:38.5784-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 207.2512ms
+
+
+2025-09-17 07:39:48.4830-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2025-09-17 07:39:48.4936-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2025-09-17 07:39:48.5241-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2025-09-17 07:39:48.5559-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2025-09-17 07:39:48.7299-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2025-09-17 07:39:48.7463-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 173.4756ms
+
+
+2025-09-17 07:39:48.7463-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2025-09-17 07:39:48.7587-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 275.8078ms
+
+
+2025-09-17 07:40:33.8016-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums - application/json-patch+json 58
+
+
+2025-09-17 07:40:33.8101-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums-Insert:
+CORS policy execution successful.
+
+
+2025-09-17 07:40:33.8944-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.InsertAsync (API)'
+
+
+2025-09-17 07:40:33.9037-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums-Insert:
+Route matched with {action = "Insert", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Album.AlbumDtoCreate) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 07:40:33.9334-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Album.AlbumDtoView'.
+
+
+2025-09-17 07:40:33.9489-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums-Insert:
+Executed action Xim.AppApi.Controllers.AlbumController.InsertAsync (API) in 47.7534ms
+
+
+2025-09-17 07:40:33.9489-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.InsertAsync (API)'
+
+
+2025-09-17 07:40:33.9489-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums - 200 45 application/json;+charset=utf-8 150.3592ms
+
+
+2025-09-17 14:52:26.8100-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\BTL86\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2025-09-17 14:52:27.0061-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2025-09-17 14:52:27.0669-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2025-09-17 14:52:27.0669-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2025-09-17 14:52:27.0669-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: C:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2025-09-17 14:52:27.7625-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2025-09-17 14:52:27.8963-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 140.4264ms
+
+
+2025-09-17 14:52:27.9842-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2025-09-17 14:52:28.1681-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 184.5979ms
+
+
+2025-09-17 14:52:42.8318-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=true - application/json-patch+json 38
+
+
+2025-09-17 14:52:42.8331-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 14:52:42.8978-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:52:42.9438-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging, Boolean) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 14:52:43.1171-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 14:52:43.1567-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 205.3278ms
+
+
+2025-09-17 14:52:43.1567-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:52:43.1567-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=true - 200 284 application/json;+charset=utf-8 327.9827ms
+
+
+2025-09-17 14:52:51.4024-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=false - application/json-patch+json 38
+
+
+2025-09-17 14:52:51.4024-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 14:52:51.4024-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:52:51.4024-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging, Boolean) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 14:52:51.4129-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 14:52:51.4129-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 8.428ms
+
+
+2025-09-17 14:52:51.4129-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:52:51.4129-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=false - 200 287 application/json;+charset=utf-8 12.2519ms
+
+
+2025-09-17 14:53:01.2021-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=false - application/json-patch+json 38
+
+
+2025-09-17 14:53:01.2021-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 14:53:01.2021-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:53:01.2021-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging, Boolean) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 14:53:01.2090-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 14:53:01.2090-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 15.0475ms
+
+
+2025-09-17 14:53:01.2090-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:53:01.2090-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=false - 200 502 application/json;+charset=utf-8 19.8942ms
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=true - application/json-patch+json 38
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Albums/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Route matched with {action = "GetList", controller = "Album"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging, Boolean) on controller Xim.AppApi.Controllers.AlbumController (API).
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Albums/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Albums/getall-GetList:
+Executed action Xim.AppApi.Controllers.AlbumController.GetListAsync (API) in 5.1721ms
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Albums/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.AlbumController.GetListAsync (API)'
+
+
+2025-09-17 14:53:08.2278-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Albums/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Albums/getall?is_video=true - 200 284 application/json;+charset=utf-8 10.0989ms
+
+
+2025-09-17 16:35:41.2468-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\BTL86\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2025-09-17 16:35:41.4243-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2025-09-17 16:35:41.4853-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2025-09-17 16:35:41.4853-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2025-09-17 16:35:41.4853-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: C:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2025-09-17 16:35:42.2071-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2025-09-17 16:35:42.3147-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 113.7385ms
+
+
+2025-09-17 16:35:42.4138-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2025-09-17 16:35:42.6333-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 220.0753ms
+
+
+2025-09-17 16:36:05.1355-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongBQPs/getall - application/json-patch+json 38
+
+
+2025-09-17 16:36:05.1657-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongBQPs/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 16:36:05.2401-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API)'
+
+
+2025-09-17 16:36:05.2572-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/getall-GetList:
+Route matched with {action = "GetList", controller = "ThuTruongBQP"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.ThuTruongBQPController (API).
+
+
+2025-09-17 16:36:05.4235-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongBQPs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 16:36:05.4398-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/getall-GetList:
+Executed action Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API) in 173.5555ms
+
+
+2025-09-17 16:36:05.4398-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API)'
+
+
+2025-09-17 16:36:05.4398-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongBQPs/getall - 200 686 application/json;+charset=utf-8 316.3398ms
+
+
+2025-09-17 16:36:34.5492-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-:
+Request starting HTTP/1.1 GET http://localhost:5260/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b - - -
+
+
+2025-09-17 16:36:34.5570-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API)'
+
+
+2025-09-17 16:36:34.5819-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Route matched with {action = "Get", controller = "ThuTruongBQP"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.ThuTruongBQPController (API).
+
+
+2025-09-17 16:36:34.6268-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.ThuTruongBQP.ThuTruongBQPDtoView'.
+
+
+2025-09-17 16:36:34.6350-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executed action Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API) in 39.8836ms
+
+
+2025-09-17 16:36:34.6350-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API)'
+
+
+2025-09-17 16:36:34.6350-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b - 200 167 application/json;+charset=utf-8 118.5278ms
+
+
+2025-09-17 16:38:21.5343-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\BTL86\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2025-09-17 16:38:21.7448-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2025-09-17 16:38:21.8080-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2025-09-17 16:38:21.8080-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2025-09-17 16:38:21.8080-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: C:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2025-09-17 16:38:22.0992-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2025-09-17 16:38:22.2334-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 141.8526ms
+
+
+2025-09-17 16:38:22.3490-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2025-09-17 16:38:22.4967-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 148.3256ms
+
+
+2025-09-17 16:38:40.0594-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongBQPs/getall - application/json-patch+json 38
+
+
+2025-09-17 16:38:40.0594-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongBQPs/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 16:38:40.1230-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API)'
+
+
+2025-09-17 16:38:40.1521-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/getall-GetList:
+Route matched with {action = "GetList", controller = "ThuTruongBQP"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.ThuTruongBQPController (API).
+
+
+2025-09-17 16:38:40.3266-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongBQPs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 16:38:40.3538-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/getall-GetList:
+Executed action Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API) in 206.2206ms
+
+
+2025-09-17 16:38:40.3538-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API)'
+
+
+2025-09-17 16:38:40.3538-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongBQPs/getall - 200 1300 application/json;+charset=utf-8 308.5429ms
+
+
+2025-09-17 16:39:04.7702-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-:
+Request starting HTTP/1.1 GET http://localhost:5260/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b - - -
+
+
+2025-09-17 16:39:04.8119-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API)'
+
+
+2025-09-17 16:39:04.8119-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Route matched with {action = "Get", controller = "ThuTruongBQP"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.ThuTruongBQPController (API).
+
+
+2025-09-17 16:39:04.8380-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.ThuTruongBQP.ThuTruongBQPDtoView'.
+
+
+2025-09-17 16:39:04.8574-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executed action Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API) in 42.7227ms
+
+
+2025-09-17 16:39:04.8574-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API)'
+
+
+2025-09-17 16:39:04.8574-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/ThuTruongBQPs/5529a09d-850e-46c6-ae40-40da4875096b - 200 222 application/json;+charset=utf-8 97.0274ms
+
+
+2025-09-17 16:40:31.6788-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongBQPs/getall - application/json-patch+json 38
+
+
+2025-09-17 16:40:31.6970-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongBQPs/getall-GetList:
+CORS policy execution successful.
+
+
+2025-09-17 16:40:31.7163-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API)'
+
+
+2025-09-17 16:40:31.7163-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/getall-GetList:
+Route matched with {action = "GetList", controller = "ThuTruongBQP"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.ThuTruongBQPController (API).
+
+
+2025-09-17 16:40:31.7163-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongBQPs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2025-09-17 16:40:31.7163-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/getall-GetList:
+Executed action Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API) in 9.7448ms
+
+
+2025-09-17 16:40:31.7163-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync (API)'
+
+
+2025-09-17 16:40:31.7163-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongBQPs/getall - 200 1302 application/json;+charset=utf-8 51.1750ms
+
+
+2025-09-17 16:41:04.5589-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-:
+Request starting HTTP/1.1 GET http://localhost:5260/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8 - - -
+
+
+2025-09-17 16:41:04.5719-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-Get:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API)'
+
+
+2025-09-17 16:41:04.5719-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-Get:
+Route matched with {action = "Get", controller = "ThuTruongBQP"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.ThuTruongBQPController (API).
+
+
+2025-09-17 16:41:04.6068-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.ThuTruongBQP.ThuTruongBQPDtoView'.
+
+
+2025-09-17 16:41:04.6068-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-Get:
+Executed action Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API) in 45.4314ms
+
+
+2025-09-17 16:41:04.6068-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-Get:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync (API)'
+
+
+2025-09-17 16:41:04.6068-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/ThuTruongBQPs/cb9a382e-7670-4543-b9de-434a7c3f8bf8 - 200 238 application/json;+charset=utf-8 59.2539ms
+
+

@@ -1,0 +1,984 @@
+2024-09-11 15:00:37.3412-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 15:00:37.5822-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 15:00:37.5822-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 15:00:37.5822-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 15:00:37.5822-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 15:00:38.7069-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 15:00:38.8861-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 192.1341ms
+
+
+2024-09-11 15:00:39.0359-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 15:00:39.1712-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 135.9521ms
+
+
+2024-09-11 15:06:18.2601-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundarycNxU0PVInrC1OtgD 9765
+
+
+2024-09-11 15:06:18.3713-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:06:19.0497-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:06:19.1395-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:06:45.4216-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 15:06:45.6363-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 15:06:45.6363-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 15:06:45.6363-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 15:06:45.6363-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 15:06:47.4867-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 15:06:47.7075-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 233.1738ms
+
+
+2024-09-11 15:06:47.9810-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 15:06:48.1440-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 163.9304ms
+
+
+2024-09-11 15:09:26.7776-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryZE7TKNKsyz0tncw4 9761
+
+
+2024-09-11 15:09:26.8089-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:09:26.8666-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:09:26.9515-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:09:27.4961-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 15:09:27.4961-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi) in 548.1774ms
+
+
+2024-09-11 15:09:27.4961-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:09:27.4961-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 500 - text/plain;+charset=utf-8 721.3139ms
+
+
+2024-09-11 15:11:26.7327-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 15:11:26.9079-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 15:11:26.9079-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 15:11:26.9079-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 15:11:26.9079-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 15:11:28.5805-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 15:11:28.8709-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 302.7534ms
+
+
+2024-09-11 15:11:29.5275-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 15:11:29.6379-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 111.0539ms
+
+
+2024-09-11 15:12:28.3862-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundary4oPMGxiJKYPc1PQL 8855
+
+
+2024-09-11 15:12:28.4337-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:12:28.7957-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:12:28.8268-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:12:29.4040-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 15:12:29.4176-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi) in 579.804ms
+
+
+2024-09-11 15:12:29.4176-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:12:29.4176-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 500 - text/plain;+charset=utf-8 1032.0853ms
+
+
+2024-09-11 15:13:00.9765-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryBBbLTzQ14qSAUm6u 8855
+
+
+2024-09-11 15:13:00.9810-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:13:00.9995-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:13:00.9995-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:15:13.7913-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 15:15:13.7913-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi) in 132798.1039ms
+
+
+2024-09-11 15:15:13.7913-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:15:13.7913-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 500 - text/plain;+charset=utf-8 132828.2909ms
+
+
+2024-09-11 15:15:21.1227-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryz5GP6sog2kpSaCvf 8855
+
+
+2024-09-11 15:15:21.1227-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:15:21.1227-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:15:21.1227-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:17:38.7228-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 15:17:38.7228-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi) in 137598.906ms
+
+
+2024-09-11 15:17:38.7228-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:17:38.7228-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 500 - text/plain;+charset=utf-8 137603.4185ms
+
+
+2024-09-11 15:19:36.6730-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 15:19:36.8344-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 15:19:36.8344-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 15:19:36.8344-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 15:19:36.8344-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 15:19:37.9484-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 15:19:38.1017-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 162.7868ms
+
+
+2024-09-11 15:19:38.2401-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 15:19:38.3805-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 141.2094ms
+
+
+2024-09-11 15:20:46.4975-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryVBTDBovRQW0QOm2n 8855
+
+
+2024-09-11 15:20:46.5119-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:20:46.5772-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:20:46.6066-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:21:37.1534-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 15:21:37.4139-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 15:21:37.4139-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 15:21:37.4139-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 15:21:37.4168-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 15:21:38.6280-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 15:21:38.7838-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 165.2088ms
+
+
+2024-09-11 15:21:38.9399-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 15:21:39.0720-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.8394ms
+
+
+2024-09-11 15:23:08.0606-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryfrBY8RRJnzjB7gWA 8878
+
+
+2024-09-11 15:23:08.0728-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:23:08.1262-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:23:08.1522-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:23:10.6204-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 15:23:10.6366-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi) in 2475.873ms
+
+
+2024-09-11 15:23:10.6366-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:23:10.6366-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 500 - text/plain;+charset=utf-8 2584.5262ms
+
+
+2024-09-11 15:24:34.8313-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryECKonvaj8gDSAyxs 8878
+
+
+2024-09-11 15:24:34.8706-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 15:24:34.9013-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:24:34.9164-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 15:24:38.0450-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 15:24:38.0577-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi) in 3140.844ms
+
+
+2024-09-11 15:24:38.0577-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 15:24:38.0577-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 200 252 application/json;+charset=utf-8 3234.8300ms
+
+
+2024-09-11 15:28:57.4383-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 15:28:57.6435-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 15:28:57.6435-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 15:28:57.6435-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 15:28:57.6435-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 15:28:59.1244-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 15:28:59.6608-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 546.2261ms
+
+
+2024-09-11 15:28:59.8412-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 15:28:59.9823-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 141.7265ms
+
+
+2024-09-11 16:09:04.0327-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 16:09:04.2619-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 16:09:04.2619-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 16:09:04.2619-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 16:09:04.2619-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 16:09:07.9640-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 16:09:08.1206-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 167.1372ms
+
+
+2024-09-11 16:09:08.2649-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 16:09:08.3802-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 115.8250ms
+
+
+2024-09-11 16:09:36.9533-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:09:37.2843-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:09:37.3102-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:09:37.7292-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 16:09:37.7500-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 420.4976ms
+
+
+2024-09-11 16:09:37.7613-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:09:37.7613-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 444 - text/plain;+charset=utf-8 811.7929ms
+
+
+2024-09-11 16:09:57.9374-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:09:57.9374-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:09:57.9495-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:09:58.0434-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-11 16:09:58.0434-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 85.5906ms
+
+
+2024-09-11 16:09:58.0434-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:09:58.0434-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 444 - text/plain;+charset=utf-8 108.1013ms
+
+
+2024-09-11 16:10:11.6978-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:10:11.6978-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:10:11.6978-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:11:16.9187-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 16:11:17.1026-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 16:11:17.1026-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 16:11:17.1046-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 16:11:17.1046-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 16:11:18.3325-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 16:11:18.4840-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 162.6189ms
+
+
+2024-09-11 16:11:18.6284-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 16:11:18.7701-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 142.3339ms
+
+
+2024-09-11 16:11:42.1893-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:11:42.3077-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:11:42.3230-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:11:45.8622-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:11:45.8859-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 3553.1651ms
+
+
+2024-09-11 16:11:45.8859-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:11:45.8859-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 3706.8019ms
+
+
+2024-09-11 16:11:51.5618-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:11:51.5618-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:11:51.5618-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:11:57.3232-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:11:57.3232-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 5769.0206ms
+
+
+2024-09-11 16:11:57.3232-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:11:57.3232-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 5772.0588ms
+
+
+2024-09-11 16:12:00.9278-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:12:00.9324-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:00.9324-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:12:00.9482-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:12:00.9482-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 28.3596ms
+
+
+2024-09-11 16:12:00.9482-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:00.9482-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 34.4429ms
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 8.5233ms
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:04.1549-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 10.0069ms
+
+
+2024-09-11 16:12:07.8109-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:12:07.8109-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:07.8109-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:12:07.8294-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:12:07.8294-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 23.1815ms
+
+
+2024-09-11 16:12:07.8294-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:07.8294-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 24.5141ms
+
+
+2024-09-11 16:12:08.8824-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:12:08.8824-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:08.8824-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:12:08.9048-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:12:08.9048-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 22.0354ms
+
+
+2024-09-11 16:12:08.9048-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:08.9048-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 23.3398ms
+
+
+2024-09-11 16:12:09.6188-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:12:09.6188-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:09.6188-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:12:09.6200-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:12:09.6200-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 10.3024ms
+
+
+2024-09-11 16:12:09.6200-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:09.6200-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 11.7636ms
+
+
+2024-09-11 16:12:10.2990-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-:
+Request starting HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - - -
+
+
+2024-09-11 16:12:10.2990-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:10.2990-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Route matched with {action = "Get", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.TinTucController (Xim.AppApi).
+
+
+2024-09-11 16:12:10.3145-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-09-11 16:12:10.3145-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed action Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi) in 17.4067ms
+
+
+2024-09-11 16:12:10.3145-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:12:10.3145-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/TinTucs/aa6b6b14-db48-4e4a-9e0e-14c0635f2d0c - 200 252 application/json;+charset=utf-8 18.9001ms
+
+
+2024-09-11 16:27:54.1957-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-11 16:27:54.4818-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-11 16:27:54.4818-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-11 16:27:54.4818-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-11 16:27:54.4818-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-11 16:27:56.0485-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-11 16:27:56.2892-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 256.0217ms
+
+
+2024-09-11 16:27:56.4919-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-11 16:27:56.6917-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 200.6758ms
+
+
+2024-09-11 16:30:22.1104-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - multipart/form-data;+boundary=----WebKitFormBoundaryjV47A0LgQGAJd8Ns 12689
+
+
+2024-09-11 16:30:22.1530-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-11 16:30:23.0119-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:23.0882-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-11 16:30:23.7757-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.DMTailieu.DMTailieuDtoView'.
+
+
+2024-09-11 16:30:23.8717-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 758.9206ms
+
+
+2024-09-11 16:30:23.8717-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:23.8717-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 200 179 application/json;+charset=utf-8 1764.4863ms
+
+
+2024-09-11 16:30:52.8291-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-:
+Request starting HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - - -
+
+
+2024-09-11 16:30:52.8604-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:52.9011-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Route matched with {action = "Get", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-11 16:30:52.9807-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.DMTailieu.DMTailieuDtoView'.
+
+
+2024-09-11 16:30:52.9807-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi) in 81.4272ms
+
+
+2024-09-11 16:30:52.9807-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:52.9807-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - 200 256 application/json;+charset=utf-8 183.7683ms
+
+
+2024-09-11 16:30:56.4563-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-:
+Request starting HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - - -
+
+
+2024-09-11 16:30:56.4563-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:56.4563-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Route matched with {action = "Get", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-11 16:30:56.4853-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.DMTailieu.DMTailieuDtoView'.
+
+
+2024-09-11 16:30:56.4853-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi) in 25.1411ms
+
+
+2024-09-11 16:30:56.4853-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:56.4853-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - 200 256 application/json;+charset=utf-8 30.8002ms
+
+
+2024-09-11 16:30:58.9784-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-:
+Request starting HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - - -
+
+
+2024-09-11 16:30:58.9793-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:58.9793-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Route matched with {action = "Get", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-11 16:30:58.9793-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.DMTailieu.DMTailieuDtoView'.
+
+
+2024-09-11 16:30:58.9793-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi) in 12.9682ms
+
+
+2024-09-11 16:30:58.9793-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:30:58.9793-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - 200 256 application/json;+charset=utf-8 15.2805ms
+
+
+2024-09-11 16:31:02.1344-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-:
+Request starting HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - - -
+
+
+2024-09-11 16:31:02.1351-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:31:02.1351-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Route matched with {action = "Get", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-11 16:31:02.1351-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.DMTailieu.DMTailieuDtoView'.
+
+
+2024-09-11 16:31:02.1351-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi) in 10.4086ms
+
+
+2024-09-11 16:31:02.1351-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-11 16:31:02.1351-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/DMTaiLieus/87e59301-6fcb-4a85-98b2-e02a5d923368 - 200 256 application/json;+charset=utf-8 12.5274ms
+
+

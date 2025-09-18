@@ -1,0 +1,55 @@
+D:\Code\Cong TT\Api\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.deps.json
+D:\Code\Cong TT\Api\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.dll
+D:\Code\Cong TT\Api\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.pdb
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.AssemblyReference.cache
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfoInputs.cache
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfo.cs
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.CoreCompileInputs.cache
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.dll
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.pdb
+D:\Code\Cong TT\Api\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.sourcelink.json
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.deps.json
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.dll
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.pdb
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.AssemblyReference.cache
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfoInputs.cache
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfo.cs
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.CoreCompileInputs.cache
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.sourcelink.json
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.dll
+D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.pdb
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.deps.json
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.dll
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.pdb
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.AssemblyReference.cache
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfoInputs.cache
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfo.cs
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.CoreCompileInputs.cache
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.sourcelink.json
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.dll
+D:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.pdb
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.deps.json
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.dll
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.pdb
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.AssemblyReference.cache
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfoInputs.cache
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfo.cs
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.CoreCompileInputs.cache
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.sourcelink.json
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.dll
+E:\May Internet\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.pdb
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.deps.json
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.dll
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\bin\Debug\netstandard2.1\Xim.Library.pdb
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.AssemblyReference.cache
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfoInputs.cache
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.AssemblyInfo.cs
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.csproj.CoreCompileInputs.cache
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.sourcelink.json
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.dll
+C:\Code\Cong TT\CodeBECong\Api\Xim.Library\obj\Debug\netstandard2.1\Xim.Library.pdb

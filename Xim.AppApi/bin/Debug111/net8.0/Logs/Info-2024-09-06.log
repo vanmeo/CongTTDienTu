@@ -1,0 +1,1068 @@
+2024-09-06 08:36:15.3555-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 08:36:15.7181-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 08:36:15.7334-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 08:36:15.7334-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 08:36:15.7988-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 08:36:18.5552-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 08:36:18.7053-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 161.1294ms
+
+
+2024-09-06 08:36:18.9829-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 08:36:19.1355-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 152.7658ms
+
+
+2024-09-06 08:38:35.0059-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus - application/json-patch+json 127
+
+
+2024-09-06 08:38:35.0194-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 08:38:35.3269-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 08:38:35.3709-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Route matched with {action = "Insert", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 08:38:35.8364-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-06 08:38:35.8364-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Executed action Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi) in 468.8168ms
+
+
+2024-09-06 08:38:35.8364-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 08:38:35.8364-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus - 500 - text/plain;+charset=utf-8 840.8348ms
+
+
+2024-09-06 08:40:17.5740-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus - application/json-patch+json 127
+
+
+2024-09-06 08:40:17.5740-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 08:40:17.5740-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 08:40:17.5896-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Route matched with {action = "Insert", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 08:40:17.6038-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 08:40:17.6206-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Executed action Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi) in 30.9948ms
+
+
+2024-09-06 08:40:17.6206-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 08:40:17.6206-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus - 200 106 application/json;+charset=utf-8 50.7421ms
+
+
+2024-09-06 08:41:00.7825-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus - application/json-patch+json 125
+
+
+2024-09-06 08:41:00.7825-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 08:41:00.7825-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 08:41:00.7825-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Route matched with {action = "Insert", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 08:41:00.8203-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 08:41:00.8203-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Executed action Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi) in 19.6839ms
+
+
+2024-09-06 08:41:00.8203-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 08:41:00.8203-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus - 200 104 application/json;+charset=utf-8 39.2380ms
+
+
+2024-09-06 09:07:34.5286-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 09:07:34.7381-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 09:07:34.7381-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 09:07:34.7381-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 09:07:34.7412-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 09:07:35.6735-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 09:07:35.8908-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 226.8562ms
+
+
+2024-09-06 09:07:36.1781-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 09:07:36.3503-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 172.8402ms
+
+
+2024-09-06 09:11:20.4275-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 09:11:20.6026-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 09:11:20.6026-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 09:11:20.6026-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 09:11:20.6026-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 09:11:21.7690-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 09:11:21.8996-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 140.3285ms
+
+
+2024-09-06 09:11:22.0147-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 09:11:22.1860-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 171.8208ms
+
+
+2024-09-06 09:11:51.3804-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus - application/json-patch+json 83
+
+
+2024-09-06 09:11:51.3962-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 09:11:51.7005-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 09:11:51.7326-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Route matched with {action = "Insert", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 09:11:52.0120-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 09:11:52.0287-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Executed action Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi) in 291.836ms
+
+
+2024-09-06 09:11:52.0287-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 09:11:52.0287-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus - 200 66 application/json;+charset=utf-8 644.4045ms
+
+
+2024-09-06 13:55:41.2070-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 13:55:41.4724-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 13:55:41.4724-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 13:55:41.4724-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 13:55:41.4724-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 13:55:45.3611-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 13:55:46.9592-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 1821.1705ms
+
+
+2024-09-06 13:55:47.1034-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 13:55:47.2393-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 136.2863ms
+
+
+2024-09-06 13:59:17.5426-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus - application/json-patch+json 109
+
+
+2024-09-06 13:59:17.5667-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 13:59:17.9196-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 13:59:17.9322-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Route matched with {action = "Insert", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 13:59:18.4509-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 13:59:18.5297-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Executed action Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi) in 575.359ms
+
+
+2024-09-06 13:59:18.5297-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 13:59:18.5297-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus - 200 88 application/json;+charset=utf-8 984.1661ms
+
+
+2024-09-06 14:00:34.9419-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-:
+Request starting HTTP/1.1 GET http://localhost:5260/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8 - - -
+
+
+2024-09-06 14:00:34.9514-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Get:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-06 14:00:34.9717-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Get:
+Route matched with {action = "Get", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 14:00:34.9821-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 14:00:34.9821-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Get:
+Executed action Xim.AppApi.Controllers.MenuController.GetAsync (Xim.AppApi) in 18.2765ms
+
+
+2024-09-06 14:00:34.9821-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Get:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.GetAsync (Xim.AppApi)'
+
+
+2024-09-06 14:00:34.9821-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8 - 200 88 application/json;+charset=utf-8 53.4154ms
+
+
+2024-09-06 14:01:17.6646-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-:
+Request starting HTTP/1.1 PUT http://localhost:5260/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8 - application/json-patch+json 115
+
+
+2024-09-06 14:01:17.7032-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+CORS policy execution successful.
+
+
+2024-09-06 14:01:17.7032-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.UpdateAsync (Xim.AppApi)'
+
+
+2024-09-06 14:01:17.7032-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Route matched with {action = "Update", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, Xim.Application.Contracts.Menu.MenuDtoUpdate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 14:01:17.7856-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 14:01:17.7856-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executed action Xim.AppApi.Controllers.MenuController.UpdateAsync (Xim.AppApi) in 74.5353ms
+
+
+2024-09-06 14:01:17.7856-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.UpdateAsync (Xim.AppApi)'
+
+
+2024-09-06 14:01:17.7856-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8 - 200 94 application/json;+charset=utf-8 122.9704ms
+
+
+2024-09-06 14:01:43.2175-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-:
+Request starting HTTP/1.1 PUT http://localhost:5260/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8 - application/json-patch+json 109
+
+
+2024-09-06 14:01:43.2175-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+CORS policy execution successful.
+
+
+2024-09-06 14:01:43.2175-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.UpdateAsync (Xim.AppApi)'
+
+
+2024-09-06 14:01:43.2367-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Route matched with {action = "Update", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, Xim.Application.Contracts.Menu.MenuDtoUpdate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 14:01:43.2524-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 14:01:43.2524-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executed action Xim.AppApi.Controllers.MenuController.UpdateAsync (Xim.AppApi) in 19.8243ms
+
+
+2024-09-06 14:01:43.2524-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.UpdateAsync (Xim.AppApi)'
+
+
+2024-09-06 14:01:43.2524-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/Menus/7efe333c-9bef-4619-b6fc-100094faf0b8 - 200 88 application/json;+charset=utf-8 40.0509ms
+
+
+2024-09-06 14:28:57.6149-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 14:28:57.7960-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 14:28:57.7960-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 14:28:57.7960-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 14:28:57.7960-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 14:28:58.7008-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 14:28:58.8426-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 151.7360ms
+
+
+2024-09-06 14:28:58.9820-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 14:28:59.0846-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 103.0458ms
+
+
+2024-09-06 14:29:46.3585-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 198
+
+
+2024-09-06 14:29:46.3909-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:29:46.7733-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:29:46.7917-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 14:30:49.1849-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-06 14:30:49.2092-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Executed action Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi) in 62395.139ms
+
+
+2024-09-06 14:30:49.2092-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:30:49.2092-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs - 500 - text/plain;+charset=utf-8 62845.3602ms
+
+
+2024-09-06 14:30:55.0359-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 198
+
+
+2024-09-06 14:30:55.0359-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:30:55.0359-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:30:55.0359-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 14:31:10.2681-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-06 14:31:10.2681-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Executed action Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi) in 15232.1408ms
+
+
+2024-09-06 14:31:10.2681-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:31:10.2681-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs - 500 - text/plain;+charset=utf-8 15234.7648ms
+
+
+2024-09-06 14:31:19.1879-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 198
+
+
+2024-09-06 14:31:19.1879-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:31:19.1879-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:31:19.1879-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 14:33:48.4207-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 14:33:48.5833-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 14:33:48.5833-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 14:33:48.5833-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 14:33:48.5833-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 14:33:53.3609-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 14:33:53.4585-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 102.8192ms
+
+
+2024-09-06 14:33:53.5761-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 14:33:53.6791-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 103.7900ms
+
+
+2024-09-06 14:35:24.9918-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 175
+
+
+2024-09-06 14:35:25.0128-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:35:25.3227-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:35:25.3463-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 14:43:14.0309-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 14:43:14.1965-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 14:43:14.1965-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 14:43:14.1965-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 14:43:14.1965-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 14:43:15.0802-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 14:43:15.2547-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 184.6932ms
+
+
+2024-09-06 14:43:15.7478-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 14:43:15.8545-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 107.2840ms
+
+
+2024-09-06 14:43:43.2798-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 14:43:43.2943-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:43:43.5868-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:48:44.1400-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 14:48:44.3182-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 14:48:44.3182-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 14:48:44.3182-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 14:48:44.3182-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 14:48:45.3508-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 14:48:45.5118-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 176.3289ms
+
+
+2024-09-06 14:48:45.6561-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 14:48:45.7748-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 119.3280ms
+
+
+2024-09-06 14:49:05.5323-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+Request starting HTTP/1.1 GET http://localhost:5260/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4 - - -
+
+
+2024-09-06 14:49:05.5620-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+Request finished HTTP/1.1 GET http://localhost:5260/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4 - 500 - text/plain;+charset=utf-8 38.2740ms
+
+
+2024-09-06 14:49:25.6376-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+Request starting HTTP/1.1 GET http://localhost:5260/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4 - - -
+
+
+2024-09-06 14:49:25.6693-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+Request finished HTTP/1.1 GET http://localhost:5260/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4 - 500 - text/plain;+charset=utf-8 37.5640ms
+
+
+2024-09-06 14:49:31.1171-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 14:49:31.1201-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:49:31.4580-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:49:31.4792-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 14:51:55.1643-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 14:51:55.3468-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 14:51:55.3468-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 14:51:55.3468-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 14:51:55.3468-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 14:51:56.2479-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 14:51:56.4011-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 163.7372ms
+
+
+2024-09-06 14:51:56.5286-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 14:51:56.6680-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 140.0380ms
+
+
+2024-09-06 14:52:03.5811-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 14:52:03.5966-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 14:52:03.6481-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 14:52:03.6826-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:02:51.0882-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 15:02:51.2934-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 15:02:51.2934-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 15:02:51.2934-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 15:02:51.2934-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 15:02:52.7185-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 15:02:52.9104-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 199.0149ms
+
+
+2024-09-06 15:02:53.0488-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 15:02:53.1953-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 147.0366ms
+
+
+2024-09-06 15:04:49.4668-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 15:04:49.4831-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:04:49.7827-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:04:49.7991-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:05:21.7800-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 15:05:21.9549-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 15:05:21.9549-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 15:05:21.9549-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 15:05:21.9549-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 15:05:23.3552-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 15:05:23.4953-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 149.8477ms
+
+
+2024-09-06 15:05:23.6139-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 15:05:23.7267-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 113.3743ms
+
+
+2024-09-06 15:05:30.6827-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 15:05:30.6827-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:05:30.7406-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:05:30.7670-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:07:04.6204-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 15:07:04.7688-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 15:07:04.7688-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 15:07:04.7688-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 15:07:04.7688-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 15:07:05.6516-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 15:07:05.8017-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 160.2005ms
+
+
+2024-09-06 15:07:05.9742-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 15:07:06.1128-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 139.2042ms
+
+
+2024-09-06 15:07:13.5115-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus - application/json-patch+json 92
+
+
+2024-09-06 15:07:13.5115-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:07:13.5715-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:07:13.5838-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Route matched with {action = "Insert", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-06 15:07:13.8760-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Menu.MenuDtoView'.
+
+
+2024-09-06 15:07:13.8849-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus-Insert:
+Executed action Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi) in 297.3675ms
+
+
+2024-09-06 15:07:13.9009-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:07:13.9009-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus - 200 71 application/json;+charset=utf-8 392.1825ms
+
+
+2024-09-06 15:14:35.9146-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-06 15:14:36.0779-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-06 15:14:36.0779-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-06 15:14:36.0779-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-06 15:14:36.0779-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-06 15:14:37.0829-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-06 15:14:37.2256-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 153.8941ms
+
+
+2024-09-06 15:14:37.3423-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-06 15:14:37.4466-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 104.8956ms
+
+
+2024-09-06 15:15:00.5301-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 15:15:00.5519-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:15:00.8575-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:15:00.8896-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:15:08.5843-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.MenuSub.MenuSubDtoView'.
+
+
+2024-09-06 15:15:08.5995-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Executed action Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi) in 7711.8105ms
+
+
+2024-09-06 15:15:08.5995-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:15:08.5995-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs - 200 113 application/json;+charset=utf-8 8069.0324ms
+
+
+2024-09-06 15:15:57.1758-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 133
+
+
+2024-09-06 15:15:57.1903-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:15:57.1903-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:15:57.1903-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:16:01.2049-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.MenuSub.MenuSubDtoView'.
+
+
+2024-09-06 15:16:01.2049-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Executed action Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi) in 4024.0892ms
+
+
+2024-09-06 15:16:01.2049-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:16:01.2049-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs - 200 113 application/json;+charset=utf-8 4043.6533ms
+
+
+2024-09-06 15:36:00.9293-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 143
+
+
+2024-09-06 15:36:00.9386-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:36:00.9386-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:36:00.9386-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:36:00.9742-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.MenuSub.MenuSubDtoView'.
+
+
+2024-09-06 15:36:00.9742-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Executed action Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi) in 37.3334ms
+
+
+2024-09-06 15:36:00.9742-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:36:00.9742-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs - 200 122 application/json;+charset=utf-8 50.4617ms
+
+
+2024-09-06 15:36:19.1034-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs - application/json-patch+json 160
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs-Insert:
+CORS policy execution successful.
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Route matched with {action = "Insert", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.MenuSub.MenuSubDtoView'.
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs-Insert:
+Executed action Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi) in 14.4841ms
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-06 15:36:19.1041-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs - 200 139 application/json;+charset=utf-8 17.0695ms
+
+

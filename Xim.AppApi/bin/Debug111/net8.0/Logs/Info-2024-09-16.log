@@ -1,0 +1,579 @@
+2024-09-16 15:08:43.0567-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-16 15:08:45.3760-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-16 15:08:45.3764-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-16 15:08:45.3764-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-16 15:08:45.3764-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-16 15:08:51.3586-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-16 15:08:52.1225-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 770.1722ms
+
+
+2024-09-16 15:08:52.8667-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-16 15:08:53.0067-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 140.8398ms
+
+
+2024-09-16 15:09:07.1670-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles/getall - application/json-patch+json 38
+
+
+2024-09-16 15:09:07.1670-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles/getall-GetList:
+CORS policy execution successful.
+
+
+2024-09-16 15:09:07.5448-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Roles/getall-GetList:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-09-16 15:09:07.5448-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Roles/getall-GetList:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-09-16 15:09:07.5448-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles/getall - 401 0 - 384.3478ms
+
+
+2024-09-16 15:09:23.9189-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles/getall - application/json-patch+json 37
+
+
+2024-09-16 15:09:23.9189-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles/getall-GetList:
+CORS policy execution successful.
+
+
+2024-09-16 15:09:23.9189-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Roles/getall-GetList:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-09-16 15:09:23.9189-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Roles/getall-GetList:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-09-16 15:09:23.9189-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles/getall - 401 0 - 11.1414ms
+
+
+2024-09-16 15:09:48.5741-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-09-16 15:09:48.5741-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-09-16 15:09:48.5891-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-09-16 15:09:48.6426-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-09-16 15:09:49.0109-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-09-16 15:09:49.0340-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 383.4047ms
+
+
+2024-09-16 15:09:49.0340-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-09-16 15:09:49.0340-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 463.2356ms
+
+
+2024-09-16 15:10:10.6905-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles/getall - application/json-patch+json 37
+
+
+2024-09-16 15:10:10.6905-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles/getall-GetList:
+CORS policy execution successful.
+
+
+2024-09-16 15:10:10.7339-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.GetListAsync (API)'
+
+
+2024-09-16 15:10:10.7339-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/getall-GetList:
+Route matched with {action = "GetList", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:10:10.9473-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles/getall-GetList:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-16 15:10:10.9473-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/getall-GetList:
+Executed action Xim.AppApi.Controllers.RoleController.GetListAsync (API) in 209.5218ms
+
+
+2024-09-16 15:10:10.9473-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.GetListAsync (API)'
+
+
+2024-09-16 15:10:10.9473-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles/getall - 500 - text/plain;+charset=utf-8 258.3178ms
+
+
+2024-09-16 15:12:18.7374-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-16 15:12:18.9054-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-16 15:12:18.9054-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-16 15:12:18.9054-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-16 15:12:18.9054-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-16 15:12:20.6112-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-16 15:12:20.8323-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 250.9210ms
+
+
+2024-09-16 15:12:21.0023-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-16 15:12:21.2419-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 240.3132ms
+
+
+2024-09-16 15:12:33.8959-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles/getall - application/json-patch+json 38
+
+
+2024-09-16 15:12:33.9006-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles/getall-GetList:
+CORS policy execution successful.
+
+
+2024-09-16 15:12:33.9689-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.GetListAsync (API)'
+
+
+2024-09-16 15:12:33.9689-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/getall-GetList:
+Route matched with {action = "GetList", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:12:34.1857-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-09-16 15:12:34.1975-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/getall-GetList:
+Executed action Xim.AppApi.Controllers.RoleController.GetListAsync (API) in 218.2959ms
+
+
+2024-09-16 15:12:34.1975-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.GetListAsync (API)'
+
+
+2024-09-16 15:12:34.1975-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles/getall - 200 73 application/json;+charset=utf-8 324.5538ms
+
+
+2024-09-16 15:12:40.6280-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-:
+Request starting HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - - -
+
+
+2024-09-16 15:12:40.6280-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-09-16 15:12:40.6436-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-09-16 15:12:40.6436-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Request finished HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - 401 0 - 18.6979ms
+
+
+2024-09-16 15:12:58.2825-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-09-16 15:12:58.2825-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-09-16 15:12:58.2825-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-09-16 15:12:58.2981-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-09-16 15:12:58.3719-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-09-16 15:12:58.3719-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 69.5955ms
+
+
+2024-09-16 15:12:58.3719-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-09-16 15:12:58.3719-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 92.7289ms
+
+
+2024-09-16 15:14:33.1723-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-:
+Request starting HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - - -
+
+
+2024-09-16 15:14:33.2328-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.GetListModulePermission (API)'
+
+
+2024-09-16 15:14:33.2328-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Route matched with {action = "GetListModulePermission", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListModulePermission() on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:15:46.8488-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-16 15:15:46.8488-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executed action Xim.AppApi.Controllers.RoleController.GetListModulePermission (API) in 73611.2961ms
+
+
+2024-09-16 15:15:46.8488-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.GetListModulePermission (API)'
+
+
+2024-09-16 15:15:46.8488-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Request finished HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - 500 - text/plain;+charset=utf-8 73677.9224ms
+
+
+2024-09-16 15:15:52.3664-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-:
+Request starting HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - - -
+
+
+2024-09-16 15:15:52.3664-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.GetListModulePermission (API)'
+
+
+2024-09-16 15:15:52.3695-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Route matched with {action = "GetListModulePermission", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListModulePermission() on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:16:11.5054-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-16 15:16:11.5054-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executed action Xim.AppApi.Controllers.RoleController.GetListModulePermission (API) in 19138.4384ms
+
+
+2024-09-16 15:16:11.5054-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.GetListModulePermission (API)'
+
+
+2024-09-16 15:16:11.5054-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Request finished HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - 500 - text/plain;+charset=utf-8 19141.8806ms
+
+
+2024-09-16 15:16:20.3152-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles - application/json-patch+json 111
+
+
+2024-09-16 15:16:20.3152-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles-Insert:
+CORS policy execution successful.
+
+
+2024-09-16 15:16:20.3152-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.InsertAsync (API)'
+
+
+2024-09-16 15:16:20.3225-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles-Insert:
+Route matched with {action = "Insert", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Role.RoleDtoCreate) on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:16:20.5174-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-16 15:16:20.5174-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles-Insert:
+Executed action Xim.AppApi.Controllers.RoleController.InsertAsync (API) in 184.5137ms
+
+
+2024-09-16 15:16:20.5174-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.InsertAsync (API)'
+
+
+2024-09-16 15:16:20.5174-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles - 500 - text/plain;+charset=utf-8 205.2863ms
+
+
+2024-09-16 15:17:11.3712-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles - application/json-patch+json 111
+
+
+2024-09-16 15:17:11.3712-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles-Insert:
+CORS policy execution successful.
+
+
+2024-09-16 15:17:11.3712-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.InsertAsync (API)'
+
+
+2024-09-16 15:17:11.3712-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles-Insert:
+Route matched with {action = "Insert", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Role.RoleDtoCreate) on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:17:11.4644-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-16 15:17:11.4644-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles-Insert:
+Executed action Xim.AppApi.Controllers.RoleController.InsertAsync (API) in 72.8127ms
+
+
+2024-09-16 15:17:11.4644-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.InsertAsync (API)'
+
+
+2024-09-16 15:17:11.4644-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles - 444 - text/plain;+charset=utf-8 106.1944ms
+
+
+2024-09-16 15:18:10.8494-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles-:
+Request starting HTTP/1.1 POST http://localhost:5260/Roles - application/json-patch+json 44
+
+
+2024-09-16 15:18:10.8494-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles-Insert:
+CORS policy execution successful.
+
+
+2024-09-16 15:18:10.8494-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.InsertAsync (API)'
+
+
+2024-09-16 15:18:10.8494-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles-Insert:
+Route matched with {action = "Insert", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Role.RoleDtoCreate) on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:18:10.8783-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Domain.Entities.RoleEntity'.
+
+
+2024-09-16 15:18:10.8783-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles-Insert:
+Executed action Xim.AppApi.Controllers.RoleController.InsertAsync (API) in 36.8107ms
+
+
+2024-09-16 15:18:10.8783-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.InsertAsync (API)'
+
+
+2024-09-16 15:18:10.8783-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Roles - 200 79 application/json;+charset=utf-8 39.5171ms
+
+
+2024-09-16 15:18:20.3058-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-:
+Request starting HTTP/1.1 DELETE http://localhost:5260/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2 - - -
+
+
+2024-09-16 15:18:20.3067-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+CORS policy execution successful.
+
+
+2024-09-16 15:18:20.3067-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.DeleteAsync (API)'
+
+
+2024-09-16 15:18:20.3225-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+Route matched with {action = "Delete", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAsync(System.Guid) on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 15:18:26.6976-INFO-Microsoft.AspNetCore.Mvc.StatusCodeResult-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+Executing StatusCodeResult, setting HTTP status code 200
+
+
+2024-09-16 15:18:26.6976-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+Executed action Xim.AppApi.Controllers.RoleController.DeleteAsync (API) in 6376.1756ms
+
+
+2024-09-16 15:18:26.6976-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.DeleteAsync (API)'
+
+
+2024-09-16 15:18:26.6976-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2-Delete:
+Request finished HTTP/1.1 DELETE http://localhost:5260/Roles/c4a9dc54-e4d8-4917-8af5-f6d269fe95d2 - 200 0 - 6396.7510ms
+
+
+2024-09-16 16:37:33.8266-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-16 16:37:34.0022-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-16 16:37:34.0022-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-16 16:37:34.0022-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-16 16:37:34.0022-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-16 16:37:35.4317-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-16 16:37:35.6232-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 200.8347ms
+
+
+2024-09-16 16:37:35.7789-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-16 16:37:35.9351-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 157.0486ms
+
+
+2024-09-16 16:37:51.8059-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-09-16 16:37:51.8090-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-09-16 16:37:51.8772-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-09-16 16:37:51.8901-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-09-16 16:37:52.0939-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-09-16 16:37:52.1050-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 205.1039ms
+
+
+2024-09-16 16:37:52.1050-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-09-16 16:37:52.1231-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 315.5884ms
+
+
+2024-09-16 16:38:12.0610-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-:
+Request starting HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - - -
+
+
+2024-09-16 16:38:57.4969-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-16 16:38:57.6780-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-16 16:38:57.6780-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-16 16:38:57.6780-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-16 16:38:57.6780-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-16 16:38:58.8796-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-16 16:38:59.0622-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 197.9632ms
+
+
+2024-09-16 16:38:59.6713-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-16 16:38:59.9185-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 247.9976ms
+
+
+2024-09-16 16:39:12.5765-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-:
+Request starting HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - - -
+
+
+2024-09-16 16:39:12.6429-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executing endpoint 'Xim.AppApi.Controllers.RoleController.GetListModulePermission (API)'
+
+
+2024-09-16 16:39:12.6660-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Route matched with {action = "GetListModulePermission", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListModulePermission() on controller Xim.AppApi.Controllers.RoleController (API).
+
+
+2024-09-16 16:39:34.1938-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-16 16:39:34.2062-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executed action Xim.AppApi.Controllers.RoleController.GetListModulePermission (API) in 21533.2671ms
+
+
+2024-09-16 16:39:34.2062-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Executed endpoint 'Xim.AppApi.Controllers.RoleController.GetListModulePermission (API)'
+
+
+2024-09-16 16:39:34.2062-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Request finished HTTP/1.1 GET http://localhost:5260/Roles/get_list_module_permission - 500 - text/plain;+charset=utf-8 21634.4139ms
+
+

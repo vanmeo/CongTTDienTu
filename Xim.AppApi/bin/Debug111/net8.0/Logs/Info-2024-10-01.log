@@ -1,0 +1,748 @@
+2024-10-01 10:29:44.7095-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-10-01 10:29:45.6339-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-10-01 10:29:45.6358-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-10-01 10:29:45.6358-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-10-01 10:29:45.6358-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-10-01 10:29:53.8329-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-10-01 10:29:56.2337-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 2446.8953ms
+
+
+2024-10-01 10:29:57.9360-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-10-01 10:29:58.2767-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 340.6727ms
+
+
+2024-10-01 10:30:14.6360-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json 52
+
+
+2024-10-01 10:30:15.5495-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:30:15.5788-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:30:16.2033-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-01 10:30:16.2353-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 641.8219ms
+
+
+2024-10-01 10:30:16.2353-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:30:16.2353-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 1600.3938ms
+
+
+2024-10-01 10:30:50.9737-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/password-:
+Request starting HTTP/1.1 PATCH http://localhost:5260/Accounts/password - application/json-patch+json 59
+
+
+2024-10-01 10:30:50.9958-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/password-ChangePassword:
+CORS policy execution successful.
+
+
+2024-10-01 10:30:51.0270-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Accounts/password-ChangePassword:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-10-01 10:30:51.0270-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Accounts/password-ChangePassword:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-10-01 10:30:51.0270-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/password-ChangePassword:
+Request finished HTTP/1.1 PATCH http://localhost:5260/Accounts/password - 401 0 - 55.7027ms
+
+
+2024-10-01 10:31:15.6905-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-10-01 10:31:15.6905-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-10-01 10:31:15.6905-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:31:15.6905-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:31:15.6978-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-01 10:31:15.7141-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 20.6343ms
+
+
+2024-10-01 10:31:15.7141-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:31:15.7141-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 23.1554ms
+
+
+2024-10-01 10:31:33.1591-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/password-:
+Request starting HTTP/1.1 PATCH http://localhost:5260/Accounts/password - application/json-patch+json 59
+
+
+2024-10-01 10:31:33.1591-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/password-ChangePassword:
+CORS policy execution successful.
+
+
+2024-10-01 10:31:33.2137-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/password-ChangePassword:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.ChangePasswordAsync (API)'
+
+
+2024-10-01 10:31:33.2137-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/password-ChangePassword:
+Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePasswordAsync(Xim.Application.Contracts.Users.UserDtoChangePassword) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:31:33.3885-INFO-Microsoft.AspNetCore.Mvc.StatusCodeResult-http://localhost/Accounts/password-ChangePassword:
+Executing StatusCodeResult, setting HTTP status code 200
+
+
+2024-10-01 10:31:33.3885-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/password-ChangePassword:
+Executed action Xim.AppApi.Controllers.AccountController.ChangePasswordAsync (API) in 170.7343ms
+
+
+2024-10-01 10:31:33.3885-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/password-ChangePassword:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.ChangePasswordAsync (API)'
+
+
+2024-10-01 10:31:33.3885-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/password-ChangePassword:
+Request finished HTTP/1.1 PATCH http://localhost:5260/Accounts/password - 200 0 - 231.0405ms
+
+
+2024-10-01 10:31:45.8662-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json 53
+
+
+2024-10-01 10:31:45.8662-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:31:45.8662-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:31:45.9866-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-10-01 10:31:45.9866-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 120.1858ms
+
+
+2024-10-01 10:31:45.9866-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:31:45.9866-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 444 - text/plain;+charset=utf-8 121.8152ms
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json 52
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 3.5752ms
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:31:52.8428-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 4.9074ms
+
+
+2024-10-01 10:32:41.5770-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json 52
+
+
+2024-10-01 10:32:41.6118-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:32:41.6118-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:32:41.6213-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-01 10:32:41.6362-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 22.6028ms
+
+
+2024-10-01 10:32:41.6362-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:32:41.6362-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 63.1970ms
+
+
+2024-10-01 10:34:21.4340-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json 52
+
+
+2024-10-01 10:34:21.4340-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:34:21.4490-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:34:21.4490-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-01 10:34:21.4641-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 15.1635ms
+
+
+2024-10-01 10:34:21.4641-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:34:21.4641-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 22.9266ms
+
+
+2024-10-01 10:34:43.9345-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/CaiDats/getall - application/json-patch+json 38
+
+
+2024-10-01 10:34:43.9345-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/CaiDats/getall-GetList:
+CORS policy execution successful.
+
+
+2024-10-01 10:34:43.9501-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.CaiDatController.GetListAsync (API)'
+
+
+2024-10-01 10:34:43.9501-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/getall-GetList:
+Route matched with {action = "GetList", controller = "CaiDat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.CaiDatController (API).
+
+
+2024-10-01 10:34:44.0499-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/CaiDats/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-10-01 10:34:44.0763-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/getall-GetList:
+Executed action Xim.AppApi.Controllers.CaiDatController.GetListAsync (API) in 119.176ms
+
+
+2024-10-01 10:34:44.0763-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.CaiDatController.GetListAsync (API)'
+
+
+2024-10-01 10:34:44.0763-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/CaiDats/getall - 200 1131 application/json;+charset=utf-8 142.7798ms
+
+
+2024-10-01 10:35:39.5572-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbac-:
+Request starting HTTP/1.1 POST http://localhost:5260/Capbac - application/json 54
+
+
+2024-10-01 10:35:39.5572-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbac-:
+Request finished HTTP/1.1 POST http://localhost:5260/Capbac - 404 0 - 15.3048ms
+
+
+2024-10-01 10:35:39.5767-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbac-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5260/Capbac, Response status code: 404
+
+
+2024-10-01 10:38:31.9010-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request starting HTTP/1.1 POST http://localhost:5260/Capbacs - application/json 68
+
+
+2024-10-01 10:38:31.9169-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.InsertAsync (API)'
+
+
+2024-10-01 10:38:31.9348-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs-Insert:
+Route matched with {action = "Insert", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Capbacs.CapbacDtoCreate) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:38:31.9348-INFO-Xim.AppApi.Controllers.CapbacController-http://localhost/Capbacs-Insert:
+Index page visited at 10/01/2024 03:38:31
+
+
+2024-10-01 10:38:31.9849-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Capbacs.CapbacDtoView'.
+
+
+2024-10-01 10:38:31.9849-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs-Insert:
+Executed action Xim.AppApi.Controllers.CapbacController.InsertAsync (API) in 53.4392ms
+
+
+2024-10-01 10:38:31.9849-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.InsertAsync (API)'
+
+
+2024-10-01 10:38:31.9849-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Capbacs - 200 95 application/json;+charset=utf-8 86.4249ms
+
+
+2024-10-01 10:38:38.1186-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json 52
+
+
+2024-10-01 10:38:38.1186-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:38:38.1186-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-01 10:38:38.1199-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-01 10:38:38.1199-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 7.8765ms
+
+
+2024-10-01 10:38:38.1199-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-01 10:38:38.1199-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 9.3858ms
+
+
+2024-10-01 10:39:51.3236-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request starting HTTP/1.1 GET http://localhost:5260/Capbacs?id=352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:39:51.3236-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-10-01 10:39:51.3236-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-10-01 10:39:51.3236-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request finished HTTP/1.1 GET http://localhost:5260/Capbacs?id=352e8561-627e-4ef8-9ed4-10cc0246dafe - 405 0 - 7.0417ms
+
+
+2024-10-01 10:40:01.2479-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request starting HTTP/1.1 GET http://localhost:5260/Capbacs?id=352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:40:01.2479-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-10-01 10:40:01.2479-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-10-01 10:40:01.2479-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request finished HTTP/1.1 GET http://localhost:5260/Capbacs?id=352e8561-627e-4ef8-9ed4-10cc0246dafe - 405 0 - 1.0854ms
+
+
+2024-10-01 10:40:13.5826-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 GET http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:40:13.5826-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.GetAsync (API)'
+
+
+2024-10-01 10:40:13.5883-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Route matched with {action = "Get", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:40:13.6058-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Capbacs.CapbacDtoView'.
+
+
+2024-10-01 10:40:13.6058-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executed action Xim.AppApi.Controllers.CapbacController.GetAsync (API) in 18.8412ms
+
+
+2024-10-01 10:40:13.6058-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.GetAsync (API)'
+
+
+2024-10-01 10:40:13.6058-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 200 95 application/json;+charset=utf-8 24.7703ms
+
+
+2024-10-01 10:40:41.4140-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request starting HTTP/1.1 GET http://localhost:5260/Capbacs - - -
+
+
+2024-10-01 10:40:41.4177-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-10-01 10:40:41.4177-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-10-01 10:40:41.4177-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs-:
+Request finished HTTP/1.1 GET http://localhost:5260/Capbacs - 405 0 - 10.2455ms
+
+
+2024-10-01 10:41:13.6188-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 GET http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:41:13.6205-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.GetAsync (API)'
+
+
+2024-10-01 10:41:13.6205-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Route matched with {action = "Get", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAsync(System.Guid) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:41:13.6361-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Capbacs.CapbacDtoView'.
+
+
+2024-10-01 10:41:13.6361-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executed action Xim.AppApi.Controllers.CapbacController.GetAsync (API) in 21.3819ms
+
+
+2024-10-01 10:41:13.6361-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.GetAsync (API)'
+
+
+2024-10-01 10:41:13.6361-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Get:
+Request finished HTTP/1.1 GET http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 200 95 application/json;+charset=utf-8 31.5312ms
+
+
+2024-10-01 10:42:56.9964-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - application/json-patch+json 65
+
+
+2024-10-01 10:42:56.9964-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+CORS policy execution successful.
+
+
+2024-10-01 10:42:57.0128-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.UpdateAsync (API)'
+
+
+2024-10-01 10:42:57.0274-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Route matched with {action = "Update", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, Xim.Application.Contracts.Capbacs.CapbacDtoUpdate) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:42:57.0428-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Capbacs.CapbacDtoView'.
+
+
+2024-10-01 10:42:57.0428-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executed action Xim.AppApi.Controllers.CapbacController.UpdateAsync (API) in 17.0652ms
+
+
+2024-10-01 10:42:57.0428-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.UpdateAsync (API)'
+
+
+2024-10-01 10:42:57.0428-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 200 96 application/json;+charset=utf-8 52.9700ms
+
+
+2024-10-01 10:43:50.7631-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - application/json 69
+
+
+2024-10-01 10:43:50.7631-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-10-01 10:43:50.7631-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-10-01 10:43:50.7631-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 401 0 - 3.2828ms
+
+
+2024-10-01 10:44:10.7653-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - application/json 69
+
+
+2024-10-01 10:44:10.7653-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.UpdateAsync (API)'
+
+
+2024-10-01 10:44:10.7653-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Route matched with {action = "Update", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, Xim.Application.Contracts.Capbacs.CapbacDtoUpdate) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:44:10.7780-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Capbacs.CapbacDtoView'.
+
+
+2024-10-01 10:44:10.7780-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executed action Xim.AppApi.Controllers.CapbacController.UpdateAsync (API) in 14.7348ms
+
+
+2024-10-01 10:44:10.7780-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.UpdateAsync (API)'
+
+
+2024-10-01 10:44:10.7780-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 200 96 application/json;+charset=utf-8 16.2931ms
+
+
+2024-10-01 10:44:17.9285-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - application/json 68
+
+
+2024-10-01 10:44:17.9285-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.UpdateAsync (API)'
+
+
+2024-10-01 10:44:17.9285-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Route matched with {action = "Update", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, Xim.Application.Contracts.Capbacs.CapbacDtoUpdate) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:44:17.9329-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Capbacs.CapbacDtoView'.
+
+
+2024-10-01 10:44:17.9329-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executed action Xim.AppApi.Controllers.CapbacController.UpdateAsync (API) in 5.5753ms
+
+
+2024-10-01 10:44:17.9329-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.UpdateAsync (API)'
+
+
+2024-10-01 10:44:17.9329-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 200 95 application/json;+charset=utf-8 7.0114ms
+
+
+2024-10-01 10:44:52.4461-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 DELETE http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:44:52.4461-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-10-01 10:44:52.4461-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-10-01 10:44:52.4461-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Request finished HTTP/1.1 DELETE http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 401 0 - 1.9065ms
+
+
+2024-10-01 10:45:04.2002-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 DELETE http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:45:04.2002-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.DeleteAsync (API)'
+
+
+2024-10-01 10:45:04.2002-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Route matched with {action = "Delete", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAsync(System.Guid) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:45:04.2138-INFO-Microsoft.AspNetCore.Mvc.StatusCodeResult-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executing StatusCodeResult, setting HTTP status code 200
+
+
+2024-10-01 10:45:04.2296-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executed action Xim.AppApi.Controllers.CapbacController.DeleteAsync (API) in 24.336ms
+
+
+2024-10-01 10:45:04.2296-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.DeleteAsync (API)'
+
+
+2024-10-01 10:45:04.2296-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Request finished HTTP/1.1 DELETE http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 200 0 - 29.6302ms
+
+
+2024-10-01 10:45:30.5556-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-:
+Request starting HTTP/1.1 DELETE http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - - -
+
+
+2024-10-01 10:45:30.5821-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.DeleteAsync (API)'
+
+
+2024-10-01 10:45:30.5821-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Route matched with {action = "Delete", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAsync(System.Guid) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:45:30.6599-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-10-01 10:45:30.6599-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executed action Xim.AppApi.Controllers.CapbacController.DeleteAsync (API) in 77.151ms
+
+
+2024-10-01 10:45:30.6599-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.DeleteAsync (API)'
+
+
+2024-10-01 10:45:30.6599-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe-Delete:
+Request finished HTTP/1.1 DELETE http://localhost:5260/Capbacs/352e8561-627e-4ef8-9ed4-10cc0246dafe - 444 - text/plain;+charset=utf-8 105.8463ms
+
+
+2024-10-01 10:52:10.6693-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Capbacs/getall - application/json 41
+
+
+2024-10-01 10:52:10.6693-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Capbacs/getall-GetList:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-10-01 10:52:10.6693-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Capbacs/getall-GetList:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-10-01 10:52:10.6693-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Capbacs/getall - 401 0 - 5.4408ms
+
+
+2024-10-01 10:52:17.2484-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Capbacs/getall - application/json 41
+
+
+2024-10-01 10:52:17.2484-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.GetListAsync (API)'
+
+
+2024-10-01 10:52:17.2484-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/getall-GetList:
+Route matched with {action = "GetList", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:52:17.2796-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-10-01 10:52:17.2796-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/getall-GetList:
+Executed action Xim.AppApi.Controllers.CapbacController.GetListAsync (API) in 27.9496ms
+
+
+2024-10-01 10:52:17.2796-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.GetListAsync (API)'
+
+
+2024-10-01 10:52:17.2796-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Capbacs/getall - 200 1324 application/json;+charset=utf-8 32.4090ms
+
+
+2024-10-01 10:52:39.8232-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Capbacs/getall - application/json 41
+
+
+2024-10-01 10:52:39.8244-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.GetListAsync (API)'
+
+
+2024-10-01 10:52:39.8244-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/getall-GetList:
+Route matched with {action = "GetList", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:52:39.8546-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-10-01 10:52:39.8546-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/getall-GetList:
+Executed action Xim.AppApi.Controllers.CapbacController.GetListAsync (API) in 16.6769ms
+
+
+2024-10-01 10:52:39.8546-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.GetListAsync (API)'
+
+
+2024-10-01 10:52:39.8546-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Capbacs/getall - 200 202 application/json;+charset=utf-8 32.3383ms
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Capbacs/getall - application/json 41
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.CapbacController.GetListAsync (API)'
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/getall-GetList:
+Route matched with {action = "GetList", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.CapbacController (API).
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Capbacs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Capbacs/getall-GetList:
+Executed action Xim.AppApi.Controllers.CapbacController.GetListAsync (API) in 9.8269ms
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Capbacs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.CapbacController.GetListAsync (API)'
+
+
+2024-10-01 10:52:44.7806-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Capbacs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Capbacs/getall - 200 570 application/json;+charset=utf-8 11.2661ms
+
+

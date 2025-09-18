@@ -1,0 +1,1008 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="T:Xim.AppApi.Constants.HeaderKey">
+            <summary>
+            Key header request
+            </summary>
+        </member>
+        <member name="T:Xim.AppApi.Constants.TokenKey">
+            <summary>
+            Các key clmain trong token authen
+            </summary>
+        </member>
+        <member name="T:Xim.AppApi.Contexts.ApiService">
+            <summary>
+            Tương tác với context
+            </summary>
+        </member>
+        <member name="P:Xim.AppApi.Contexts.ContextData.Type">
+            <summary>
+            Login qua đâu
+            0 web, 1 mobile
+            </summary>
+        </member>
+        <member name="P:Xim.AppApi.Contexts.ContextData.OrgId">
+            <summary>
+            Đơn vị
+            </summary>
+        </member>
+        <member name="T:Xim.AppApi.Contexts.IContextService">
+            <summary>
+            Tương tác với context
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Contexts.IContextService.Get">
+            <summary>
+            Đọc context
+            </summary>
+        </member>
+        <member name="T:Xim.AppApi.Controllers.AccountController">
+            <summary>
+            API liên quan tới tài khoản người dùng: đăng nhập, xuất...
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AccountController.LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin)">
+            <summary>
+            Đăng nhập
+            </summary>
+            <param name="model"> tên đăng nhập, mật khẩu: admin/123456</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AccountController.CreateJwtToken(Xim.AppApi.Jwts.JwtConfig,System.String,System.Object,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">
+            <summary>
+            Buid login token
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AlbumController.GetListAsync(Xim.Domain.Pagings.paging,System.Boolean)">
+            <summary>
+            ADMIN: Lấy danh sách album tất cả
+            </summary>
+            <param name="paging"> Gồm pagesize, page number</param>
+            <returns>danh sách các album có phân trang</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AlbumController.InsertAsync(Xim.Application.Contracts.Album.AlbumDtoCreate)">
+            <summary>
+            ADMIN: Thêm mới một Album 
+            </summary>
+            <param name="model">dữ liệu cho một Album</param>
+            <returns>Bản ghi Album vừa tạo</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AlbumController.GetDsAnhByAlbumAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cổng (Sơn): Lấy danh sách các Ảnh có trong 1 album sắp xếp theo thứ tự ưu tiên 
+            </summary>
+            <param name="idAlbum">id Album</param>
+            <param name="paging">pagesize, pagenumber</param>
+            <returns>Danh sách gồm album và kèm theo là ds ảnh trong album đó</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AlbumController.GetAsync(System.Guid)">
+            <summary>
+            Admin: lấy tin chi tiết của một Album theo id
+            </summary>
+            <param name="id">id Album</param>
+            <returns>Chi tiết Album</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AlbumController.UpdateAsync(System.Guid,Xim.Application.Contracts.Album.AlbumDtoUpdate)">
+            <summary>
+            Admin lưu thông tin Album muốn sửa
+            </summary>
+            <param name="id">idAlbum</param>
+            <param name="model">Album cần sửa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.AlbumController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin xóa một Album
+            </summary>
+            <param name="id">id Album muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý Ảnh cập nhật trong 1 album
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả  các ảnh cái này chỉ dùng để liệt kê trong form tạo mới ảnh thôi ít dùng
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.InsertMultiImagesAsync(System.Guid,System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.Collections.Generic.List{System.String})">
+            <summary>
+            ADmin: Thêm mới nhiều file ảnh vào 1 album
+            </summary>
+            <param name="contents"> List nội dung của các ảnh </param>
+            <param name="thumbnail">Danh sách ảnh </param>
+            <returns>Danh sách file ảnh insert vào bảng</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.InsertAsync(Xim.Application.Contracts.Anh_Album.Anh_AlbumDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            ADmin: Thêm mới
+            </summary>
+            <param name="model">Thông tin </param>
+            <param name="thumbnail">Ảnh đại diện </param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một thủ trưởng hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.UpdateAsync(System.Guid,Xim.Application.Contracts.Anh_Album.Anh_AlbumDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một ảnh cái này dùng postman cho dễ gòm id, thong tin album update dạng form, và file thumbnail
+            </summary>
+            <param name="id"> id </param>
+            <returns>Trả về thông tin đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.Anh_AlbumController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xoa ảnh trong album
+            </summary>
+            <param name="id"> id ảnh muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.BienNienSuKienController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý Biên niên sự kiện
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.BienNienSuKienController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả Biên niên sự kiện có trong DB
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.BienNienSuKienController.InsertAsync(Xim.Application.Contracts.BienNienSuKien.BienNienSuKienDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            ADmin: Thêm mới Biên niên sự kiện
+            </summary>
+            <param name="model">Thông tin </param>
+            <param name="thumbnail">Ảnh đại diện </param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.BienNienSuKienController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin của một bản biên niên sự kiện để sửa
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.BienNienSuKienController.UpdateAsync(System.Guid,Xim.Application.Contracts.BienNienSuKien.BienNienSuKienDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một Bài biên niên sự kiện này dùng postman cho dễ vì có ảnh thumbnail và các thoogn tin của Biên niên sự kiện
+            </summary>
+            <param name="id"> id </param>
+            <returns>Trả về thông tin đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.BienNienSuKienController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một người trong db
+            </summary>
+            <param name="id"> id Thủ trưởng muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="F:Xim.AppApi.Controllers.CaiDatController._service">
+            <summary>
+            Controller chứa các API liên quan tới thiết lập cài đặt cho hệ thống
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CaiDatController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Lấy tất cả bản ghi cài đặt có phân trang, thực chất chỉ cần 1
+            </summary>
+            <param name="paging">Thông tin phân trang gồm</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CaiDatController.InsertAsync(API.Controllers.CaiDatForm)">
+            <summary>
+            Admin: Chưa dùng tới đâu
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CaiDatController.GetAsync(System.Guid)">
+            <summary>
+            Cổng: Lấy thông tin cài đặt để hiển thị lên cổng
+            </summary>
+            <param name="id">Mặc định: d3669e20-34f3-47d7-96ff-8de872d6a4fd</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CaiDatController.UpdateAsync(System.Guid,API.Controllers.CaiDatForm)">
+            <summary>
+            Admin: Cập nhật thông tin cài đặt
+            </summary>
+            <param name="id">d3669e20-34f3-47d7-96ff-8de872d6a4fd</param>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CaiDatController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa hiện tại không dùng đâu
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CapbacController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Quản lý danh sách cấp bậc
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CapbacController.InsertAsync(Xim.Application.Contracts.Capbacs.CapbacDtoCreate)">
+            <summary>
+            Admin: Thêm mới cấp bậc
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CapbacController.GetAsync(System.Guid)">
+            <summary>
+            Admin: Get by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CapbacController.UpdateAsync(System.Guid,Xim.Application.Contracts.Capbacs.CapbacDtoUpdate)">
+            <summary>
+            Admin: Lưu thông tin sửa
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.CapbacController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa thông tin sửa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ChucvuController.GetListAsync(Xim.Domain.Pagings.paging)">
+             <summary>
+            Admin: Lấy ds chức vụ
+             </summary>
+             <param name="paging"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ChucvuController.InsertAsync(Xim.Application.Contracts.Chucvus.ChucvuDtoCreate)">
+            <summary>
+            Admin: Thêm mới chức vụ
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ChucvuController.GetAsync(System.Guid)">
+            <summary>
+            Admin: Get chi tiết chức vụ theo id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ChucvuController.UpdateAsync(System.Guid,Xim.Application.Contracts.Chucvus.ChucvuDtoUpdate)">
+            <summary>
+            Admin: Lưu thông tin sửa của chức vụ
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ChucvuController.DeleteAsync(System.Guid)">
+            <summary>
+            Xóa một bản ghi chức vụ
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý Ảnh dashboard
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.UploadExcel(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>
+            Upload file excel theo mẫu chị gửi
+            </summary>
+            <param name="file">File excel theo mẫu</param>
+            <param name="MotaDuLieu">Mô tả ví dụ như là file ngày giờ nào... sau dễ tìm</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.getallgroubyDate">
+            <summary>
+            Son: lây tất cả bản ghi có group theo ngày Sơn lấy cái này để view ngày nhé
+            </summary>
+            <returns>Danh sách bản ghi theo ngày</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.GetDashBoardfromDB">
+            <summary>
+            Hàm trả về một ảnh cuối cùng để đưa lên dashboard từ dữ liệu đọc từ excel dùng hàm này nhé Sơn 
+            </summary>
+            <returns>Trả về json dữ liệu view lên ẢNh </returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một ẢNh trong db
+            </summary>
+            <param name="id"> id Ảnh muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả ảnh trong mục dáhboard
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.InsertAsync(Xim.Application.Contracts.DashBoardDK.DashBoardDKDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Thêm mới ảnh dashboard
+            </summary>
+            <param name="model">thông tin ảnh cần tạo không nhập gì cũng được sau tự gán link ảnh</param>
+            <param name="thumbnail">Ảnh file</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một bài viết hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.GetDashBoard">
+            <summary>
+            Hàm trả về một ảnh cuối cùng để đưa lên dashboard
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DashBoardDKController.UpdateAsync(System.Guid,Xim.Application.Contracts.DashBoardDK.DashBoardDKDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Update một ảnh giờ không dùng nữa thôi upload cái mới nhất thôi
+            </summary>
+            <param name="id">Id của ảnh</param>
+            <param name="model">Thông tin ảnh</param>
+            <param name="thumbnail">Ảnh mới</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMCoQuanBHVBController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Lấy danh sách Cơ quan ban hành văn bản
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMCoQuanBHVBController.InsertAsync(Xim.Application.Contracts.DMCoQuanBHVB.DMCoQuanBHVBDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Thêm mới một cơ quan ban hành văn bản
+            </summary>
+            <param name="model"></param>
+            <param name="thumbnail"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMCoQuanBHVBController.GetAsync(System.Guid)">
+            <summary>
+            Admin: Lấy chi tiết một cơ quan ban hành theo id để(xem chi tiết, sửa)
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMCoQuanBHVBController.UpdateAsync(System.Guid,Xim.Application.Contracts.DMCoQuanBHVB.DMCoQuanBHVBDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu thông tin sửa Cơ quan ban hành
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <param name="thumbnail"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMCoQuanBHVBController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa cơ quan ban hành
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMTaiLieuController.DownloadFile(System.Guid)">
+            <summary>
+            CỔng: download file tài liệu
+            </summary>
+            <param name="id">id tài liệu</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMTaiLieuController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Lấy danh sách các tài liệu sắp xếp theo thời gian tạo
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Thêm mới một tài liệu
+            </summary>
+            <param name="model"></param>
+            <param name="fileTaiLieu">FIle đính kèm tài liệu</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMTaiLieuController.GetAsync(System.Guid)">
+            <summary>
+            Admin,Cổng: Xem chi tiết một tài liệu phục vụ admin xem sửa, người dùng xem
+            </summary>
+            <param name="id">id tài liệu</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMTaiLieuController.UpdateAsync(System.Guid,Xim.Application.Contracts.DMTailieu.DMTailieuDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu thông tin sửa tài liệu
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <param name="fileTaiLieu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMTaiLieuController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa tài liệu
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMThuTruongController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            ADMIN: Lấy danh sách chức vụ hiển thị trên bảng thủ trưởng: Chánh văn phòng, Phó chánh....
+            </summary>
+            <param name="paging"> Gồm pagesize, page number</param>
+            <returns>danh sách Chức vụ, thông tin phân trang</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMThuTruongController.InsertAsync(Xim.Application.Contracts.DMThuTruong.DMThuTruongDtoCreate)">
+            <summary>
+            ADMIN: Thêm mới một DMThuTruong
+            </summary>
+            <param name="model">dữ liệu cho một DMThuTruong</param>
+            <returns>Bản ghi DMThuTruong vừa tạo</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMThuTruongController.GetThuTruongByChucVuAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cổng (Sơn): Lấy danh sách các các thủ trưởng theo chức vụ ví dụ như Chánh văn phòng gồm những ai giai đoạn nào...
+            </summary>
+            <param name="idDMThuTruong">id DMThuTruong</param>
+            <param name="paging">pagesize, pagenumber</param>
+            <returns>Danh sách gồm chức vụ và DS Thủ trưởng</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMThuTruongController.GetAsync(System.Guid)">
+            <summary>
+            Admin: lấy tin chi tiết của một DMThuTruong theo id
+            </summary>
+            <param name="id">id DMThuTruong</param>
+            <returns>Chi tiết DMThuTruong</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMThuTruongController.UpdateAsync(System.Guid,Xim.Application.Contracts.DMThuTruong.DMThuTruongDtoUpdate)">
+            <summary>
+            Admin lưu thông tin DMThuTruong muốn sửa
+            </summary>
+            <param name="id">idDMThuTruong</param>
+            <param name="model">DMThuTruong cần sửa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DMThuTruongController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin xóa một DMThuTruong ví dụ Chánh văn phòng....
+            </summary>
+            <param name="id">id DMThuTruong muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DonviController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: QL danh sách đơn vị
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DonviController.InsertAsync(Xim.Application.Contracts.Donvis.DonviDtoCreate)">
+            <summary>
+            Admin: Thêm mới đơn vị
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DonviController.GetAsync(System.Guid)">
+            <summary>
+            Admin: Lấy chi tiết đơn vị
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DonviController.UpdateAsync(System.Guid,Xim.Application.Contracts.Donvis.DonviDtoUpdate)">
+            <summary>
+            Admin: Lưu thông tin sửa đv
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.DonviController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa đơn vị
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.HoatDongController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý tin tức
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.HoatDongController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả ảnh trong mục hoạt động
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.HoatDongController.InsertAsync(System.String,System.String,System.Collections.Generic.IList{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            Admin: Thêm mới danh sách ảnh
+            </summary>
+            <param name="MotaAnh">Mô tả cho ảnh</param>
+            <param name="thumbnails">Danh sách các ảnh upload lên</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.HoatDongController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một bài viết hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.HoatDongController.UpdateAsync(System.Guid,System.String,System.String,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một bài viết 
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns>Trả về bào viết đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.HoatDongController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một bài viết trong db
+            </summary>
+            <param name="id"> id bài viết muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            ADMIN: Lấy danh sách topmenu quản lý
+            </summary>
+            <param name="paging"> Gồm pagesize, page number</param>
+            <returns>danh sách bài viết, thông tin phân trang</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.InsertAsync(Xim.Application.Contracts.Menu.MenuDtoCreate)">
+            <summary>
+            ADMIN: Thêm mới một menu
+            </summary>
+            <param name="model">dữ liệu cho một menu</param>
+            <returns>Bản ghi menu vừa tạo</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GettopMenuAsync">
+             <summary>
+            Cổng: Lấy thông tin topmenu kèm cả submenu để hiển thị menu
+             </summary>
+             <returns>Danh sách topmenu</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenucosubAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cổng: Lấy danh sách các tài liệu theo id menu có submenu 
+            </summary>
+            <param name="idmenu">id menu</param>
+            <param name="paging">pagesize, pagenumber</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cổng (Sơn): Lấy danh sách các tài liệu theo id menu
+            </summary>
+            <param name="idmenu">id menu</param>
+            <param name="paging">pagesize, pagenumber</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GetTinTucbyMenuAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cồng (Sơn): Lấy danh sách các bài viết theo id menu 
+            </summary>
+            <param name="idmenu">id menu</param>
+            <param name="paging">pagesize, pagenumber</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GetTinTucbyMenucosubAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cồng: Lấy danh sách các bài viết theo id menu (có sub cổng không có dùng hàm trên) sẽ bao gồm các tin trong các submenu thuộc menu này
+            </summary>
+            <param name="idmenu">id menu</param>
+            <param name="paging">pagesize, pagenumber</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.GetAsync(System.Guid)">
+            <summary>
+            Admin: lấy tin chi tiết của một menu theo id
+            </summary>
+            <param name="id">id menu</param>
+            <returns>Chi tiết menu</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.UpdateAsync(System.Guid,Xim.Application.Contracts.Menu.MenuDtoUpdate)">
+            <summary>
+            Admin lưu thông tin menu muốn sửa
+            </summary>
+            <param name="id">idmenu</param>
+            <param name="model">Menu cần sửa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin xóa một menu
+            </summary>
+            <param name="id">id menu muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: để quản lý danh sách các submenu
+            </summary>
+            <param name="paging">pagesize, page number</param>
+            <returns>Danh sách có phân trang, thông tin phân trang</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cổng: hiển thị danh sách các tài liệu theo id submenu
+            </summary>
+            <param name="idsubmenu">idsubmenu</param>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.GetTinTucbySubMenuAsync(System.Guid,Xim.Domain.Pagings.paging)">
+            <summary>
+            Cổng: hiển thị danh sách các bài viết theo id submenu
+            </summary>
+            <param name="idsubmenu">idsubmenu</param>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.InsertAsync(Xim.Application.Contracts.MenuSub.MenuSubDtoCreate)">
+            <summary>
+            Admin: Thêm mới một submenu
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.GetAsync(System.Guid)">
+            <summary>
+            Admin: Hiển thị thông tin chi tiết của một submenu
+            </summary>
+            <param name="id"></param>
+            <returns>Thông tin chi tiết của sub menu</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.GetbyMenuIdAsync(System.Guid)">
+            <summary>
+            Admin, CỔng: Lấy danh sách các submenu theo id topmenu
+            </summary>
+            <param name="menuid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.UpdateAsync(System.Guid,Xim.Application.Contracts.MenuSub.MenuSubDtoUpdate)">
+            <summary>
+            Admin: Lưu thông tin sửa của một submenu
+            </summary>
+            <param name="id">id sửa</param>
+            <param name="model">Nội dung đã sửa</param>
+            <returns>submenu đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.MenuSubController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa submenu
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Xim.AppApi.Controllers.ModuleController._service">
+            <summary>
+            Module phục vụ phân quyên người dùng
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ModuleController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê các module pv phân quyền
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ModuleController.InsertAsync(Xim.Application.Contracts.Module.ModuleDtoCreate)">
+            <summary>
+            Admin: Thêm mới module
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ModuleController.GetAsync(System.Guid)">
+            <summary>
+            CHi tiết một module
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ModuleController.UpdateAsync(System.Guid,Xim.Application.Contracts.Module.ModuleDtoUpdate)">
+            <summary>
+            Lưu thông tin sửa module
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ModuleController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa module
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.NhatKyController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý tin tức
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.NhatKyController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả ảnh trong mục hoạt động
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.NhatKyController.InsertAsync(Xim.Application.Contracts.NhatKy.NhatKyDtoCreate)">
+            <summary>
+            Admin: Thêm mới danh sách ảnh
+            </summary>
+            <param name="MotaAnh">Mô tả cho ảnh</param>
+            <param name="thumbnails">Danh sách các ảnh upload lên</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.NhatKyController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một bài viết hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.NhatKyController.UpdateAsync(System.Guid,Xim.Application.Contracts.NhatKy.NhatKyDtoUpdate)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một bài viết 
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns>Trả về bào viết đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.NhatKyController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một bài viết trong db
+            </summary>
+            <param name="id"> id bài viết muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="F:Xim.AppApi.Controllers.QuyenHanController._service">
+            <summary>
+            Quản lý danh mục quyền hạn cho người dùng: Thêm sửa xóa, xem...
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.QuyenHanController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê các quyền
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.QuyenHanController.InsertAsync(Xim.Application.Contracts.QuyenHan.QuyenHanDtoCreate)">
+             <summary>
+            Admin: Thêm mới quyền
+             </summary>
+             <param name="model"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.QuyenHanController.GetAsync(System.Guid)">
+            <summary>
+            Admin: Lấy thông tin chi tiết của một quyền
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.QuyenHanController.UpdateAsync(System.Guid,Xim.Application.Contracts.QuyenHan.QuyenHanDtoUpdate)">
+             <summary>
+            Admin: Lưu thông tin sửa quyền
+             </summary>
+             <param name="id"></param>
+             <param name="model"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.QuyenHanController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa thông tin quyền
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Xim.AppApi.Controllers.RoleController._service">
+            <summary>
+            Quản lý các role của hệ thoogns: Biên tập, quản trị, duyệt...
+            </summary>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.RoleController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Hiển thị danh sách các quyền người dùng
+            </summary>
+            <param name="paging"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.RoleController.GetListModulePermission">
+            <summary>
+            Admin: 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.RoleController.AddroleforuserAsync(Xim.Application.Contracts.Role.UserRoleDtoCreate)">
+            <summary>
+            Admin: Gán quyền cho user
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongBQPController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý Thủ trưởng BQP
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả Thủ trưởng của VPB
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongBQPController.InsertAsync(Xim.Application.Contracts.ThuTruongBQP.ThuTruongBQPDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            ADmin: Thêm mới
+            </summary>
+            <param name="model">Thông tin </param>
+            <param name="thumbnail">Ảnh đại diện </param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongBQPController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một thủ trưởng hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongBQPController.UpdateAsync(System.Guid,Xim.Application.Contracts.ThuTruongBQP.ThuTruongBQPDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một Thủ trưởng này dùng postman cho dễ
+            </summary>
+            <param name="id"> id </param>
+            <returns>Trả về thông tin đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongBQPController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một người trong db
+            </summary>
+            <param name="id"> id Thủ trưởng muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý Thủ trưởng
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả Thủ trưởng TrangThai =0 là thủ trưởng; TrangThai=1 là chuyên gia
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongController.InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            ADmin: Thêm mới
+            </summary>
+            <param name="model">Thông tin </param>
+            <param name="thumbnail">Ảnh đại diện </param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một thủ trưởng hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongController.UpdateAsync(System.Guid,Xim.Application.Contracts.ThuTruong.ThuTruongDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một Thủ trưởng này dùng postman cho dễ
+            </summary>
+            <param name="id"> id </param>
+            <returns>Trả về thông tin đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.ThuTruongController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một người trong db
+            </summary>
+            <param name="id"> id Thủ trưởng muốn xóa</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.#ctor(System.IServiceProvider,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Admin: Phục vụ quản lý tin tức
+            </summary>
+            <param name="serviceProvider"></param>
+            <param name="environment"></param>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.GetListAsync(Xim.Domain.Pagings.paging)">
+            <summary>
+            Admin: Liệt kê tất cả tin tức trong mục tin tức 
+            </summary>
+            <param name="paging">Phân trang gồm page size, page number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            ADmin: Thêm mới 1 bài viết 
+            </summary>
+            <param name="model">Thông tin của một bài viết</param>
+            <param name="thumbnail">Ảnh đại diện bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.GetAsync(System.Guid)">
+            <summary>
+            Admin, Cổng: Lấy thông tin chi tiết của một bài viết hiển thị để sửa...
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns></returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.UploadAsync(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Cổng upload file cho mục tin tức
+            </summary>
+            <param name="file">file</param>
+            <returns>Ok trả về link của ảnh, lỗi thì trả về 404 do file không tồn tại</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.UpdateAsync(System.Guid,Xim.Application.Contracts.TinTuc.TinTucDtoUpdate,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Admin: Lưu lại sau khi Sửa một bài viết 
+            </summary>
+            <param name="id"> id của bài viết</param>
+            <returns>Trả về bào viết đã sửa</returns>
+        </member>
+        <member name="M:Xim.AppApi.Controllers.TinTucController.DeleteAsync(System.Guid)">
+            <summary>
+            Admin: Xóa một bài viết trong db
+            </summary>
+            <param name="id"> id bài viết muốn xóa</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

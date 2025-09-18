@@ -1,0 +1,184 @@
+2024-09-07 10:09:02.8004-ERROR-Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Xim.AppApi.Controllers.MenuSubController.GetAsync (Xim.AppApi)
+Xim.AppApi.Controllers.MenuSubController.GetbyMenuIdAsync (Xim.AppApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-07 10:10:11.7073-ERROR-Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Xim.AppApi.Controllers.MenuSubController.GetAsync (Xim.AppApi)
+Xim.AppApi.Controllers.MenuSubController.GetbyMenuIdAsync (Xim.AppApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-07 10:10:31.2606-ERROR-Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Xim.AppApi.Controllers.MenuSubController.GetAsync (Xim.AppApi)
+Xim.AppApi.Controllers.MenuSubController.GetbyMenuIdAsync (Xim.AppApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-07 10:10:32.3401-ERROR-Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware-http://localhost/MenuSubs/47d3aedf-1758-43c6-92b3-cca178fcaba4-:
+An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Xim.AppApi.Controllers.MenuSubController.GetAsync (Xim.AppApi)
+Xim.AppApi.Controllers.MenuSubController.GetbyMenuIdAsync (Xim.AppApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-09-07 10:20:12.1929-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Donvis/filter-GetList:
+Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.ParseWhere(String filter) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1008
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.BuildPagingDataQuery(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 783
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 769
+   at Xim.Application.Services.DonviService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Application\Services\DonviService.cs:line 95
+   at Xim.AppApi.Controllers.DonviController.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi\Controllers\DonviController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-07 10:20:28.3885-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Menus/filter-GetList:
+Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.ParseWhere(String filter) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1008
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.BuildPagingDataQuery(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 783
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 769
+   at Xim.Application.Services.MenuService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Application\Services\MenuService.cs:line 95
+   at Xim.AppApi.Controllers.MenuController.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi\Controllers\MenuController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-07 10:20:46.2310-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/MenuSubs/filter-GetList:
+Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.ParseWhere(String filter) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1008
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.BuildPagingDataQuery(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 783
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 769
+   at Xim.Application.Services.MenuSubService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Application\Services\MenuSubService.cs:line 115
+   at Xim.AppApi.Controllers.MenuSubController.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi\Controllers\MenuSubController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-07 10:23:32.0492-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/MenuSubs/filter-GetList:
+Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.ParseWhere(String filter) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1008
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.BuildPagingDataQuery(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 783
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 769
+   at Xim.Application.Services.MenuSubService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Application\Services\MenuSubService.cs:line 115
+   at Xim.AppApi.Controllers.MenuSubController.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi\Controllers\MenuSubController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-07 10:24:12.5669-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/MenuSubs/filter-GetList:
+Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.ParseWhere(String filter) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1008
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.BuildPagingDataQuery(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 783
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 769
+   at Xim.Application.Services.MenuSubService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Application\Services\MenuSubService.cs:line 115
+   at Xim.AppApi.Controllers.MenuSubController.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi\Controllers\MenuSubController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-07 10:24:41.3712-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/MenuSubs/filter-GetList:
+Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: s. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.ParseWhere(String filter) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1008
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.BuildPagingDataQuery(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 783
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 769
+   at Xim.Application.Services.MenuSubService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.Application\Services\MenuSubService.cs:line 115
+   at Xim.AppApi.Controllers.MenuSubController.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi\Controllers\MenuSubController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+

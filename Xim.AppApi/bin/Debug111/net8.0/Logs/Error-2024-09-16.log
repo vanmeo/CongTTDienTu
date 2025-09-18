@@ -1,0 +1,72 @@
+2024-09-16 15:10:10.9063-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles/getall-GetList:
+Invalid column name 'thutu'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'thutu'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync(IDbConnection cnn, String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 526
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync(String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 519
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetPagingAsync(PagingParam param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 802
+   at Xim.Application.Services.RoleService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\RoleService.cs:line 29
+   at Xim.AppApi.Controllers.RoleController.GetListAsync(paging paging) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\RoleController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:5549af89-c962-49be-be51-ff000eb79a84
+Error Number:207,State:1,Class:16
+
+2024-09-16 15:15:46.8271-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.RoleController.GetListModulePermission() in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\RoleController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-16 15:16:11.5054-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.RoleController.GetListModulePermission() in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\RoleController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-16 15:16:20.5098-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles-Insert:
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_user_role_users". The conflict occurred in database "db_cong", table "dbo.users", column 'id'.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_user_role_users". The conflict occurred in database "db_cong", table "dbo.users", column 'id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteNonQueryTextAsync(IDbConnection cnn, String commandText, Dictionary`2 param, Nullable`1 timeout) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 397
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](List`1 data) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 1203
+   at Xim.Application.Services.RoleService.CreateAsync(RoleDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\RoleService.cs:line 66
+   at Xim.AppApi.Controllers.RoleController.InsertAsync(RoleDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\RoleController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:3ee4e0b0-12df-41e8-808d-49974eb68a1a
+Error Number:547,State:0,Class:16
+
+2024-09-16 16:39:34.1746-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.RoleController.GetListModulePermission() in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\RoleController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+

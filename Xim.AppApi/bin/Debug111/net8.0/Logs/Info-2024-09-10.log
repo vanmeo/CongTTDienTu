@@ -1,0 +1,560 @@
+2024-09-10 16:21:23.8249-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-10 16:21:24.0124-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-10 16:21:24.0124-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-10 16:21:24.0124-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-10 16:21:24.0124-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-10 16:21:25.6580-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-10 16:21:25.8245-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 179.6902ms
+
+
+2024-09-10 16:21:25.9978-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-10 16:21:26.1592-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 161.9708ms
+
+
+2024-09-10 16:22:11.0280-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 479
+
+
+2024-09-10 16:22:11.0439-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:22:11.0923-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:22:11.1114-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:22:11.4507-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-10 16:22:11.4642-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 338.6607ms
+
+
+2024-09-10 16:22:11.4642-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:22:11.4642-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 500 - text/plain;+charset=utf-8 436.0166ms
+
+
+2024-09-10 16:26:19.4670-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-10 16:26:19.6779-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-10 16:26:19.6779-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-10 16:26:19.6779-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-10 16:26:19.6779-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-10 16:26:20.7960-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-10 16:26:20.9454-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 159.1447ms
+
+
+2024-09-10 16:26:21.0891-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-10 16:26:21.2213-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.7844ms
+
+
+2024-09-10 16:26:39.5822-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 479
+
+
+2024-09-10 16:26:39.5895-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:26:39.6395-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:26:39.6672-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:26:40.0102-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-10 16:26:40.0102-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 342.1332ms
+
+
+2024-09-10 16:26:40.0102-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:26:40.0102-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 500 - text/plain;+charset=utf-8 433.5592ms
+
+
+2024-09-10 16:27:29.4273-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 479
+
+
+2024-09-10 16:27:29.4328-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:27:29.4328-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:27:29.4490-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:27:29.5682-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-10 16:27:29.5682-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 119.7507ms
+
+
+2024-09-10 16:27:29.5682-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:27:29.5682-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 500 - text/plain;+charset=utf-8 147.4146ms
+
+
+2024-09-10 16:27:30.7653-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 479
+
+
+2024-09-10 16:27:30.7653-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:27:30.7653-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:27:30.7653-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:27:30.8862-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-10 16:27:30.8862-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 121.3579ms
+
+
+2024-09-10 16:27:30.8862-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:27:30.8862-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 500 - text/plain;+charset=utf-8 124.9201ms
+
+
+2024-09-10 16:28:26.5532-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 311
+
+
+2024-09-10 16:28:26.5532-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:28:26.5532-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:28:26.5583-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:28:26.6901-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-10 16:28:26.6901-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 128.5759ms
+
+
+2024-09-10 16:28:26.6901-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:28:26.6901-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 500 - text/plain;+charset=utf-8 140.4638ms
+
+
+2024-09-10 16:28:56.0979-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Donvis-:
+Request starting HTTP/1.1 POST http://localhost:5260/Donvis - application/json-patch+json 58
+
+
+2024-09-10 16:28:56.0979-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Donvis-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:28:56.1040-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Donvis-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DonviController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:28:56.1205-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Donvis-Insert:
+Route matched with {action = "Insert", controller = "Donvi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Donvis.DonviDtoCreate) on controller Xim.AppApi.Controllers.DonviController (Xim.AppApi).
+
+
+2024-09-10 16:28:56.1359-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Donvis-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.Donvis.DonviDtoView'.
+
+
+2024-09-10 16:28:56.1526-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Donvis-Insert:
+Executed action Xim.AppApi.Controllers.DonviController.InsertAsync (Xim.AppApi) in 34.8508ms
+
+
+2024-09-10 16:28:56.1526-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Donvis-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DonviController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:28:56.1526-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Donvis-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/Donvis - 200 45 application/json;+charset=utf-8 63.3531ms
+
+
+2024-09-10 16:29:03.2214-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 311
+
+
+2024-09-10 16:29:03.2214-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:29:03.2214-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:29:03.2214-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:29:03.3436-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-09-10 16:29:03.3436-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 123.7961ms
+
+
+2024-09-10 16:29:03.3436-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:29:03.3436-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 500 - text/plain;+charset=utf-8 125.1984ms
+
+
+2024-09-10 16:30:13.0088-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-:
+Request starting HTTP/1.1 POST http://localhost:5260/DMTaiLieus - application/json-patch+json 311
+
+
+2024-09-10 16:30:13.0107-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/DMTaiLieus-Insert:
+CORS policy execution successful.
+
+
+2024-09-10 16:30:13.0107-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:30:13.0107-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Route matched with {action = "Insert", controller = "DMTaiLieu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.DMTailieu.DMTailieuDtoCreate) on controller Xim.AppApi.Controllers.DMTaiLieuController (Xim.AppApi).
+
+
+2024-09-10 16:30:13.0417-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/DMTaiLieus-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.DMTailieu.DMTailieuDtoView'.
+
+
+2024-09-10 16:30:13.0417-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/DMTaiLieus-Insert:
+Executed action Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi) in 24.7119ms
+
+
+2024-09-10 16:30:13.0417-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/DMTaiLieus-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync (Xim.AppApi)'
+
+
+2024-09-10 16:30:13.0417-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/DMTaiLieus-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/DMTaiLieus - 200 256 application/json;+charset=utf-8 60.0606ms
+
+
+2024-09-10 16:33:17.5529-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-10 16:33:17.7194-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-10 16:33:17.7194-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-10 16:33:17.7194-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-10 16:33:17.7194-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-10 16:33:19.1904-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-10 16:33:19.4070-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 231.3589ms
+
+
+2024-09-10 16:33:19.6490-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-10 16:33:19.8086-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 160.2106ms
+
+
+2024-09-10 16:39:53.7317-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/GetTaiLieuByMenu-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus/GetTaiLieuByMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1557 - application/json-patch+json 38
+
+
+2024-09-10 16:39:53.7466-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+CORS policy execution successful.
+
+
+2024-09-10 16:39:53.8085-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:39:53.8244-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Route matched with {action = "GetTaiLieubyMenu", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTaiLieubyMenuAsync(System.Guid, Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-10 16:39:55.5829-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executing OkObjectResult, writing value of type 'Xim.Domain.Pagings.PagedResult'.
+
+
+2024-09-10 16:39:55.6099-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executed action Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync (Xim.AppApi) in 1771.2239ms
+
+
+2024-09-10 16:39:55.6099-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:39:55.6099-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus/GetTaiLieuByMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1557 - 200 73 application/json;+charset=utf-8 1873.4246ms
+
+
+2024-09-10 16:40:30.2335-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/GetTaiLieuByMenu-:
+Request starting HTTP/1.1 POST http://localhost:5260/Menus/GetTaiLieuByMenu?idmenu=47d3aedf-1758-43c6-92b3-cca178fcaba4 - application/json-patch+json 38
+
+
+2024-09-10 16:40:30.2335-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+CORS policy execution successful.
+
+
+2024-09-10 16:40:30.2455-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executing endpoint 'Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:40:30.2621-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Route matched with {action = "GetTaiLieubyMenu", controller = "Menu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTaiLieubyMenuAsync(System.Guid, Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.MenuController (Xim.AppApi).
+
+
+2024-09-10 16:40:31.9632-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executing OkObjectResult, writing value of type 'Xim.Domain.Pagings.PagedResult'.
+
+
+2024-09-10 16:40:31.9632-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executed action Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync (Xim.AppApi) in 1708.7284ms
+
+
+2024-09-10 16:40:31.9632-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Executed endpoint 'Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:40:31.9632-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+Request finished HTTP/1.1 POST http://localhost:5260/Menus/GetTaiLieuByMenu?idmenu=47d3aedf-1758-43c6-92b3-cca178fcaba4 - 200 405 application/json;+charset=utf-8 1739.8658ms
+
+
+2024-09-10 16:56:31.9359-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-10 16:56:32.2725-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-10 16:56:32.2725-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-10 16:56:32.2725-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-10 16:56:32.2758-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-09-10 16:56:33.8877-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-10 16:56:34.0852-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 207.9696ms
+
+
+2024-09-10 16:56:34.2948-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-10 16:56:34.5580-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 263.3987ms
+
+
+2024-09-10 16:56:51.4522-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/GetTaiLieuBySubMenu-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs/GetTaiLieuBySubMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1557 - application/json-patch+json 38
+
+
+2024-09-10 16:56:51.4649-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+CORS policy execution successful.
+
+
+2024-09-10 16:56:51.6519-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:56:51.7680-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Route matched with {action = "GetTaiLieubySubMenu", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTaiLieubySubMenuAsync(System.Guid, Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-10 16:56:52.3395-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executing OkObjectResult, writing value of type 'Xim.Domain.Pagings.PagedResult'.
+
+
+2024-09-10 16:56:52.4686-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executed action Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi) in 683.17ms
+
+
+2024-09-10 16:56:52.4686-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:56:52.4686-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs/GetTaiLieuBySubMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1557 - 200 405 application/json;+charset=utf-8 1020.7536ms
+
+
+2024-09-10 16:56:58.4902-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/GetTaiLieuBySubMenu-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs/GetTaiLieuBySubMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1558 - application/json-patch+json 38
+
+
+2024-09-10 16:56:58.4902-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+CORS policy execution successful.
+
+
+2024-09-10 16:56:58.4902-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:56:58.4902-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Route matched with {action = "GetTaiLieubySubMenu", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTaiLieubySubMenuAsync(System.Guid, Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-10 16:56:58.5106-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executing OkObjectResult, writing value of type 'Xim.Domain.Pagings.PagedResult'.
+
+
+2024-09-10 16:56:58.5106-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executed action Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi) in 30.2098ms
+
+
+2024-09-10 16:56:58.5261-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:56:58.5261-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs/GetTaiLieuBySubMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1558 - 200 73 application/json;+charset=utf-8 36.1914ms
+
+
+2024-09-10 16:57:06.0398-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/GetTaiLieuBySubMenu-:
+Request starting HTTP/1.1 POST http://localhost:5260/MenuSubs/GetTaiLieuBySubMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1557 - application/json-patch+json 38
+
+
+2024-09-10 16:57:06.0398-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+CORS policy execution successful.
+
+
+2024-09-10 16:57:06.0440-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executing endpoint 'Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:57:06.0440-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Route matched with {action = "GetTaiLieubySubMenu", controller = "MenuSub"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTaiLieubySubMenuAsync(System.Guid, Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.MenuSubController (Xim.AppApi).
+
+
+2024-09-10 16:57:06.0575-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executing OkObjectResult, writing value of type 'Xim.Domain.Pagings.PagedResult'.
+
+
+2024-09-10 16:57:06.0575-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executed action Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi) in 16.0358ms
+
+
+2024-09-10 16:57:06.0575-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Executed endpoint 'Xim.AppApi.Controllers.MenuSubController.GetTaiLieubySubMenuAsync (Xim.AppApi)'
+
+
+2024-09-10 16:57:06.0575-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/MenuSubs/GetTaiLieuBySubMenu-GetTaiLieubySubMenu:
+Request finished HTTP/1.1 POST http://localhost:5260/MenuSubs/GetTaiLieuBySubMenu?idmenu=8762b6b8-64e8-413f-bb82-2c9a79ff1557 - 200 405 application/json;+charset=utf-8 21.0356ms
+
+

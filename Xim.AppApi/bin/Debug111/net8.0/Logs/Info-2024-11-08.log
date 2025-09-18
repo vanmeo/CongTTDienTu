@@ -1,0 +1,452 @@
+2024-11-08 16:04:19.8312-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-11-08 16:04:20.3080-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-11-08 16:04:20.3080-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-11-08 16:04:20.3080-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-11-08 16:04:20.3080-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-11-08 16:04:23.8100-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-08 16:04:24.8702-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 1074.6169ms
+
+
+2024-11-08 16:04:25.4847-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-08 16:04:25.7754-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 291.3172ms
+
+
+2024-11-08 16:04:36.9241-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-11-08 16:04:36.9481-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-11-08 16:04:37.3003-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-08 16:04:37.3850-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-11-08 16:04:37.7434-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-11-08 16:04:37.7647-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 374.336ms
+
+
+2024-11-08 16:04:37.7647-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-08 16:04:37.7647-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 843.7422ms
+
+
+2024-11-08 16:05:22.4885-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongs - multipart/form-data;+boundary=----WebKitFormBoundaryQbuqdIt7YP5qQJsM 2199
+
+
+2024-11-08 16:05:22.4937-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongs-Insert:
+CORS policy execution successful.
+
+
+2024-11-08 16:05:22.5574-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:05:22.5712-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Route matched with {action = "Insert", controller = "ThuTruong"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.ThuTruongEntity]] InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.ThuTruongController (API).
+
+
+2024-11-08 16:05:22.7438-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-11-08 16:05:22.7438-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Executed action Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API) in 175.2752ms
+
+
+2024-11-08 16:05:22.7438-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:05:22.7438-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongs - 444 - text/plain;+charset=utf-8 259.8056ms
+
+
+2024-11-08 16:05:35.0071-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongs - multipart/form-data;+boundary=----WebKitFormBoundaryCGmzLN9nxDuFVV8D 2198
+
+
+2024-11-08 16:05:35.0071-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongs-Insert:
+CORS policy execution successful.
+
+
+2024-11-08 16:05:35.0101-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:05:35.0101-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Route matched with {action = "Insert", controller = "ThuTruong"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.ThuTruongEntity]] InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.ThuTruongController (API).
+
+
+2024-11-08 16:05:35.2687-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-11-08 16:05:35.2687-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Executed action Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API) in 259.4751ms
+
+
+2024-11-08 16:05:35.2687-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:05:35.2687-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongs - 500 - text/plain;+charset=utf-8 263.7340ms
+
+
+2024-11-08 16:06:36.5394-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongs - multipart/form-data;+boundary=----WebKitFormBoundaryAOGFVCzFOGSduPt9 2198
+
+
+2024-11-08 16:06:36.5394-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongs-Insert:
+CORS policy execution successful.
+
+
+2024-11-08 16:06:36.5738-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:06:36.5738-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Route matched with {action = "Insert", controller = "ThuTruong"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.ThuTruongEntity]] InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.ThuTruongController (API).
+
+
+2024-11-08 16:06:36.6044-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.ThuTruong.ThuTruongDtoView'.
+
+
+2024-11-08 16:06:36.6044-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Executed action Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API) in 35.9966ms
+
+
+2024-11-08 16:06:36.6044-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:06:36.6044-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongs - 200 83 application/json;+charset=utf-8 71.5563ms
+
+
+2024-11-08 16:11:54.5803-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-11-08 16:11:54.8512-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-11-08 16:11:54.8519-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-11-08 16:11:54.8519-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-11-08 16:11:54.8519-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-11-08 16:11:56.4380-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-08 16:11:56.7461-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 317.8840ms
+
+
+2024-11-08 16:11:56.9216-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-08 16:11:57.1747-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 253.8286ms
+
+
+2024-11-08 16:12:55.3629-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-11-08 16:12:55.5627-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-11-08 16:12:55.5627-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-11-08 16:12:55.5627-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-11-08 16:12:55.5627-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-11-08 16:12:56.9392-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-08 16:12:57.1751-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 248.4983ms
+
+
+2024-11-08 16:12:57.3327-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-08 16:12:57.6025-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 270.6699ms
+
+
+2024-11-08 16:12:59.3319-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-08 16:12:59.4893-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 158.1976ms
+
+
+2024-11-08 16:12:59.9244-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/favicon.ico-:
+Request starting HTTP/1.1 GET http://localhost:5260/favicon.ico - - -
+
+
+2024-11-08 16:13:00.9466-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/favicon.ico-:
+Request finished HTTP/1.1 GET http://localhost:5260/favicon.ico - 499 - - 1022.2257ms
+
+
+2024-11-08 16:13:00.9466-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/favicon.ico-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/favicon.ico, Response status code: 499
+
+
+2024-11-08 16:13:14.6519-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-11-08 16:13:14.6683-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-11-08 16:13:14.6806-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-08 16:13:14.6984-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-11-08 16:13:15.0558-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-11-08 16:13:15.0783-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 371.0641ms
+
+
+2024-11-08 16:13:15.0783-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-08 16:13:15.0864-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 434.3577ms
+
+
+2024-11-08 16:13:43.6189-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongs - multipart/form-data;+boundary=----WebKitFormBoundary8vy3L1JxOrXQB9cW 2774
+
+
+2024-11-08 16:13:43.6189-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongs-Insert:
+CORS policy execution successful.
+
+
+2024-11-08 16:13:43.6811-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:13:43.6811-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Route matched with {action = "Insert", controller = "ThuTruong"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.ThuTruongEntity]] InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.ThuTruongController (API).
+
+
+2024-11-08 16:13:43.8241-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.ThuTruong.ThuTruongDtoView'.
+
+
+2024-11-08 16:13:43.8241-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Executed action Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API) in 142.2884ms
+
+
+2024-11-08 16:13:43.8241-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:13:43.8241-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongs - 200 189 application/json;+charset=utf-8 219.5507ms
+
+
+2024-11-08 16:15:30.6802-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-11-08 16:15:30.8815-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-11-08 16:15:30.8815-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-11-08 16:15:30.8815-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-11-08 16:15:30.8836-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-11-08 16:15:31.9005-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-08 16:15:32.0935-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 203.9516ms
+
+
+2024-11-08 16:15:32.2368-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-08 16:15:32.5117-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 275.6676ms
+
+
+2024-11-08 16:16:04.7155-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-11-08 16:16:04.7438-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-11-08 16:16:04.7936-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-08 16:16:04.8054-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-11-08 16:16:04.9937-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-11-08 16:16:05.0100-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 186.06ms
+
+
+2024-11-08 16:16:05.0100-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-08 16:16:05.0100-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 295.1848ms
+
+
+2024-11-08 16:16:44.5485-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongs - multipart/form-data;+boundary=----WebKitFormBoundaryK8LZlFuev7Sbwvz0 2774
+
+
+2024-11-08 16:16:44.5485-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongs-Insert:
+CORS policy execution successful.
+
+
+2024-11-08 16:16:44.6185-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:16:44.6341-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Route matched with {action = "Insert", controller = "ThuTruong"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.ThuTruongEntity]] InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.ThuTruongController (API).
+
+
+2024-11-08 16:16:44.7145-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.ThuTruong.ThuTruongDtoView'.
+
+
+2024-11-08 16:16:44.7277-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Executed action Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API) in 93.7942ms
+
+
+2024-11-08 16:16:44.7277-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:16:44.7277-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongs - 200 189 application/json;+charset=utf-8 186.6077ms
+
+
+2024-11-08 16:23:24.7894-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-:
+Request starting HTTP/1.1 POST http://localhost:5260/ThuTruongs - multipart/form-data;+boundary=----WebKitFormBoundaryMx6Nr7PaBKapenDg 2774
+
+
+2024-11-08 16:23:24.7894-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/ThuTruongs-Insert:
+CORS policy execution successful.
+
+
+2024-11-08 16:23:24.8056-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:23:24.8056-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Route matched with {action = "Insert", controller = "ThuTruong"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.ThuTruongEntity]] InsertAsync(Xim.Application.Contracts.ThuTruong.ThuTruongDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.ThuTruongController (API).
+
+
+2024-11-08 16:23:24.9007-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/ThuTruongs-Insert:
+Executing BadRequestObjectResult, writing value of type 'System.String'.
+
+
+2024-11-08 16:23:24.9007-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/ThuTruongs-Insert:
+Executed action Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API) in 82.7882ms
+
+
+2024-11-08 16:23:24.9007-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/ThuTruongs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.ThuTruongController.InsertAsync (API)'
+
+
+2024-11-08 16:23:24.9007-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/ThuTruongs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/ThuTruongs - 400 - text/plain;+charset=utf-8 106.2999ms
+
+

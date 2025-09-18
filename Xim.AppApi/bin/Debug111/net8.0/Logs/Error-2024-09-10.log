@@ -1,0 +1,168 @@
+2024-09-10 16:22:11.4208-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/DMTaiLieus-Insert:
+Invalid column name 'menuid'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'menuid'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(IDbConnection cnn, String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 461
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 455
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](TData item) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 123
+   at Xim.Application.Services.DMTailieuService.CreateAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\DMTailieuService.cs:line 53
+   at Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\DMTaiLieuController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:4268debb-673a-40f1-b0e0-fc738876f7af
+Error Number:207,State:1,Class:16
+
+2024-09-10 16:26:39.9814-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/DMTaiLieus-Insert:
+Operand type clash: uniqueidentifier is incompatible with int
+System.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(IDbConnection cnn, String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 461
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 455
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](TData item) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 123
+   at Xim.Application.Services.DMTailieuService.CreateAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\DMTailieuService.cs:line 53
+   at Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\DMTaiLieuController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:2fd745da-5e0f-468d-b4d9-cb523d3078b5
+Error Number:206,State:2,Class:16
+
+2024-09-10 16:27:29.5682-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/DMTaiLieus-Insert:
+Operand type clash: uniqueidentifier is incompatible with int
+System.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(IDbConnection cnn, String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 461
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 455
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](TData item) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 123
+   at Xim.Application.Services.DMTailieuService.CreateAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\DMTailieuService.cs:line 53
+   at Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\DMTaiLieuController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:2fd745da-5e0f-468d-b4d9-cb523d3078b5
+Error Number:206,State:2,Class:16
+
+2024-09-10 16:27:30.8862-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/DMTaiLieus-Insert:
+Operand type clash: uniqueidentifier is incompatible with int
+System.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(IDbConnection cnn, String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 461
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 455
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](TData item) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 123
+   at Xim.Application.Services.DMTailieuService.CreateAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\DMTailieuService.cs:line 53
+   at Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\DMTaiLieuController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:2fd745da-5e0f-468d-b4d9-cb523d3078b5
+Error Number:206,State:2,Class:16
+
+2024-09-10 16:28:26.6901-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/DMTaiLieus-Insert:
+Operand type clash: uniqueidentifier is incompatible with int
+System.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(IDbConnection cnn, String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 461
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 455
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](TData item) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 123
+   at Xim.Application.Services.DMTailieuService.CreateAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\DMTailieuService.cs:line 53
+   at Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\DMTaiLieuController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:2fd745da-5e0f-468d-b4d9-cb523d3078b5
+Error Number:206,State:2,Class:16
+
+2024-09-10 16:29:03.3436-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/DMTaiLieus-Insert:
+Operand type clash: uniqueidentifier is incompatible with int
+System.Data.SqlClient.SqlException (0x80131904): Operand type clash: uniqueidentifier is incompatible with int
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(IDbConnection cnn, String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 461
+   at Xim.Domain.Mssql.Providers.MssqlProvider.ExecuteScalarTextAsync(String commandText, Object param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 455
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.InsertAsync[TData](TData item) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 123
+   at Xim.Application.Services.DMTailieuService.CreateAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\DMTailieuService.cs:line 53
+   at Xim.AppApi.Controllers.DMTaiLieuController.InsertAsync(DMTailieuDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\DMTaiLieuController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:2fd745da-5e0f-468d-b4d9-cb523d3078b5
+Error Number:206,State:2,Class:16
+

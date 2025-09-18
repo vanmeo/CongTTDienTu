@@ -1,0 +1,532 @@
+2024-12-23 15:02:39.7571-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-12-23 15:02:40.9761-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-12-23 15:02:40.9761-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-12-23 15:02:40.9781-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-12-23 15:02:40.9781-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-12-23 15:02:48.8617-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-12-23 15:02:49.2906-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 447.8033ms
+
+
+2024-12-23 15:02:50.3147-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-12-23 15:02:50.8750-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 560.9187ms
+
+
+2024-12-23 15:03:06.8986-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-12-23 15:03:06.9041-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-12-23 15:03:08.6853-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 15:03:08.7130-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-12-23 15:04:57.0274-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-12-23 15:04:57.2060-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-12-23 15:04:57.2060-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-12-23 15:04:57.2060-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-12-23 15:04:57.2060-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-12-23 15:04:58.3169-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-12-23 15:04:58.5368-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 245.5720ms
+
+
+2024-12-23 15:04:59.3816-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-12-23 15:04:59.6985-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 317.6282ms
+
+
+2024-12-23 15:05:12.5738-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-12-23 15:05:12.5880-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-12-23 15:05:12.6347-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 15:05:12.6529-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-12-23 15:05:12.9699-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-12-23 15:05:12.9842-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 327.296ms
+
+
+2024-12-23 15:05:12.9937-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 15:05:12.9937-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 420.0685ms
+
+
+2024-12-23 15:05:36.8525-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Users/getall - application/json-patch+json 38
+
+
+2024-12-23 15:05:36.8689-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Users/getall-GetList:
+CORS policy execution successful.
+
+
+2024-12-23 15:05:36.9184-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:05:36.9184-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Route matched with {action = "GetList", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.UserController (API).
+
+
+2024-12-23 15:05:37.0120-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Users/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-12-23 15:05:37.0246-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Executed action Xim.AppApi.Controllers.UserController.GetListAsync (API) in 103.1911ms
+
+
+2024-12-23 15:05:37.0246-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:05:37.0246-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Users/getall - 200 355 application/json;+charset=utf-8 209.1887ms
+
+
+2024-12-23 15:05:55.1701-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Users/getall - application/json-patch+json 38
+
+
+2024-12-23 15:05:55.1701-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Users/getall-GetList:
+CORS policy execution successful.
+
+
+2024-12-23 15:05:55.1701-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:05:55.1701-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Route matched with {action = "GetList", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.UserController (API).
+
+
+2024-12-23 15:05:55.1971-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Users/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-12-23 15:05:55.1971-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Executed action Xim.AppApi.Controllers.UserController.GetListAsync (API) in 26.9602ms
+
+
+2024-12-23 15:05:55.1971-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:05:55.1971-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Users/getall - 200 636 application/json;+charset=utf-8 34.3872ms
+
+
+2024-12-23 15:06:05.0365-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Users/getall - application/json-patch+json 38
+
+
+2024-12-23 15:06:05.0365-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Users/getall-GetList:
+CORS policy execution successful.
+
+
+2024-12-23 15:06:05.0365-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:06:05.0365-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Route matched with {action = "GetList", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.UserController (API).
+
+
+2024-12-23 15:06:05.0411-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Users/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-12-23 15:06:05.0411-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Executed action Xim.AppApi.Controllers.UserController.GetListAsync (API) in 4.1693ms
+
+
+2024-12-23 15:06:05.0411-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:06:05.0411-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Users/getall - 200 355 application/json;+charset=utf-8 5.7585ms
+
+
+2024-12-23 15:10:23.8846-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-12-23 15:10:24.0785-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-12-23 15:10:24.0785-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-12-23 15:10:24.0785-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-12-23 15:10:24.0785-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-12-23 15:10:25.0586-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-12-23 15:10:25.2327-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 188.3683ms
+
+
+2024-12-23 15:10:25.3539-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-12-23 15:10:25.5923-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 239.1038ms
+
+
+2024-12-23 15:10:38.0904-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/Users/getall - application/json-patch+json 38
+
+
+2024-12-23 15:10:38.1084-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Users/getall-GetList:
+CORS policy execution successful.
+
+
+2024-12-23 15:10:38.1653-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:10:38.1822-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Route matched with {action = "GetList", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.UserController (API).
+
+
+2024-12-23 15:10:38.3687-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Users/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-12-23 15:10:38.3974-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Users/getall-GetList:
+Executed action Xim.AppApi.Controllers.UserController.GetListAsync (API) in 198.0566ms
+
+
+2024-12-23 15:10:38.3974-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Users/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.UserController.GetListAsync (API)'
+
+
+2024-12-23 15:10:38.4002-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Users/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/Users/getall - 200 365 application/json;+charset=utf-8 308.7157ms
+
+
+2024-12-23 16:05:12.6524-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-12-23 16:05:12.7977-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-12-23 16:05:12.7977-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-12-23 16:05:12.7977-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-12-23 16:05:12.7977-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-12-23 16:05:15.2624-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-12-23 16:05:15.4540-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 199.6614ms
+
+
+2024-12-23 16:05:15.6455-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-12-23 16:05:15.9677-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 323.0446ms
+
+
+2024-12-23 16:06:34.5741-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-12-23 16:06:34.6348-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-12-23 16:06:34.9973-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 16:06:35.0269-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-12-23 16:06:35.3371-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-12-23 16:06:35.3532-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 328.2965ms
+
+
+2024-12-23 16:06:35.3532-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 16:06:35.3532-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 781.4707ms
+
+
+2024-12-23 16:07:25.8808-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-:
+Request starting HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - multipart/form-data;+boundary=----WebKitFormBoundary9MDfBcFtTuSuzCi8 2579
+
+
+2024-12-23 16:07:25.8808-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+CORS policy execution successful.
+
+
+2024-12-23 16:07:25.9505-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:07:25.9641-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Route matched with {action = "Update", controller = "CaiDat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, API.Controllers.CaiDatForm) on controller Xim.AppApi.Controllers.CaiDatController (API).
+
+
+2024-12-23 16:07:26.3454-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-12-23 16:07:26.3454-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executed action Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API) in 375.7002ms
+
+
+2024-12-23 16:07:26.3454-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executed endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:07:26.3454-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - 500 - text/plain;+charset=utf-8 465.7951ms
+
+
+2024-12-23 16:07:48.0981-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-:
+Request starting HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - multipart/form-data;+boundary=----WebKitFormBoundary07ck00Rh7MQ64YNI 2579
+
+
+2024-12-23 16:07:48.0981-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+CORS policy execution successful.
+
+
+2024-12-23 16:07:48.1495-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:07:48.1495-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Route matched with {action = "Update", controller = "CaiDat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, API.Controllers.CaiDatForm) on controller Xim.AppApi.Controllers.CaiDatController (API).
+
+
+2024-12-23 16:08:40.9323-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-12-23 16:08:40.9466-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executed action Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API) in 52796.294ms
+
+
+2024-12-23 16:08:40.9792-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executed endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:08:40.9792-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - 500 - text/plain;+charset=utf-8 52882.1354ms
+
+
+2024-12-23 16:09:27.4735-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-:
+Request starting HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - multipart/form-data;+boundary=----WebKitFormBoundarypOrwKV4h9KznWBaA 15844
+
+
+2024-12-23 16:09:27.4735-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+CORS policy execution successful.
+
+
+2024-12-23 16:09:27.4795-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:09:27.4970-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Route matched with {action = "Update", controller = "CaiDat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, API.Controllers.CaiDatForm) on controller Xim.AppApi.Controllers.CaiDatController (API).
+
+
+2024-12-23 16:15:58.7333-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-12-23 16:15:58.8926-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-12-23 16:15:58.8926-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-12-23 16:15:58.8926-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-12-23 16:15:58.8926-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-12-23 16:16:02.0984-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-12-23 16:16:02.4820-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 396.4325ms
+
+
+2024-12-23 16:16:02.7307-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-12-23 16:16:03.2193-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 489.4933ms
+
+
+2024-12-23 16:16:37.1343-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-12-23 16:16:37.1564-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-12-23 16:16:37.5160-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 16:16:37.5443-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-12-23 16:16:37.8527-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-12-23 16:16:37.8688-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 326.6954ms
+
+
+2024-12-23 16:16:37.8688-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-12-23 16:16:37.8688-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 746.9959ms
+
+
+2024-12-23 16:17:09.0580-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-:
+Request starting HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - multipart/form-data;+boundary=----WebKitFormBoundaryck56H6BaAInZixzB 2582
+
+
+2024-12-23 16:17:09.0580-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+CORS policy execution successful.
+
+
+2024-12-23 16:17:09.1197-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:17:09.1654-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Route matched with {action = "Update", controller = "CaiDat"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, API.Controllers.CaiDatForm) on controller Xim.AppApi.Controllers.CaiDatController (API).
+
+
+2024-12-23 16:17:38.3861-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.CaiDat.CaiDatDtoView'.
+
+
+2024-12-23 16:17:38.4038-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executed action Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API) in 29238.4959ms
+
+
+2024-12-23 16:17:38.4038-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Executed endpoint 'Xim.AppApi.Controllers.CaiDatController.UpdateAsync (API)'
+
+
+2024-12-23 16:17:38.4038-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd-Update:
+Request finished HTTP/1.1 PUT http://localhost:5260/CaiDats/d3669e20-34f3-47d7-96ff-8de872d6a4fd - 200 263 application/json;+charset=utf-8 29352.1027ms
+
+

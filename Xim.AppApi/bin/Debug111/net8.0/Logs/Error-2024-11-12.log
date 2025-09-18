@@ -1,0 +1,34 @@
+2024-11-12 08:19:36.9550-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Menus/GetTaiLieuByMenu-GetTaiLieubyMenu:
+The number of rows provided for a FETCH clause must be greater then zero.
+System.Data.SqlClient.SqlException (0x80131904): The number of rows provided for a FETCH clause must be greater then zero.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass190_0.<ReadAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 452
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 476
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 469
+   at Xim.Domain.Mssql.Repos.MenuRepo.GetTaiLieubyMenuAsync(Guid idmenu, paging paging) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\App\MenuRepo.cs:line 128
+   at Xim.Application.Services.MenuService.GetTaiLieubyMenuAsync(Guid idmenu, paging paging) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\MenuService.cs:line 38
+   at Xim.AppApi.Controllers.MenuController.GetTaiLieubyMenuAsync(Guid idmenu, paging paging) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\MenuController.cs:line 80
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:099d4ee7-2f6b-4bfb-8a7b-1386586b5dc6
+Error Number:10744,State:1,Class:15
+
+2024-11-12 08:50:50.3839-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/TinTucs/d9f5414c-19ee-4a70-80a7-348019eba35d-Update:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.Application.Services.BaseService.ProcessTenLink(String input) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\_BaseService.cs:line 25
+   at Xim.Application.Services.TinTucService.UpdateAsync(TinTucDtoUpdate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\TinTucService.cs:line 70
+   at Xim.AppApi.Controllers.TinTucController.UpdateAsync(Guid id, TinTucDtoUpdate model, IFormFile thumbnail) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\TinTucController.cs:line 185
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+

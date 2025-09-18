@@ -1,0 +1,216 @@
+2024-11-01 09:32:30.4716-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-11-01 09:32:34.5931-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-11-01 09:32:34.5931-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-11-01 09:32:34.5931-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-11-01 09:32:34.5931-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-11-01 09:32:57.5256-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-01 09:32:58.1682-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 727.6950ms
+
+
+2024-11-01 09:32:58.9038-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-01 09:32:59.1745-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 271.2824ms
+
+
+2024-11-01 09:35:15.9795-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs/getall - application/json-patch+json 38
+
+
+2024-11-01 09:35:16.0081-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs/getall-GetList:
+CORS policy execution successful.
+
+
+2024-11-01 09:35:16.5091-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetListAsync (API)'
+
+
+2024-11-01 09:35:16.6020-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/getall-GetList:
+Route matched with {action = "GetList", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.TinTucController (API).
+
+
+2024-11-01 09:35:17.3530-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/getall-GetList:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`5[[System.Collections.IList, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-11-01 09:35:17.3675-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/getall-GetList:
+Executed action Xim.AppApi.Controllers.TinTucController.GetListAsync (API) in 775.0617ms
+
+
+2024-11-01 09:35:17.3832-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetListAsync (API)'
+
+
+2024-11-01 09:35:17.3832-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs/getall - 200 73 application/json;+charset=utf-8 1400.0321ms
+
+
+2024-11-01 09:40:11.6552-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-01 09:40:11.6648-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 14.5676ms
+
+
+2024-11-01 09:40:11.7383-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-01 09:40:11.8163-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 78.3179ms
+
+
+2024-11-01 09:40:37.2311-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/index.html-:
+Request starting HTTP/1.1 GET http://127.0.0.1:5260/swagger/index.html - - -
+
+
+2024-11-01 09:40:37.2311-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/index.html-:
+Request finished HTTP/1.1 GET http://127.0.0.1:5260/swagger/index.html - 200 - text/html;charset=utf-8 9.2070ms
+
+
+2024-11-01 09:40:37.2599-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/swagger-ui.css-:
+Request starting HTTP/1.1 GET http://127.0.0.1:5260/swagger/swagger-ui.css - - -
+
+
+2024-11-01 09:40:37.2735-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/swagger-ui-bundle.js-:
+Request starting HTTP/1.1 GET http://127.0.0.1:5260/swagger/swagger-ui-bundle.js - - -
+
+
+2024-11-01 09:40:37.4340-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/swagger-ui-standalone-preset.js-:
+Request starting HTTP/1.1 GET http://127.0.0.1:5260/swagger/swagger-ui-standalone-preset.js - - -
+
+
+2024-11-01 09:40:37.5852-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://127.0.0.1/swagger/swagger-ui-standalone-preset.js-:
+Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+
+
+2024-11-01 09:40:37.5852-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://127.0.0.1/swagger/swagger-ui.css-:
+Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+
+
+2024-11-01 09:40:37.5852-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/swagger-ui.css-:
+Request finished HTTP/1.1 GET http://127.0.0.1:5260/swagger/swagger-ui.css - 200 143943 text/css 317.3748ms
+
+
+2024-11-01 09:40:37.5852-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/swagger-ui-standalone-preset.js-:
+Request finished HTTP/1.1 GET http://127.0.0.1:5260/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 145.0557ms
+
+
+2024-11-01 09:40:37.5875-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://127.0.0.1/swagger/swagger-ui-bundle.js-:
+Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+
+
+2024-11-01 09:40:37.5875-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/swagger-ui-bundle.js-:
+Request finished HTTP/1.1 GET http://127.0.0.1:5260/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 319.9755ms
+
+
+2024-11-01 09:40:37.7470-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://127.0.0.1:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-01 09:40:37.7921-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://127.0.0.1:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 45.5369ms
+
+
+2024-11-01 09:40:37.8356-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/favicon-32x32.png-:
+Request starting HTTP/1.1 GET http://127.0.0.1:5260/swagger/favicon-32x32.png - - -
+
+
+2024-11-01 09:40:37.8360-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://127.0.0.1/swagger/favicon-32x32.png-:
+Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+
+
+2024-11-01 09:40:37.8360-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://127.0.0.1/swagger/favicon-32x32.png-:
+Request finished HTTP/1.1 GET http://127.0.0.1:5260/swagger/favicon-32x32.png - 200 628 image/png 1.4234ms
+
+
+2024-11-01 15:46:17.2319-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-11-01 15:46:17.4366-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-11-01 15:46:17.4366-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-11-01 15:46:17.4366-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-11-01 15:46:17.4366-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-11-01 15:46:18.7547-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-11-01 15:46:18.9464-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 211.5678ms
+
+
+2024-11-01 15:46:19.1150-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-11-01 15:46:19.3992-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 284.8535ms
+
+
+2024-11-01 15:46:29.4729-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-11-01 15:46:29.4929-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-11-01 15:46:29.8318-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-01 15:46:29.8528-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-11-01 15:46:30.2421-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-11-01 15:46:30.2667-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 400.4139ms
+
+
+2024-11-01 15:46:30.2667-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-11-01 15:46:30.2667-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 796.2163ms
+
+

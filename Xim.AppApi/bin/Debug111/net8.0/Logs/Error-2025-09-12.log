@@ -1,0 +1,9 @@
+2025-09-12 10:41:18.8016-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/ThuTruongBQPs/getall-GetList:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.Application.Services.ThuTruongBQPService.GetListAsync(PagingParam param) in C:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\ThuTruongBQPService.cs:line 86
+   at Xim.AppApi.Controllers.ThuTruongBQPController.GetListAsync(paging paging) in C:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\ThuTruongBQPController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+

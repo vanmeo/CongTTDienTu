@@ -1,0 +1,593 @@
+2024-10-08 15:49:02.7771-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-10-08 15:49:03.0358-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-10-08 15:49:03.0358-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-10-08 15:49:03.0358-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-10-08 15:49:03.0358-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-10-08 15:49:04.6805-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-10-08 15:49:04.8536-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 182.5094ms
+
+
+2024-10-08 15:49:05.1342-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-10-08 15:49:05.2739-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 140.3339ms
+
+
+2024-10-08 15:49:51.7576-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/imagetintuc/tải xuống.jfif - - -
+
+
+2024-10-08 15:49:52.3949-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/imagetintuc/tải xuống.jfif - 404 0 - 643.1175ms
+
+
+2024-10-08 15:49:52.3949-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:51:17.2512-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/imagetintuc/tải xuống.jfif - - -
+
+
+2024-10-08 15:51:17.2540-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/imagetintuc/tải xuống.jfif - 404 0 - 4.3406ms
+
+
+2024-10-08 15:51:17.2540-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/imagetintuc/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:51:22.2540-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/tải xuống.jfif - - -
+
+
+2024-10-08 15:51:22.2540-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/tải xuống.jfif - 404 0 - 4.9884ms
+
+
+2024-10-08 15:51:22.2540-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:51:24.9565-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/tải xuống.jfif - - -
+
+
+2024-10-08 15:51:24.9982-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/tải xuống.jfif - 404 0 - 42.4228ms
+
+
+2024-10-08 15:51:24.9982-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:52:33.8823-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/getall-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs/getall - application/json-patch+json 38
+
+
+2024-10-08 15:52:33.8974-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs/getall-GetList:
+CORS policy execution successful.
+
+
+2024-10-08 15:52:33.9106-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/getall-GetList:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.GetListAsync (API)'
+
+
+2024-10-08 15:52:33.9442-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/getall-GetList:
+Route matched with {action = "GetList", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetListAsync(Xim.Domain.Pagings.paging) on controller Xim.AppApi.Controllers.TinTucController (API).
+
+
+2024-10-08 15:52:34.7067-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs/getall-GetList:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-10-08 15:52:34.7625-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs/getall-GetList:
+Executed action Xim.AppApi.Controllers.TinTucController.GetListAsync (API) in 812.3464ms
+
+
+2024-10-08 15:52:34.7625-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs/getall-GetList:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.GetListAsync (API)'
+
+
+2024-10-08 15:52:34.7707-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs/getall-GetList:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs/getall - 500 - text/plain;+charset=utf-8 888.7073ms
+
+
+2024-10-08 15:54:25.5448-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:54:25.5513-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 6.5672ms
+
+
+2024-10-08 15:54:25.5513-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:54:47.4611-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:54:47.4611-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 11.3271ms
+
+
+2024-10-08 15:54:47.4611-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:54:55.6654-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:54:55.6654-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 1.7923ms
+
+
+2024-10-08 15:54:55.6654-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:55:38.9328-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:55:38.9328-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 3.0751ms
+
+
+2024-10-08 15:55:38.9328-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:55:49.6336-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:55:49.6336-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 1.1868ms
+
+
+2024-10-08 15:55:49.6336-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:56:07.9722-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:56:07.9732-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 1.9724ms
+
+
+2024-10-08 15:56:07.9732-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:56:10.1138-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - - -
+
+
+2024-10-08 15:56:10.1138-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_tải xuống.jfif - 404 0 - 1.5186ms
+
+
+2024-10-08 15:56:10.1138-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/CaiDat/691e694d-18c7-4dcb-b675-cfc54f62e9f6_t%E1%BA%A3i%20xu%E1%BB%91ng.jfif, Response status code: 404
+
+
+2024-10-08 15:56:26.5667-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/1.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/1.jfif - - -
+
+
+2024-10-08 15:56:26.5667-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/1.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/CaiDat/1.jfif - 404 0 - 1.6324ms
+
+
+2024-10-08 15:56:26.5667-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/CaiDat/1.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/CaiDat/1.jfif, Response status code: 404
+
+
+2024-10-08 15:56:36.9714-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/1.jfif-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/1.jfif - - -
+
+
+2024-10-08 15:56:36.9720-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/1.jfif-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/1.jfif - 404 0 - 1.3193ms
+
+
+2024-10-08 15:56:36.9720-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/1.jfif-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/1.jfif, Response status code: 404
+
+
+2024-10-08 16:29:54.9570-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-10-08 16:29:55.6016-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-10-08 16:29:55.6234-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-10-08 16:29:55.6234-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-10-08 16:29:55.6234-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi
+
+
+2024-10-08 16:29:56.9398-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-10-08 16:29:57.0922-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 162.8270ms
+
+
+2024-10-08 16:29:57.3825-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-10-08 16:29:57.5723-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 190.4402ms
+
+
+2024-10-08 16:30:10.2936-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-10-08 16:30:10.3009-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-10-08 16:30:10.6461-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-08 16:30:10.6658-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-08 16:30:10.9942-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-08 16:30:11.0218-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 344.215ms
+
+
+2024-10-08 16:30:11.0218-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-08 16:30:11.0218-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 729.9678ms
+
+
+2024-10-08 16:30:51.7916-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-10-08 16:30:51.8002-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-10-08 16:30:51.8170-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-08 16:30:51.8170-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-08 16:30:51.8321-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-08 16:30:51.8321-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 17.7019ms
+
+
+2024-10-08 16:30:51.8321-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-08 16:30:51.8321-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 53.9514ms
+
+
+2024-10-08 16:31:35.1291-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-10-08 16:31:35.1291-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 4.6111ms
+
+
+2024-10-08 16:31:35.1446-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/swagger-ui.css-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/swagger-ui.css - - -
+
+
+2024-10-08 16:31:35.1446-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/swagger-ui-bundle.js-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/swagger-ui-bundle.js - - -
+
+
+2024-10-08 16:31:35.1627-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/swagger-ui-standalone-preset.js-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/swagger-ui-standalone-preset.js - - -
+
+
+2024-10-08 16:31:35.2568-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://localhost/swagger/swagger-ui-standalone-preset.js-:
+Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+
+
+2024-10-08 16:31:35.2568-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://localhost/swagger/swagger-ui.css-:
+Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+
+
+2024-10-08 16:31:35.2568-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/swagger-ui.css-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/swagger-ui.css - 200 143943 text/css 106.3189ms
+
+
+2024-10-08 16:31:35.2568-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/swagger-ui-standalone-preset.js-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 95.5685ms
+
+
+2024-10-08 16:31:35.2697-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://localhost/swagger/swagger-ui-bundle.js-:
+Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+
+
+2024-10-08 16:31:35.2697-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/swagger-ui-bundle.js-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 114.6274ms
+
+
+2024-10-08 16:31:35.4522-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-10-08 16:31:35.4727-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 35.3774ms
+
+
+2024-10-08 16:31:35.4972-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/favicon-32x32.png-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/favicon-32x32.png - - -
+
+
+2024-10-08 16:31:35.4972-INFO-Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware-http://localhost/swagger/favicon-32x32.png-:
+Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+
+
+2024-10-08 16:31:35.4972-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/favicon-32x32.png-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/favicon-32x32.png - 200 628 image/png 1.6669ms
+
+
+2024-10-08 16:32:23.3768-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryy5WH3wyugiMO7NRL 4329
+
+
+2024-10-08 16:32:23.3792-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-10-08 16:32:23.4110-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/TinTucs-Insert:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-10-08 16:32:23.4110-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/TinTucs-Insert:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-10-08 16:32:23.4110-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 401 0 - 40.6604ms
+
+
+2024-10-08 16:32:39.6799-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-:
+Request starting HTTP/1.1 POST http://localhost:5260/Accounts/login - application/json-patch+json 49
+
+
+2024-10-08 16:32:39.6799-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Accounts/login-Login:
+CORS policy execution successful.
+
+
+2024-10-08 16:32:39.6799-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executing endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-08 16:32:39.6799-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Xim.Application.Contracts.Users.UserDtoLogin) on controller Xim.AppApi.Controllers.AccountController (API).
+
+
+2024-10-08 16:32:39.6916-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Accounts/login-Login:
+Executing OkObjectResult, writing value of type 'Xim.AppApi.Controllers.AccountController+JwtTokenInfo'.
+
+
+2024-10-08 16:32:39.6916-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Accounts/login-Login:
+Executed action Xim.AppApi.Controllers.AccountController.LoginAsync (API) in 23.2564ms
+
+
+2024-10-08 16:32:39.6916-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Accounts/login-Login:
+Executed endpoint 'Xim.AppApi.Controllers.AccountController.LoginAsync (API)'
+
+
+2024-10-08 16:32:39.6916-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Accounts/login-Login:
+Request finished HTTP/1.1 POST http://localhost:5260/Accounts/login - 200 599 application/json;+charset=utf-8 24.7777ms
+
+
+2024-10-08 16:32:55.4458-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryhVwYgmuW9JUVt9jz 4329
+
+
+2024-10-08 16:32:55.4458-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-10-08 16:32:55.4947-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:32:55.5034-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (API).
+
+
+2024-10-08 16:32:55.6841-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-10-08 16:32:55.6841-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (API) in 176.2693ms
+
+
+2024-10-08 16:32:55.6841-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:32:55.6841-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 444 - text/plain;+charset=utf-8 241.1766ms
+
+
+2024-10-08 16:33:05.2812-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryxGB2KnsXzi8J7HIJ 4329
+
+
+2024-10-08 16:33:05.2812-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-10-08 16:33:05.2812-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:33:05.2812-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (API).
+
+
+2024-10-08 16:33:05.4748-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing ObjectResult, writing value of type 'System.String'.
+
+
+2024-10-08 16:33:05.4748-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (API) in 192.6095ms
+
+
+2024-10-08 16:33:05.4748-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:33:05.4748-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 500 - text/plain;+charset=utf-8 195.4014ms
+
+
+2024-10-08 16:34:19.1978-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryO0XD7c1LIdUf1B3g 4329
+
+
+2024-10-08 16:34:19.2191-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-10-08 16:34:19.2267-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:34:19.2267-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (API).
+
+
+2024-10-08 16:34:19.2781-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-10-08 16:34:19.2858-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (API) in 49.9334ms
+
+
+2024-10-08 16:34:19.2858-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:34:19.2858-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 200 249 application/json;+charset=utf-8 88.1756ms
+
+
+2024-10-08 16:35:42.2107-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-:
+Request starting HTTP/1.1 POST http://localhost:5260/TinTucs - multipart/form-data;+boundary=----WebKitFormBoundaryBeScbJxBMBPiazAj 4329
+
+
+2024-10-08 16:35:42.2107-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/TinTucs-Insert:
+CORS policy execution successful.
+
+
+2024-10-08 16:35:42.2107-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executing endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:35:42.2107-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Route matched with {action = "Insert", controller = "TinTuc"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Xim.Domain.Entities.TinTucEntity]] InsertAsync(Xim.Application.Contracts.TinTuc.TinTucDtoCreate, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.TinTucController (API).
+
+
+2024-10-08 16:35:42.2572-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/TinTucs-Insert:
+Executing OkObjectResult, writing value of type 'Xim.Application.Contracts.TinTuc.TinTucDtoView'.
+
+
+2024-10-08 16:35:42.2572-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/TinTucs-Insert:
+Executed action Xim.AppApi.Controllers.TinTucController.InsertAsync (API) in 44.6422ms
+
+
+2024-10-08 16:35:42.2572-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/TinTucs-Insert:
+Executed endpoint 'Xim.AppApi.Controllers.TinTucController.InsertAsync (API)'
+
+
+2024-10-08 16:35:42.2572-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/TinTucs-Insert:
+Request finished HTTP/1.1 POST http://localhost:5260/TinTucs - 200 249 application/json;+charset=utf-8 49.3204ms
+
+
+2024-10-08 16:37:20.1908-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png-:
+Request starting HTTP/1.1 GET http://localhost:5260/Uploads/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png - - -
+
+
+2024-10-08 16:37:20.1908-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png-:
+Request finished HTTP/1.1 GET http://localhost:5260/Uploads/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png - 404 0 - 2.6856ms
+
+
+2024-10-08 16:37:20.1908-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Uploads/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Uploads/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png, Response status code: 404
+
+
+2024-10-08 16:37:33.4332-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png - - -
+
+
+2024-10-08 16:37:33.4332-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png - 404 0 - 3.1700ms
+
+
+2024-10-08 16:37:33.4332-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png-:
+Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5260/Files/imagetintuc/36b62362-2a9a-47fa-bf58-5ef4fab617a3_images.png, Response status code: 404
+
+

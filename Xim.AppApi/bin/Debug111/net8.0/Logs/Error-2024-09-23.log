@@ -1,0 +1,238 @@
+2024-09-23 14:06:55.5069-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:07:35.0471-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:10:11.8929-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:10:38.4426-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:10:44.9861-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:11:44.5150-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:12:40.4378-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Modules/F500178C-18D1-42F5-98DB-83E0FCCDECA7-Update:
+Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+System.Data.DataException: Error parsing column 0 (id=F500178C-18D1-42F5-98DB-83E0FCCDECA7 - String)
+ ---> System.InvalidCastException: Invalid cast from 'System.String' to 'System.Guid'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3928
+   at Deserializef9c549ab-2c5c-4cd1-a564-0791127f544e(DbDataReader)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](String field, Object value, String op, String sort)
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Object id)
+   at Xim.Application.Services.ModuleService.UpdateAsync(ModuleDtoUpdate model)
+   at Xim.AppApi.Controllers.ModuleController.UpdateAsync(Guid id, ModuleDtoUpdate model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:28:56.7082-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/QuyenHans-Insert:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.QuyenHanController.InsertAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\QuyenHanController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:30:49.3519-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/QuyenHans-Insert:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.QuyenHanController.InsertAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\QuyenHanController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 14:34:16.0863-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/QuyenHans-Insert:
+Invalid object name 'permission'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'permission'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 476
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 469
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Dictionary`2 condition, ConditionOperator conditionOperator, String sort) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 794
+   at Xim.Application.Services.QuyenHanService.CreateAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\QuyenHanService.cs:line 40
+   at Xim.AppApi.Controllers.QuyenHanController.InsertAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\QuyenHanController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:217bc2dd-ddd3-4daf-b5f7-d21ec860435a
+Error Number:208,State:1,Class:16
+
+2024-09-23 14:35:38.9781-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/QuyenHans-Insert:
+Invalid object name 'permission'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'permission'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 476
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 469
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Dictionary`2 condition, ConditionOperator conditionOperator, String sort) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 794
+   at Xim.Application.Services.QuyenHanService.CreateAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\QuyenHanService.cs:line 40
+   at Xim.AppApi.Controllers.QuyenHanController.InsertAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\QuyenHanController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:217bc2dd-ddd3-4daf-b5f7-d21ec860435a
+Error Number:208,State:1,Class:16
+
+2024-09-23 14:36:14.8692-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/QuyenHans-Insert:
+Invalid object name 'permission'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'permission'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](IDbConnection cnn, String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 476
+   at Xim.Domain.Mssql.Providers.MssqlProvider.QueryAsync[T](String commandText, Dictionary`2 param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Providers\MssqlProvider.cs:line 469
+   at Xim.Domain.Mssql.Base.MssqlRepo`2.GetAsync[TData](Dictionary`2 condition, ConditionOperator conditionOperator, String sort) in D:\Code\Cong TT\CodeBECong\Api\Xim.Domain.Mssql\Base\MssqlRepo.cs:line 794
+   at Xim.Application.Services.QuyenHanService.CreateAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\QuyenHanService.cs:line 40
+   at Xim.AppApi.Controllers.QuyenHanController.InsertAsync(QuyenHanDtoCreate model) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\QuyenHanController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:217bc2dd-ddd3-4daf-b5f7-d21ec860435a
+Error Number:208,State:1,Class:16
+
+2024-09-23 15:18:46.6024-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.RoleController.GetListModulePermission()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+2024-09-23 15:18:54.6253-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/Roles/get_list_module_permission-GetListModulePermission:
+Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Xim.AppApi.Controllers.RoleController.GetListModulePermission()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+

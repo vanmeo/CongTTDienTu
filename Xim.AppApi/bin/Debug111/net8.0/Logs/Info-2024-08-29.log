@@ -1,0 +1,36 @@
+2024-08-29 09:00:16.4576-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-08-29 09:00:19.3461-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-08-29 09:00:19.3461-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-08-29 09:00:19.3461-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-08-29 09:00:19.3461-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\Api\Api\Xim.AppApi
+
+
+2024-08-29 09:00:21.8932-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-08-29 09:00:22.8077-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 1045.4480ms
+
+
+2024-08-29 09:00:23.0847-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-08-29 09:00:23.1959-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 111.7079ms
+
+

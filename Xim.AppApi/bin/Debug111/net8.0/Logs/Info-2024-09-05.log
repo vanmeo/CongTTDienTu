@@ -1,0 +1,445 @@
+2024-09-05 09:30:54.1787-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-05 09:30:55.4100-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-05 09:30:55.4340-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-05 09:30:55.4858-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-05 09:30:55.5638-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-05 09:31:02.7168-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-05 09:31:03.5365-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 916.7943ms
+
+
+2024-09-05 09:31:04.6847-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-05 09:31:04.8486-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 164.1912ms
+
+
+2024-09-05 09:57:05.8744-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-05 09:57:06.6732-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-05 09:57:06.6998-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-05 09:57:06.7742-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-05 09:57:06.8384-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-05 09:57:09.0391-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-05 09:57:09.3059-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 289.3140ms
+
+
+2024-09-05 09:57:09.4422-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-05 09:57:09.5708-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 133.7201ms
+
+
+2024-09-05 09:58:53.2215-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files - multipart/form-data;+boundary=----WebKitFormBoundaryy0C6QlsVSxW4EW0B 857
+
+
+2024-09-05 09:58:53.3594-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Files-Upload:
+CORS policy execution successful.
+
+
+2024-09-05 09:58:54.1227-INFO-Microsoft.AspNetCore.Authorization.DefaultAuthorizationService-http://localhost/Files-Upload:
+Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+
+
+2024-09-05 09:58:54.1545-INFO-Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler-http://localhost/Files-Upload:
+AuthenticationScheme: Bearer was challenged.
+
+
+2024-09-05 09:58:54.1782-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files-Upload:
+Request finished HTTP/1.1 POST http://localhost:5260/Files - 401 0 - 967.1009ms
+
+
+2024-09-05 09:59:22.2808-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-05 09:59:23.1561-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-05 09:59:23.1735-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-05 09:59:23.2360-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-05 09:59:23.2863-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-05 09:59:24.7091-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-05 09:59:25.0063-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 291.0539ms
+
+
+2024-09-05 09:59:25.1324-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-05 09:59:25.2912-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 160.9496ms
+
+
+2024-09-05 10:12:35.9354-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files - multipart/form-data;+boundary=----WebKitFormBoundaryUm2VVmX8PPLJ9xCW 857
+
+
+2024-09-05 10:12:35.9604-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Files-Upload:
+CORS policy execution successful.
+
+
+2024-09-05 10:12:36.3844-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files-Upload:
+Executing endpoint 'Xim.AppApi.Controllers.FileController.UploadAsync (Xim.AppApi)'
+
+
+2024-09-05 10:12:36.6437-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files-Upload:
+Route matched with {action = "Upload", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadAsync(Xim.Storage.StorageCategory, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.FileController (Xim.AppApi).
+
+
+2024-09-05 10:12:36.8454-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Files-Upload:
+Executing OkObjectResult, writing value of type 'System.String'.
+
+
+2024-09-05 10:12:36.8579-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files-Upload:
+Executed action Xim.AppApi.Controllers.FileController.UploadAsync (Xim.AppApi) in 179.3962ms
+
+
+2024-09-05 10:12:36.9081-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files-Upload:
+Executed endpoint 'Xim.AppApi.Controllers.FileController.UploadAsync (Xim.AppApi)'
+
+
+2024-09-05 10:12:36.9417-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files-Upload:
+Request finished HTTP/1.1 POST http://localhost:5260/Files - 200 - text/plain;+charset=utf-8 1013.0147ms
+
+
+2024-09-05 10:12:55.6842-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files - multipart/form-data;+boundary=----WebKitFormBoundaryHfAfnCHqvAWzpO2u 857
+
+
+2024-09-05 10:12:55.6957-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Files-Upload:
+CORS policy execution successful.
+
+
+2024-09-05 10:12:55.7253-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files-Upload:
+Executing endpoint 'Xim.AppApi.Controllers.FileController.UploadAsync (Xim.AppApi)'
+
+
+2024-09-05 10:12:55.7447-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files-Upload:
+Route matched with {action = "Upload", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadAsync(Xim.Storage.StorageCategory, Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.FileController (Xim.AppApi).
+
+
+2024-09-05 10:14:09.3847-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Files-Upload:
+Executing OkObjectResult, writing value of type 'System.String'.
+
+
+2024-09-05 10:14:09.4089-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files-Upload:
+Executed action Xim.AppApi.Controllers.FileController.UploadAsync (Xim.AppApi) in 73664.063ms
+
+
+2024-09-05 10:14:09.4385-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files-Upload:
+Executed endpoint 'Xim.AppApi.Controllers.FileController.UploadAsync (Xim.AppApi)'
+
+
+2024-09-05 10:14:09.4546-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files-Upload:
+Request finished HTTP/1.1 POST http://localhost:5260/Files - 200 - text/plain;+charset=utf-8 73780.8523ms
+
+
+2024-09-05 10:17:31.2340-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-05 10:17:31.9660-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-05 10:17:31.9916-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-05 10:17:32.0538-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-05 10:17:32.1007-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-05 10:17:33.4112-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-05 10:17:33.8448-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 434.1406ms
+
+
+2024-09-05 10:17:34.0068-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-05 10:17:34.1773-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 164.7592ms
+
+
+2024-09-05 10:19:32.9407-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-05 10:19:33.7470-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-05 10:19:33.7725-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-05 10:19:33.8479-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-05 10:19:33.9283-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-05 10:19:35.3198-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-05 10:19:35.8080-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 497.3609ms
+
+
+2024-09-05 10:19:36.1499-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-05 10:19:36.4960-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 357.2328ms
+
+
+2024-09-05 10:20:21.5480-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=----WebKitFormBoundaryIndXdDKMne4Tq4Il 788
+
+
+2024-09-05 10:20:21.5779-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Files/UploadImage-UploadImage:
+CORS policy execution successful.
+
+
+2024-09-05 10:20:21.7094-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-UploadImage:
+Executing endpoint 'Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi)'
+
+
+2024-09-05 10:20:21.8635-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files/UploadImage-UploadImage:
+Route matched with {action = "UploadImage", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.FileController (Xim.AppApi).
+
+
+2024-09-05 10:20:44.7704-INFO-Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager--:
+User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+
+
+2024-09-05 10:20:45.4732-INFO-Microsoft.Hosting.Lifetime--:
+Now listening on: http://localhost:5260
+
+
+2024-09-05 10:20:45.4944-INFO-Microsoft.Hosting.Lifetime--:
+Application started. Press Ctrl+C to shut down.
+
+
+2024-09-05 10:20:45.5688-INFO-Microsoft.Hosting.Lifetime--:
+Hosting environment: Development
+
+
+2024-09-05 10:20:45.6186-INFO-Microsoft.Hosting.Lifetime--:
+Content root path: D:\Code\Cong TT\CodeCong_PTN\Api\Xim.AppApi
+
+
+2024-09-05 10:20:47.3042-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -
+
+
+2024-09-05 10:20:47.6950-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/index.html-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 430.2340ms
+
+
+2024-09-05 10:20:48.0124-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -
+
+
+2024-09-05 10:20:48.4096-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/swagger/v1/swagger.json-:
+Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 408.2482ms
+
+
+2024-09-05 10:20:55.9826-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=----WebKitFormBoundarygJYo1x3zDUQjPo4i 755
+
+
+2024-09-05 10:20:56.0290-INFO-Microsoft.AspNetCore.Cors.Infrastructure.CorsService-http://localhost/Files/UploadImage-UploadImage:
+CORS policy execution successful.
+
+
+2024-09-05 10:20:56.1787-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-UploadImage:
+Executing endpoint 'Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi)'
+
+
+2024-09-05 10:20:56.3282-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files/UploadImage-UploadImage:
+Route matched with {action = "UploadImage", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.FileController (Xim.AppApi).
+
+
+2024-09-05 10:20:59.7000-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Files/UploadImage-UploadImage:
+Executing BadRequestObjectResult, writing value of type 'System.String'.
+
+
+2024-09-05 10:20:59.7820-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files/UploadImage-UploadImage:
+Executed action Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi) in 3410.0206ms
+
+
+2024-09-05 10:20:59.8085-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-UploadImage:
+Executed endpoint 'Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi)'
+
+
+2024-09-05 10:20:59.8085-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-UploadImage:
+Request finished HTTP/1.1 POST http://localhost:5260/Files/UploadImage - 400 - text/plain;+charset=utf-8 3830.3113ms
+
+
+2024-09-05 10:23:11.1110-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=--------------------------714322100063671732412160 11045
+
+
+2024-09-05 10:23:11.1494-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-UploadImage:
+Executing endpoint 'Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi)'
+
+
+2024-09-05 10:23:11.1767-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files/UploadImage-UploadImage:
+Route matched with {action = "UploadImage", controller = "File"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(Microsoft.AspNetCore.Http.IFormFile) on controller Xim.AppApi.Controllers.FileController (Xim.AppApi).
+
+
+2024-09-05 10:24:08.2771-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor-http://localhost/Files/UploadImage-UploadImage:
+Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+
+
+2024-09-05 10:24:08.3213-INFO-Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker-http://localhost/Files/UploadImage-UploadImage:
+Executed action Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi) in 57126.0632ms
+
+
+2024-09-05 10:24:08.3683-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-UploadImage:
+Executed endpoint 'Xim.AppApi.Controllers.FileController.UploadImage (Xim.AppApi)'
+
+
+2024-09-05 10:24:08.3996-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-UploadImage:
+Request finished HTTP/1.1 POST http://localhost:5260/Files/UploadImage - 200 51 application/json;+charset=utf-8 57284.3737ms
+
+
+2024-09-05 10:44:51.5718-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=--------------------------888055118338198721995384 11045
+
+
+2024-09-05 10:44:51.6076-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:44:51.6359-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:44:51.6526-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/UploadImage - 405 0 - 78.4109ms
+
+
+2024-09-05 10:45:19.0530-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=--------------------------893922013523027620635134 11776
+
+
+2024-09-05 10:45:19.0698-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:45:19.1171-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:45:19.1527-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/UploadImage - 405 0 - 108.6708ms
+
+
+2024-09-05 10:45:44.1263-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=--------------------------307833313768537421422854 11354
+
+
+2024-09-05 10:45:44.1380-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:45:44.1710-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:45:44.1884-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/UploadImage - 405 0 - 66.5025ms
+
+
+2024-09-05 10:46:08.2914-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 GET http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=--------------------------794297899004260919755646 11354
+
+
+2024-09-05 10:46:08.2914-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executing endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:46:08.2914-INFO-Microsoft.AspNetCore.Routing.EndpointMiddleware-http://localhost/Files/UploadImage-:
+Executed endpoint '405 HTTP Method Not Supported'
+
+
+2024-09-05 10:46:08.2914-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request finished HTTP/1.1 GET http://localhost:5260/Files/UploadImage - 405 0 - 12.2501ms
+
+
+2024-09-05 10:46:13.0648-INFO-Microsoft.AspNetCore.Hosting.Diagnostics-http://localhost/Files/UploadImage-:
+Request starting HTTP/1.1 POST http://localhost:5260/Files/UploadImage - multipart/form-data;+boundary=--------------------------616021834936469229292830 11354
+
+
