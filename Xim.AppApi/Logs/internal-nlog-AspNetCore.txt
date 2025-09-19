@@ -1,0 +1,1357 @@
+2024-08-28 14:57:29.5923 Debug Message Template Auto Format enabled
+2024-08-28 14:57:29.6109 Debug Skipped already loaded assembly name: NLog.Web.AspNetCore
+2024-08-28 14:57:29.6109 Info Loading assembly name: NLog.Database
+2024-08-28 14:57:29.6290 Info NLog.Database, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-28 14:57:29.6290 Debug ScanAssembly('NLog.Database, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2024-08-28 14:57:29.6290 Debug Loading assembly name: NLog.Database succeeded!
+2024-08-28 14:57:29.6614 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-08-28 14:57:29.6767 Debug FileTarget FilePathLayout with FilePathKind.Relative using AppDomain.BaseDirectory: D:\Code\Cong TT\Api\Api\Xim.AppApi\bin\Debug\net8.0\
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2024-08-28 14:57:29.6767 Trace  Scanning Property Inner '${level}' NLog.Layouts.Layout
+2024-08-28 14:57:29.6767 Trace  Scanning SimpleLayout '${level}'
+2024-08-28 14:57:29.6767 Trace   Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.6767 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning NewLineLayoutRenderer 'Layout Renderer: ${newline}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6767 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.6767 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6910 Trace Scanning NewLineLayoutRenderer 'Layout Renderer: ${newline}'
+2024-08-28 14:57:29.6910 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6910 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:29.6910 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:29.6910 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6910 Trace Scanning NewLineLayoutRenderer 'Layout Renderer: ${newline}'
+2024-08-28 14:57:29.6910 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.6910 Trace Scanning AspNetRequestPostedBodyLayoutRenderer 'Layout Renderer: ${aspnet-request-posted-body}'
+2024-08-28 14:57:29.6910 Debug Wrapping target 'file' with AsyncTargetWrapper and renaming to 'file_wrapped'
+2024-08-28 14:57:29.6910 Debug Adding target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=file)
+2024-08-28 14:57:29.6910 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=file)
+2024-08-28 14:57:29.7080 Debug Object reflection needed to create instance of type: NLog.Targets.DatabaseParameterInfo
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:29.7080 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:29.7080 Debug Wrapping target 'databaseTarget' with AsyncTargetWrapper and renaming to 'databaseTarget_wrapped'
+2024-08-28 14:57:29.7080 Debug Adding target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=databaseTarget)
+2024-08-28 14:57:29.7080 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=databaseTarget)
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.7080 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7080 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.7080 Debug Wrapping target 'console' with AsyncTargetWrapper and renaming to 'console_wrapped'
+2024-08-28 14:57:29.7080 Debug Adding target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=console)
+2024-08-28 14:57:29.7080 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=console)
+2024-08-28 14:57:29.7080 Trace ParseRulesElement
+2024-08-28 14:57:29.7080 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-08-28 14:57:29.7390 Debug Start watching file-filter 'nlog.config' in directory: D:\Code\Cong TT\Api\Api\Xim.AppApi\bin\Debug\net8.0
+2024-08-28 14:57:29.7390 Debug --- NLog configuration dump ---
+2024-08-28 14:57:29.7390 Debug Targets:
+2024-08-28 14:57:29.7390 Debug AsyncWrapper_FileTarget(Name=file)
+2024-08-28 14:57:29.7390 Debug AsyncWrapper_DatabaseTarget(Name=databaseTarget)
+2024-08-28 14:57:29.7390 Debug AsyncWrapper_ColoredConsoleTarget(Name=console)
+2024-08-28 14:57:29.7390 Debug Rules:
+2024-08-28 14:57:29.7390 Debug logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ databaseTarget ]
+2024-08-28 14:57:29.7390 Debug --- End of NLog configuration dump ---
+2024-08-28 14:57:29.7390 Trace FindReachableObject<System.Object>:
+2024-08-28 14:57:29.7390 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ databaseTarget ]'
+2024-08-28 14:57:29.7390 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-08-28 14:57:29.7390 Trace  Scanning AsyncTargetWrapper 'AsyncWrapper_DatabaseTarget(Name=databaseTarget)'
+2024-08-28 14:57:29.7390 Trace   Scanning Property WrappedTarget 'DatabaseTarget(Name=databaseTarget_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:29.7390 Trace   Scanning DatabaseTarget 'DatabaseTarget(Name=databaseTarget_wrapped)'
+2024-08-28 14:57:29.7390 Trace    Scanning Property ConnectionString 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace    Scanning SimpleLayout 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+2024-08-28 14:57:29.7390 Trace     Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7390 Trace    Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.7390 Trace    Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.7390 Trace    Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.7390 Trace    Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.7390 Trace    Scanning Property DBHost '.' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace    Scanning SimpleLayout '.'
+2024-08-28 14:57:29.7390 Trace     Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7390 Trace    Scanning Property CommandText 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace    Scanning SimpleLayout 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)'
+2024-08-28 14:57:29.7390 Trace     Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7390 Trace    Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:29.7390 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.7390 Trace     Scanning Property Layout '${longdate}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace     Scanning SimpleLayout '${longdate}'
+2024-08-28 14:57:29.7390 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace      Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.7390 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.7390 Trace     Scanning Property Layout '${level:uppercase=true}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace     Scanning SimpleLayout '${level:uppercase=true}'
+2024-08-28 14:57:29.7390 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7390 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.7390 Trace     Scanning Property Layout '${logger}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace     Scanning SimpleLayout '${logger}'
+2024-08-28 14:57:29.7390 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace      Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.7390 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.7390 Trace     Scanning Property Layout '${message}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7390 Trace     Scanning SimpleLayout '${message}'
+2024-08-28 14:57:29.7390 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7390 Trace      Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.7529 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.7529 Trace     Scanning Property Layout '${exception:tostring}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7529 Trace     Scanning SimpleLayout '${exception:tostring}'
+2024-08-28 14:57:29.7529 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7529 Trace      Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:29.7529 Trace       Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:29.7529 Trace    Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:29.7529 Trace    Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.7529 Trace    Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.7529 Trace    Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.7529 Trace    Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.7529 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-08-28 14:57:29.7529 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-08-28 14:57:29.7529 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_FileTarget(Name=file)'
+2024-08-28 14:57:29.7529 Trace  Scanning Property WrappedTarget 'FileTarget(Name=file_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:29.7529 Trace  Scanning FileTarget 'FileTarget(Name=file_wrapped)'
+2024-08-28 14:57:29.7529 Trace   Scanning Property FileName 'Logs\${level}-${shortdate}.log' NLog.Layouts.Layout
+2024-08-28 14:57:29.7529 Trace   Scanning SimpleLayout 'Logs\${level}-${shortdate}.log'
+2024-08-28 14:57:29.7529 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace   Scanning Property Layout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7529 Trace   Scanning SimpleLayout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}'
+2024-08-28 14:57:29.7529 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7529 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2024-08-28 14:57:29.7529 Trace     Scanning Property Inner '${level}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7529 Trace     Scanning SimpleLayout '${level}'
+2024-08-28 14:57:29.7529 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7529 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:29.7529 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning AspNetRequestPostedBodyLayoutRenderer 'Layout Renderer: ${aspnet-request-posted-body}'
+2024-08-28 14:57:29.7529 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_ColoredConsoleTarget(Name=console)'
+2024-08-28 14:57:29.7529 Trace  Scanning Property WrappedTarget 'ColoredConsoleTarget(Name=console_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:29.7529 Trace  Scanning ColoredConsoleTarget 'ColoredConsoleTarget(Name=console_wrapped)'
+2024-08-28 14:57:29.7529 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:29.7529 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:29.7529 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:29.7529 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:29.7529 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${logger} ${message}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7529 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${logger} ${message}'
+2024-08-28 14:57:29.7529 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7529 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.7529 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7529 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7689 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7689 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.7689 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7689 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.7689 Info Validating config: TargetNames=databaseTarget, ConfigItems=60, FilePath=D:\Code\Cong TT\Api\Api\Xim.AppApi\bin\Debug\net8.0\nlog.config
+2024-08-28 14:57:29.7689 Debug Unused target checking is started... Rule Count: 1, Target Count: 3
+2024-08-28 14:57:29.7689 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-08-28 14:57:29.7689 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2024-08-28 14:57:29.7689 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 3, Unused Target Count: 2
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${message}
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${loggername}
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.7689 Trace Initializing Layout Renderer: ${longdate}
+2024-08-28 14:57:29.7689 Trace Initializing ${longdate} ${level:uppercase=true} ${logger} ${message}
+2024-08-28 14:57:29.7689 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.7689 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${logger} ${message}'
+2024-08-28 14:57:29.7689 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.7689 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.7689 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7689 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.7689 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7689 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.7689 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.7689 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.7689 Trace Initializing ColoredConsoleTarget(Name=console_wrapped)
+2024-08-28 14:57:29.7849 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:29.7849 Trace Scanning ColoredConsoleTarget 'ColoredConsoleTarget(Name=console_wrapped)'
+2024-08-28 14:57:29.7849 Trace  Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:29.7849 Trace  Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:29.7849 Trace  Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:29.7849 Trace  Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:29.7849 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${logger} ${message}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7849 Trace ColoredConsoleTarget(Name=console_wrapped) has 1 layouts
+2024-08-28 14:57:29.7849 Trace Initializing AsyncWrapper_ColoredConsoleTarget(Name=console)
+2024-08-28 14:57:29.7849 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:29.7849 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_ColoredConsoleTarget(Name=console)'
+2024-08-28 14:57:29.7849 Trace  Scanning Property WrappedTarget 'ColoredConsoleTarget(Name=console_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:29.7849 Trace  Scanning ColoredConsoleTarget 'ColoredConsoleTarget(Name=console_wrapped)'
+2024-08-28 14:57:29.7849 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:29.7849 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:29.7849 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:29.7849 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:29.7849 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${logger} ${message}' NLog.Layouts.Layout
+2024-08-28 14:57:29.7849 Trace AsyncWrapper_ColoredConsoleTarget(Name=console) has 1 layouts
+2024-08-28 14:57:29.7849 Trace AsyncWrapper_ColoredConsoleTarget(Name=console): Start Timer
+2024-08-28 14:57:29.7849 Trace AsyncWrapper_ColoredConsoleTarget(Name=console): Timer scheduled throttled
+2024-08-28 14:57:29.7849 Trace Initializing Layout Renderer: ${aspnet-request-posted-body}
+2024-08-28 14:57:29.7849 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.7849 Trace Initializing Layout Renderer: ${exception}
+2024-08-28 14:57:29.7849 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${message}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${aspnet-mvc-action}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${aspnet-request-url}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${loggername}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:29.8018 Trace Initializing ${level}
+2024-08-28 14:57:29.8018 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8018 Trace Scanning SimpleLayout '${level}'
+2024-08-28 14:57:29.8018 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8018 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.8018 Trace AsyncWrapper_ColoredConsoleTarget(Name=console): Timer not scheduled, since queue empty
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${uppercase}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${longdate}
+2024-08-28 14:57:29.8018 Trace Initializing ${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}
+2024-08-28 14:57:29.8018 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8018 Trace Scanning SimpleLayout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}'
+2024-08-28 14:57:29.8018 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8018 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2024-08-28 14:57:29.8018 Trace   Scanning Property Inner '${level}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8018 Trace   Scanning SimpleLayout '${level}'
+2024-08-28 14:57:29.8018 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8018 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:29.8018 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:29.8018 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8018 Trace  Scanning AspNetRequestPostedBodyLayoutRenderer 'Layout Renderer: ${aspnet-request-posted-body}'
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${shortdate}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:29.8018 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8157 Trace Initializing Logs\${level}-${shortdate}.log
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout 'Logs\${level}-${shortdate}.log'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8157 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.8157 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8157 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-08-28 14:57:29.8157 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8157 Trace Initializing FileTarget(Name=file_wrapped)
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:29.8157 Trace Scanning FileTarget 'FileTarget(Name=file_wrapped)'
+2024-08-28 14:57:29.8157 Trace  Scanning Property FileName 'Logs\${level}-${shortdate}.log' NLog.Layouts.Layout
+2024-08-28 14:57:29.8157 Trace  Scanning Property Layout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8157 Trace FileTarget(Name=file_wrapped) has 2 layouts
+2024-08-28 14:57:29.8157 Trace FileTarget(Name=file_wrapped): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2024-08-28 14:57:29.8157 Trace Initializing AsyncWrapper_FileTarget(Name=file)
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:29.8157 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_FileTarget(Name=file)'
+2024-08-28 14:57:29.8157 Trace  Scanning Property WrappedTarget 'FileTarget(Name=file_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:29.8157 Trace  Scanning FileTarget 'FileTarget(Name=file_wrapped)'
+2024-08-28 14:57:29.8157 Trace   Scanning Property FileName 'Logs\${level}-${shortdate}.log' NLog.Layouts.Layout
+2024-08-28 14:57:29.8157 Trace   Scanning Property Layout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8157 Trace AsyncWrapper_FileTarget(Name=file) has 2 layouts
+2024-08-28 14:57:29.8157 Trace AsyncWrapper_FileTarget(Name=file): Start Timer
+2024-08-28 14:57:29.8157 Trace AsyncWrapper_FileTarget(Name=file): Timer scheduled throttled
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${exception}
+2024-08-28 14:57:29.8157 Trace Initializing ${exception:tostring}
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout '${exception:tostring}'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:29.8157 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${message}
+2024-08-28 14:57:29.8157 Trace Initializing ${message}
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout '${message}'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${loggername}
+2024-08-28 14:57:29.8157 Trace Initializing ${logger}
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout '${logger}'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:29.8157 Trace Initializing ${level:uppercase=true}
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout '${level:uppercase=true}'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${longdate}
+2024-08-28 14:57:29.8157 Trace Initializing ${longdate}
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout '${longdate}'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8157 Trace Initializing INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:29.8157 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8157 Trace Scanning SimpleLayout 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)'
+2024-08-28 14:57:29.8157 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8157 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8157 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8307 Trace Initializing .
+2024-08-28 14:57:29.8307 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8307 Trace Scanning SimpleLayout '.'
+2024-08-28 14:57:29.8307 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8307 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8307 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:29.8307 Trace Initializing Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;
+2024-08-28 14:57:29.8307 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2024-08-28 14:57:29.8307 Trace Scanning SimpleLayout 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+2024-08-28 14:57:29.8307 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:29.8307 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:29.8307 Trace Initializing DatabaseTarget(Name=databaseTarget_wrapped)
+2024-08-28 14:57:29.8307 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:29.8307 Trace AsyncWrapper_FileTarget(Name=file): Timer not scheduled, since queue empty
+2024-08-28 14:57:29.8307 Trace Scanning DatabaseTarget 'DatabaseTarget(Name=databaseTarget_wrapped)'
+2024-08-28 14:57:29.8307 Trace  Scanning Property ConnectionString 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property DBHost '.' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning Property CommandText 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.8307 Trace   Scanning Property Layout '${longdate}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.8307 Trace   Scanning Property Layout '${level:uppercase=true}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.8307 Trace   Scanning Property Layout '${logger}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.8307 Trace   Scanning Property Layout '${message}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.8307 Trace   Scanning Property Layout '${exception:tostring}' NLog.Layouts.Layout
+2024-08-28 14:57:29.8307 Trace  Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.8307 Trace  Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.8307 Trace DatabaseTarget(Name=databaseTarget_wrapped) has 8 layouts
+2024-08-28 14:57:29.8651 Warn DatabaseTarget(Name=databaseTarget_wrapped): Failed to load assembly 'Microsoft.Data.SqlClient'. Falling back to 'System.Data.SqlClient'. Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+2024-08-28 14:57:29.9065 Trace Initializing AsyncWrapper_DatabaseTarget(Name=databaseTarget)
+2024-08-28 14:57:29.9065 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:29.9065 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_DatabaseTarget(Name=databaseTarget)'
+2024-08-28 14:57:29.9065 Trace  Scanning Property WrappedTarget 'DatabaseTarget(Name=databaseTarget_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:29.9065 Trace  Scanning DatabaseTarget 'DatabaseTarget(Name=databaseTarget_wrapped)'
+2024-08-28 14:57:29.9065 Trace   Scanning Property ConnectionString 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;' NLog.Layouts.Layout
+2024-08-28 14:57:29.9065 Trace   Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.9065 Trace   Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.9065 Trace   Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.9065 Trace   Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:29.9065 Trace   Scanning Property DBHost '.' NLog.Layouts.Layout
+2024-08-28 14:57:29.9065 Trace   Scanning Property CommandText 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)' NLog.Layouts.Layout
+2024-08-28 14:57:29.9065 Trace   Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:29.9065 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.9065 Trace    Scanning Property Layout '${longdate}' NLog.Layouts.Layout
+2024-08-28 14:57:29.9065 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.9095 Trace    Scanning Property Layout '${level:uppercase=true}' NLog.Layouts.Layout
+2024-08-28 14:57:29.9095 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.9095 Trace    Scanning Property Layout '${logger}' NLog.Layouts.Layout
+2024-08-28 14:57:29.9095 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.9095 Trace    Scanning Property Layout '${message}' NLog.Layouts.Layout
+2024-08-28 14:57:29.9095 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:29.9095 Trace    Scanning Property Layout '${exception:tostring}' NLog.Layouts.Layout
+2024-08-28 14:57:29.9095 Trace   Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:29.9095 Trace   Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.9095 Trace   Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.9095 Trace   Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.9095 Trace   Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:29.9095 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget) has 8 layouts
+2024-08-28 14:57:29.9095 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Start Timer
+2024-08-28 14:57:29.9095 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:29.9095 Info Configuration initialized.
+2024-08-28 14:57:29.9095 Debug Targets configured when LogLevel >= Info for Logger: Xim.AppApi.Program
+2024-08-28 14:57:29.9095 Debug Logger Xim.AppApi.Program [Info] => databaseTarget
+2024-08-28 14:57:29.9095 Debug Logger Xim.AppApi.Program [Warn] => databaseTarget
+2024-08-28 14:57:29.9095 Debug Logger Xim.AppApi.Program [Error] => databaseTarget
+2024-08-28 14:57:29.9095 Debug Logger Xim.AppApi.Program [Fatal] => databaseTarget
+2024-08-28 14:57:29.9095 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:30.6298 Trace Assembly 'NLog.Web.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2024-08-28 14:57:30.7684 Debug Skip loading NLogLoggingConfiguration from empty config section: NLog
+2024-08-28 14:57:30.7684 Trace FindReachableObject<System.Object>:
+2024-08-28 14:57:30.7684 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Info Warn Error Fatal ] writeTo: [ databaseTarget ]'
+2024-08-28 14:57:30.7684 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2024-08-28 14:57:30.7684 Trace  Scanning AsyncTargetWrapper 'AsyncWrapper_DatabaseTarget(Name=databaseTarget)'
+2024-08-28 14:57:30.7684 Trace   Scanning Property WrappedTarget 'DatabaseTarget(Name=databaseTarget_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:30.7684 Trace   Scanning DatabaseTarget 'DatabaseTarget(Name=databaseTarget_wrapped)'
+2024-08-28 14:57:30.7684 Trace    Scanning Property ConnectionString 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;' NLog.Layouts.Layout
+2024-08-28 14:57:30.7684 Trace    Scanning SimpleLayout 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+2024-08-28 14:57:30.7684 Trace     Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7684 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7684 Trace    Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.7684 Trace    Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.7684 Trace    Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.7684 Trace    Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.7684 Trace    Scanning Property DBHost '.' NLog.Layouts.Layout
+2024-08-28 14:57:30.7684 Trace    Scanning SimpleLayout '.'
+2024-08-28 14:57:30.7684 Trace     Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7684 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7684 Trace    Scanning Property CommandText 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)' NLog.Layouts.Layout
+2024-08-28 14:57:30.7684 Trace    Scanning SimpleLayout 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)'
+2024-08-28 14:57:30.7684 Trace     Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7684 Trace     Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7684 Trace    Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:30.7684 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.7684 Trace     Scanning Property Layout '${longdate}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7684 Trace     Scanning SimpleLayout '${longdate}'
+2024-08-28 14:57:30.7861 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace      Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:30.7861 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.7861 Trace     Scanning Property Layout '${level:uppercase=true}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace     Scanning SimpleLayout '${level:uppercase=true}'
+2024-08-28 14:57:30.7861 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:30.7861 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.7861 Trace     Scanning Property Layout '${logger}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace     Scanning SimpleLayout '${logger}'
+2024-08-28 14:57:30.7861 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace      Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:30.7861 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.7861 Trace     Scanning Property Layout '${message}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace     Scanning SimpleLayout '${message}'
+2024-08-28 14:57:30.7861 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace      Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:30.7861 Trace    Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.7861 Trace     Scanning Property Layout '${exception:tostring}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace     Scanning SimpleLayout '${exception:tostring}'
+2024-08-28 14:57:30.7861 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace      Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:30.7861 Trace       Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:30.7861 Trace    Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:30.7861 Trace    Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.7861 Trace    Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.7861 Trace    Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.7861 Trace    Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.7861 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2024-08-28 14:57:30.7861 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2024-08-28 14:57:30.7861 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_FileTarget(Name=file)'
+2024-08-28 14:57:30.7861 Trace  Scanning Property WrappedTarget 'FileTarget(Name=file_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:30.7861 Trace  Scanning FileTarget 'FileTarget(Name=file_wrapped)'
+2024-08-28 14:57:30.7861 Trace   Scanning Property FileName 'Logs\${level}-${shortdate}.log' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace   Scanning SimpleLayout 'Logs\${level}-${shortdate}.log'
+2024-08-28 14:57:30.7861 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7861 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:30.7861 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7861 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2024-08-28 14:57:30.7861 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7861 Trace   Scanning Property Layout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace   Scanning SimpleLayout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}'
+2024-08-28 14:57:30.7861 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:30.7861 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7861 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2024-08-28 14:57:30.7861 Trace     Scanning Property Inner '${level}' NLog.Layouts.Layout
+2024-08-28 14:57:30.7861 Trace     Scanning SimpleLayout '${level}'
+2024-08-28 14:57:30.7861 Trace      Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.7861 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:30.7861 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7861 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:30.7861 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.7861 Trace    Scanning AspNetRequestUrlRenderer 'Layout Renderer: ${aspnet-request-url}'
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning AspNetMvcActionRenderer 'Layout Renderer: ${aspnet-mvc-action}'
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2024-08-28 14:57:30.8001 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning AspNetRequestPostedBodyLayoutRenderer 'Layout Renderer: ${aspnet-request-posted-body}'
+2024-08-28 14:57:30.8001 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_ColoredConsoleTarget(Name=console)'
+2024-08-28 14:57:30.8001 Trace  Scanning Property WrappedTarget 'ColoredConsoleTarget(Name=console_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:30.8001 Trace  Scanning ColoredConsoleTarget 'ColoredConsoleTarget(Name=console_wrapped)'
+2024-08-28 14:57:30.8001 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${logger} ${message}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8001 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${logger} ${message}'
+2024-08-28 14:57:30.8001 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2024-08-28 14:57:30.8001 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${loggername}'
+2024-08-28 14:57:30.8001 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2024-08-28 14:57:30.8001 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2024-08-28 14:57:30.8001 Info Validating config: TargetNames=databaseTarget, ConfigItems=60, FilePath=D:\Code\Cong TT\Api\Api\Xim.AppApi\bin\Debug\net8.0\nlog.config
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${message}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${loggername}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${longdate}
+2024-08-28 14:57:30.8001 Trace Initializing ${longdate} ${level:uppercase=true} ${logger} ${message}
+2024-08-28 14:57:30.8001 Trace Initializing ColoredConsoleTarget(Name=console_wrapped)
+2024-08-28 14:57:30.8001 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:30.8001 Trace Scanning ColoredConsoleTarget 'ColoredConsoleTarget(Name=console_wrapped)'
+2024-08-28 14:57:30.8001 Trace  Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:30.8001 Trace  Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:30.8001 Trace  Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:30.8001 Trace  Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:30.8001 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${logger} ${message}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8001 Trace ColoredConsoleTarget(Name=console_wrapped) has 1 layouts
+2024-08-28 14:57:30.8001 Trace Initializing AsyncWrapper_ColoredConsoleTarget(Name=console)
+2024-08-28 14:57:30.8001 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:30.8001 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_ColoredConsoleTarget(Name=console)'
+2024-08-28 14:57:30.8001 Trace  Scanning Property WrappedTarget 'ColoredConsoleTarget(Name=console_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:30.8001 Trace  Scanning ColoredConsoleTarget 'ColoredConsoleTarget(Name=console_wrapped)'
+2024-08-28 14:57:30.8001 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property RowHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleRowHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleRowHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property WordHighlightingRules 'System.Collections.Generic.List`1[NLog.Targets.ConsoleWordHighlightingRule]' System.Collections.Generic.IList`1[NLog.Targets.ConsoleWordHighlightingRule]
+2024-08-28 14:57:30.8001 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${logger} ${message}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8001 Trace AsyncWrapper_ColoredConsoleTarget(Name=console) has 1 layouts
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${aspnet-request-posted-body}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${exception}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${message}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${aspnet-mvc-action}
+2024-08-28 14:57:30.8001 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${aspnet-request-url}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${loggername}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:30.8150 Trace Initializing ${level}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${uppercase}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${longdate}
+2024-08-28 14:57:30.8150 Trace Initializing ${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${shortdate}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Logs\${level}-${shortdate}.log
+2024-08-28 14:57:30.8150 Trace Initializing FileTarget(Name=file_wrapped)
+2024-08-28 14:57:30.8150 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:30.8150 Trace Scanning FileTarget 'FileTarget(Name=file_wrapped)'
+2024-08-28 14:57:30.8150 Trace  Scanning Property FileName 'Logs\${level}-${shortdate}.log' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning Property Layout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace FileTarget(Name=file_wrapped) has 2 layouts
+2024-08-28 14:57:30.8150 Trace Initializing AsyncWrapper_FileTarget(Name=file)
+2024-08-28 14:57:30.8150 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:30.8150 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_FileTarget(Name=file)'
+2024-08-28 14:57:30.8150 Trace  Scanning Property WrappedTarget 'FileTarget(Name=file_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:30.8150 Trace  Scanning FileTarget 'FileTarget(Name=file_wrapped)'
+2024-08-28 14:57:30.8150 Trace   Scanning Property FileName 'Logs\${level}-${shortdate}.log' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace   Scanning Property Layout '${longdate}-${uppercase:${level}}-${logger}-${aspnet-request-url}-${aspnet-mvc-action}:${newline}${message}${newline}${exception:format=tostring}${newline}${aspnet-request-posted-body}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace AsyncWrapper_FileTarget(Name=file) has 2 layouts
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${exception}
+2024-08-28 14:57:30.8150 Trace Initializing ${exception:tostring}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${message}
+2024-08-28 14:57:30.8150 Trace Initializing ${message}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${loggername}
+2024-08-28 14:57:30.8150 Trace Initializing ${logger}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${level}
+2024-08-28 14:57:30.8150 Trace Initializing ${level:uppercase=true}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${longdate}
+2024-08-28 14:57:30.8150 Trace Initializing ${longdate}
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing .
+2024-08-28 14:57:30.8150 Trace Initializing Layout Renderer: ${literal}
+2024-08-28 14:57:30.8150 Trace Initializing Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;
+2024-08-28 14:57:30.8150 Trace Initializing DatabaseTarget(Name=databaseTarget_wrapped)
+2024-08-28 14:57:30.8150 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:30.8150 Trace Scanning DatabaseTarget 'DatabaseTarget(Name=databaseTarget_wrapped)'
+2024-08-28 14:57:30.8150 Trace  Scanning Property ConnectionString 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property DBHost '.' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning Property CommandText 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8150 Trace   Scanning Property Layout '${longdate}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8150 Trace   Scanning Property Layout '${level:uppercase=true}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8150 Trace   Scanning Property Layout '${logger}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8150 Trace   Scanning Property Layout '${message}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8150 Trace   Scanning Property Layout '${exception:tostring}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8150 Trace  Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8150 Trace  Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8150 Trace DatabaseTarget(Name=databaseTarget_wrapped) has 8 layouts
+2024-08-28 14:57:30.8150 Trace Initializing AsyncWrapper_DatabaseTarget(Name=databaseTarget)
+2024-08-28 14:57:30.8150 Trace FindReachableObject<NLog.Layouts.Layout>:
+2024-08-28 14:57:30.8150 Trace Scanning AsyncTargetWrapper 'AsyncWrapper_DatabaseTarget(Name=databaseTarget)'
+2024-08-28 14:57:30.8150 Trace  Scanning Property WrappedTarget 'DatabaseTarget(Name=databaseTarget_wrapped)' NLog.Targets.Target
+2024-08-28 14:57:30.8150 Trace  Scanning DatabaseTarget 'DatabaseTarget(Name=databaseTarget_wrapped)'
+2024-08-28 14:57:30.8150 Trace   Scanning Property ConnectionString 'Data Source=.; Initial Catalog=db_cong;Persist Security Info=False;User ID=sa;Password=sa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property InstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property UninstallDdlCommands 'System.Collections.Generic.List`1[NLog.Targets.DatabaseCommandInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseCommandInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property DBHost '.' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning Property CommandText 'INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8310 Trace    Scanning Property Layout '${longdate}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8310 Trace    Scanning Property Layout '${level:uppercase=true}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8310 Trace    Scanning Property Layout '${logger}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8310 Trace    Scanning Property Layout '${message}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning DatabaseParameterInfo 'NLog.Targets.DatabaseParameterInfo'
+2024-08-28 14:57:30.8310 Trace    Scanning Property Layout '${exception:tostring}' NLog.Layouts.Layout
+2024-08-28 14:57:30.8310 Trace   Scanning Property Parameters 'System.Collections.Generic.List`1[NLog.Targets.DatabaseParameterInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseParameterInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property ConnectionProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8310 Trace   Scanning Property CommandProperties 'System.Collections.Generic.List`1[NLog.Targets.DatabaseObjectPropertyInfo]' System.Collections.Generic.IList`1[NLog.Targets.DatabaseObjectPropertyInfo]
+2024-08-28 14:57:30.8310 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget) has 8 layouts
+2024-08-28 14:57:30.8310 Debug Targets configured when LogLevel >= Info for Logger: Xim.AppApi.Program
+2024-08-28 14:57:30.8310 Debug Logger Xim.AppApi.Program [Info] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Logger Xim.AppApi.Program [Warn] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Logger Xim.AppApi.Program [Error] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Logger Xim.AppApi.Program [Fatal] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime
+2024-08-28 14:57:30.8310 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Info] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Warn] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Error] => databaseTarget
+2024-08-28 14:57:30.8310 Debug Logger Microsoft.Extensions.Hosting.Internal.ApplicationLifetime [Fatal] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Extensions.Hosting.Internal.Host
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Info] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Warn] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Error] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Extensions.Hosting.Internal.Host [Fatal] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.Hosting.Lifetime
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Hosting.Lifetime [Info] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Hosting.Lifetime [Warn] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Hosting.Lifetime [Error] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.Hosting.Lifetime [Fatal] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Info] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Warn] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Error] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer [Fatal] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Info] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Error] => databaseTarget
+2024-08-28 14:57:30.8493 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Info] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Warn] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Error] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Core.Internal.CertificatePathWatcher [Fatal] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Info] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Warn] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Error] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel [Fatal] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Info] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Warn] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Error] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.BadRequests [Fatal] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Connections
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Info] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Warn] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Error] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Connections [Fatal] => databaseTarget
+2024-08-28 14:57:30.8643 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http2
+2024-08-28 14:57:30.8643 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Info] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Warn] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Error] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http2 [Fatal] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Http3
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Info] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Warn] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Error] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Http3 [Fatal] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Targets configured when LogLevel >= Info for Logger: Xim.AppApi
+2024-08-28 14:57:31.0990 Debug Logger Xim.AppApi [Info] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Xim.AppApi [Warn] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Xim.AppApi [Error] => databaseTarget
+2024-08-28 14:57:31.0990 Debug Logger Xim.AppApi [Fatal] => databaseTarget
+2024-08-28 14:57:31.1395 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter
+2024-08-28 14:57:31.1395 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Info] => databaseTarget
+2024-08-28 14:57:31.1395 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Warn] => databaseTarget
+2024-08-28 14:57:31.1395 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Error] => databaseTarget
+2024-08-28 14:57:31.1395 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter [Fatal] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Info] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Warn] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Error] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter [Fatal] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Info] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Warn] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Error] => databaseTarget
+2024-08-28 14:57:31.1647 Debug Logger Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter [Fatal] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Info] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Warn] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Error] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider [Fatal] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Info] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Warn] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Error] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Fatal] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Info] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Warn] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Error] => databaseTarget
+2024-08-28 14:57:31.1824 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Fatal] => databaseTarget
+2024-08-28 14:57:31.1923 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+2024-08-28 14:57:31.1923 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Info] => databaseTarget
+2024-08-28 14:57:31.1923 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Warn] => databaseTarget
+2024-08-28 14:57:31.1923 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Error] => databaseTarget
+2024-08-28 14:57:31.1923 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Fatal] => databaseTarget
+2024-08-28 14:57:31.2495 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.TypeForwardingActivator
+2024-08-28 14:57:31.2495 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Info] => databaseTarget
+2024-08-28 14:57:31.2495 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Warn] => databaseTarget
+2024-08-28 14:57:31.2495 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Error] => databaseTarget
+2024-08-28 14:57:31.2495 Debug Logger Microsoft.AspNetCore.DataProtection.TypeForwardingActivator [Fatal] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Info] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Warn] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Error] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager [Fatal] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Info] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Warn] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Error] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngGcmAuthenticatedEncryptorFactory [Fatal] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Info] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Warn] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Error] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory [Fatal] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Info] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Warn] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Error] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory [Fatal] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Info] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Warn] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Error] => databaseTarget
+2024-08-28 14:57:31.2563 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor [Fatal] => databaseTarget
+2024-08-28 14:57:31.2688 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository
+2024-08-28 14:57:31.2688 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Info] => databaseTarget
+2024-08-28 14:57:31.2688 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Warn] => databaseTarget
+2024-08-28 14:57:31.2688 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Error] => databaseTarget
+2024-08-28 14:57:31.2688 Debug Logger Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository [Fatal] => databaseTarget
+2024-08-28 14:57:31.2864 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:31.2864 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Info] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Warn] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Error] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver [Fatal] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Info] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Warn] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Error] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider [Fatal] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Info] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Warn] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Error] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService [Fatal] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Hosting.Diagnostics
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Info] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Warn] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Error] => databaseTarget
+2024-08-28 14:57:31.2864 Debug Logger Microsoft.AspNetCore.Hosting.Diagnostics [Fatal] => databaseTarget
+2024-08-28 14:57:31.3060 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:31.3060 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:31.3370 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor
+2024-08-28 14:57:31.3370 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Info] => databaseTarget
+2024-08-28 14:57:31.3370 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Warn] => databaseTarget
+2024-08-28 14:57:31.3370 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Error] => databaseTarget
+2024-08-28 14:57:31.3370 Debug Logger Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor [Fatal] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Routing.EndpointMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Authorization.AuthorizationMiddleware
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.3594 Debug Logger Microsoft.AspNetCore.Authorization.AuthorizationMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.3850 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+2024-08-28 14:57:31.3850 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsService [Info] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsService [Warn] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsService [Error] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsService [Fatal] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.3951 Debug Logger Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.4159 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware
+2024-08-28 14:57:31.4159 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.4159 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.4159 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.4159 Debug Logger Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.4159 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Info] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Warn] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Error] => databaseTarget
+2024-08-28 14:57:31.4255 Debug Logger Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Fatal] => databaseTarget
+2024-08-28 14:57:31.4659 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets
+2024-08-28 14:57:31.4659 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Info] => databaseTarget
+2024-08-28 14:57:31.4659 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Warn] => databaseTarget
+2024-08-28 14:57:31.4659 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Error] => databaseTarget
+2024-08-28 14:57:31.4659 Debug Logger Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Fatal] => databaseTarget
+2024-08-28 14:57:31.4996 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:31.5036 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since already active
+2024-08-28 14:57:31.5036 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:31.2864' (String)
+2024-08-28 14:57:31.5036 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:31.5036 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager' (String)
+2024-08-28 14:57:31.5036 Trace   DatabaseTarget: Parameter: '@message' = 'User profile is available. Using 'C:\Users\Van Laptop\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.' (String)
+2024-08-28 14:57:31.5036 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:31.5312 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:31.5312 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:31.5381 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:31.5381 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:31.5381 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 4 events (Timer)
+2024-08-28 14:57:31.5381 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:31.5381 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:31.5381 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:31.5036' (String)
+2024-08-28 14:57:31.5381 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:31.5381 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.Hosting.Lifetime' (String)
+2024-08-28 14:57:31.5381 Trace   DatabaseTarget: Parameter: '@message' = 'Now listening on: http://localhost:5260' (String)
+2024-08-28 14:57:31.5381 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:31.5381 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:31.5036' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.Hosting.Lifetime' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@message' = 'Application started. Press Ctrl+C to shut down.' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:31.5499 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:31.5036' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.Hosting.Lifetime' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@message' = 'Hosting environment: Development' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:31.5499 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:31.5036' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.Hosting.Lifetime' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@message' = 'Content root path: D:\Code\Cong TT\Api\Api\Xim.AppApi' (String)
+2024-08-28 14:57:31.5499 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:31.5499 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:31.5499 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:31.5499 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:33.5146 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:33.5269 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:33.5269 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:33.5269 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:33.5269 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:33.5146' (String)
+2024-08-28 14:57:33.5269 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:33.5269 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Hosting.Diagnostics' (String)
+2024-08-28 14:57:33.5269 Trace   DatabaseTarget: Parameter: '@message' = 'Request starting HTTP/1.1 GET http://localhost:5260/swagger/index.html - - -' (String)
+2024-08-28 14:57:33.5269 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:33.5269 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:33.5269 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:33.5269 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:33.5339 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:33.5339 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher
+2024-08-28 14:57:33.5339 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Info] => databaseTarget
+2024-08-28 14:57:33.5339 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Warn] => databaseTarget
+2024-08-28 14:57:33.5339 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Error] => databaseTarget
+2024-08-28 14:57:33.5339 Debug Logger Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Fatal] => databaseTarget
+2024-08-28 14:57:33.7117 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:33.7117 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:33.7117 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:33.7117 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:33.7117 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:33.7117' (String)
+2024-08-28 14:57:33.7117 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:33.7117 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Hosting.Diagnostics' (String)
+2024-08-28 14:57:33.7117 Trace   DatabaseTarget: Parameter: '@message' = 'Request finished HTTP/1.1 GET http://localhost:5260/swagger/index.html - 200 - text/html;charset=utf-8 209.1744ms' (String)
+2024-08-28 14:57:33.7117 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:33.7117 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:33.7117 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:33.7117 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:33.7216 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:33.8865 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:33.9031 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:33.9031 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:33.9031 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:33.9031 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:33.8865' (String)
+2024-08-28 14:57:33.9031 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:33.9031 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Hosting.Diagnostics' (String)
+2024-08-28 14:57:33.9031 Trace   DatabaseTarget: Parameter: '@message' = 'Request starting HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - - -' (String)
+2024-08-28 14:57:33.9031 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:33.9149 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:33.9149 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:33.9149 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:33.9149 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:34.1377 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:34.1485 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:34.1485 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:34.1485 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:34.1485 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:34.1377' (String)
+2024-08-28 14:57:34.1485 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:34.1485 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Hosting.Diagnostics' (String)
+2024-08-28 14:57:34.1485 Trace   DatabaseTarget: Parameter: '@message' = 'Request finished HTTP/1.1 GET http://localhost:5260/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 251.2970ms' (String)
+2024-08-28 14:57:34.1485 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:34.1485 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:34.1485 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:34.1485 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:34.1485 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:39.0550 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:39.0663 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+2024-08-28 14:57:39.0663 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Info] => databaseTarget
+2024-08-28 14:57:39.0663 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Warn] => databaseTarget
+2024-08-28 14:57:39.0663 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Error] => databaseTarget
+2024-08-28 14:57:39.0663 Debug Logger Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler [Fatal] => databaseTarget
+2024-08-28 14:57:39.0663 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 2 events (Timer)
+2024-08-28 14:57:39.0663 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.0663 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.0663 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.0550' (String)
+2024-08-28 14:57:39.0663 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.0663 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Hosting.Diagnostics' (String)
+2024-08-28 14:57:39.0663 Trace   DatabaseTarget: Parameter: '@message' = 'Request starting HTTP/1.1 POST http://localhost:5260/Capbacs - application/json-patch+json 58' (String)
+2024-08-28 14:57:39.0663 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.1011 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.1011 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.1011 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.1011 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.1011 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.0550' (String)
+2024-08-28 14:57:39.1011 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.1011 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Cors.Infrastructure.CorsService' (String)
+2024-08-28 14:57:39.1011 Trace   DatabaseTarget: Parameter: '@message' = 'CORS policy execution successful.' (String)
+2024-08-28 14:57:39.1011 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.1011 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.1011 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.1011 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:39.1011 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:39.1246 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:39.1246 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:39.1246 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.1246 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.1246 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.1246' (String)
+2024-08-28 14:57:39.1246 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.1246 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Routing.EndpointMiddleware' (String)
+2024-08-28 14:57:39.1292 Trace   DatabaseTarget: Parameter: '@message' = 'Executing endpoint 'Xim.AppApi.Controllers.CapbacController.InsertAsync (Xim.AppApi)'' (String)
+2024-08-28 14:57:39.1292 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.1292 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.1292 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter
+2024-08-28 14:57:39.1292 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.1292 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Info] => databaseTarget
+2024-08-28 14:57:39.1292 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:39.1292 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Warn] => databaseTarget
+2024-08-28 14:57:39.1292 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:39.1292 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Error] => databaseTarget
+2024-08-28 14:57:39.1292 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter [Fatal] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder
+2024-08-28 14:57:39.1757 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Info] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Warn] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Error] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Logger Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder [Fatal] => databaseTarget
+2024-08-28 14:57:39.1757 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:39.1757 Debug Targets configured when LogLevel >= Info for Logger: Xim.AppApi.Controllers.CapbacController
+2024-08-28 14:57:39.1757 Debug Logger Xim.AppApi.Controllers.CapbacController [Info] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Logger Xim.AppApi.Controllers.CapbacController [Warn] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Logger Xim.AppApi.Controllers.CapbacController [Error] => databaseTarget
+2024-08-28 14:57:39.1757 Debug Logger Xim.AppApi.Controllers.CapbacController [Fatal] => databaseTarget
+2024-08-28 14:57:39.1942 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:39.1942 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.1942 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.1942 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.1757' (String)
+2024-08-28 14:57:39.1942 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.1942 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker' (String)
+2024-08-28 14:57:39.1942 Trace   DatabaseTarget: Parameter: '@message' = 'Route matched with {action = "Insert", controller = "Capbac"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertAsync(Xim.Application.Contracts.Capbacs.CapbacDtoCreate) on controller Xim.AppApi.Controllers.CapbacController (Xim.AppApi).' (String)
+2024-08-28 14:57:39.1942 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.1942 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.1942 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.1942 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:39.1942 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:39.2229 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:39.2229 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 1 events (Timer)
+2024-08-28 14:57:39.2229 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.2229 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.2229 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.2229' (String)
+2024-08-28 14:57:39.2229 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.2229 Trace   DatabaseTarget: Parameter: '@logger' = 'Xim.AppApi.Controllers.CapbacController' (String)
+2024-08-28 14:57:39.2229 Trace   DatabaseTarget: Parameter: '@message' = 'Index page visited at 08/28/2024 07:57:39' (String)
+2024-08-28 14:57:39.2229 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.2229 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.2229 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.2229 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:39.2229 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
+2024-08-28 14:57:39.4574 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Info] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Warn] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Error] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Fatal] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Targets configured when LogLevel >= Info for Logger: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Info] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Warn] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Error] => databaseTarget
+2024-08-28 14:57:39.4574 Debug Logger Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Fatal] => databaseTarget
+2024-08-28 14:57:39.4574 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer scheduled throttled
+2024-08-28 14:57:39.4779 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Writing 4 events (Timer)
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.4574' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@message' = 'Executing ObjectResult, writing value of type 'System.String'.' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.4779 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.4574' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@message' = 'Executed action Xim.AppApi.Controllers.CapbacController.InsertAsync (Xim.AppApi) in 282.2606ms' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.4779 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.4779 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.4574' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Routing.EndpointMiddleware' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@message' = 'Executed endpoint 'Xim.AppApi.Controllers.CapbacController.InsertAsync (Xim.AppApi)'' (String)
+2024-08-28 14:57:39.4779 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.4905 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.4905 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.4905 Trace DatabaseTarget(Name=databaseTarget_wrapped): Open connection.
+2024-08-28 14:57:39.4905 Trace DatabaseTarget(Name=databaseTarget_wrapped): Executing Text: INSERT INTO Logs (LogDate, LogLevel, Logger, Message, Exception) VALUES (@logdate, @level, @logger, @message, @exception)
+2024-08-28 14:57:39.4905 Trace   DatabaseTarget: Parameter: '@logdate' = '2024-08-28 14:57:39.4574' (String)
+2024-08-28 14:57:39.4905 Trace   DatabaseTarget: Parameter: '@level' = 'INFO' (String)
+2024-08-28 14:57:39.4905 Trace   DatabaseTarget: Parameter: '@logger' = 'Microsoft.AspNetCore.Hosting.Diagnostics' (String)
+2024-08-28 14:57:39.4905 Trace   DatabaseTarget: Parameter: '@message' = 'Request finished HTTP/1.1 POST http://localhost:5260/Capbacs - 444 - text/plain;+charset=utf-8 415.6185ms' (String)
+2024-08-28 14:57:39.4905 Trace   DatabaseTarget: Parameter: '@exception' = '' (String)
+2024-08-28 14:57:39.4905 Error DatabaseTarget(Name=databaseTarget_wrapped): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:cc3223f2-5b3d-47b7-aa8e-a830247df0c3
+Error Number:241,State:1,Class:16
+2024-08-28 14:57:39.4905 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of error
+2024-08-28 14:57:39.4905 Trace DatabaseTarget(Name=databaseTarget_wrapped): Close connection because of KeepConnection=false
+2024-08-28 14:57:39.4905 Trace AsyncWrapper_DatabaseTarget(Name=databaseTarget): Timer not scheduled, since queue empty
