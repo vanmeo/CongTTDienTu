@@ -82,41 +82,63 @@ namespace Xim.AppApi.Controllers
                     return BadRequest("Chưa chọn ảnh nào.");
                 if (contents == null || contents.Count != files.Count)
                     return BadRequest("Số lượng nội dung không khớp với số ảnh.");
-
-                var listAnh = new List<Anh_AlbumDtoCreate>();
-                var contextData = this.GetContext();
-
-                for (int i = 0; i < files.Count; i++)
+                using (var ftpClient = new FtpClient
                 {
-                    var file = files[i];
-                    var content = contents[i];
-                    string uniqueFileName = $"{Guid.NewGuid()}_{file.FileName}";
-                    // Đường dẫn tới thư mục lưu trữ
-                    var folderPath = Path.Combine(_environment.WebRootPath, "Uploads", "Anh_Album");
+                    Host = GlobalConfig.Ftp.Host,
+                    Port = GlobalConfig.Ftp.Port,
+                    Credentials = new NetworkCredential(GlobalConfig.Ftp.Username, GlobalConfig.Ftp.Password),
+                    DataConnectionType = FtpDataConnectionType.AutoActive
+                })
+                {
+                    // Kết nối
+                    ftpClient.Connect();
+                    var listAnh = new List<Anh_AlbumDtoCreate>();
+                    var contextData = this.GetContext();
 
-                    // Chỉ tạo thư mục nếu chưa tồn tại (CreateDirectory sẽ không tạo mới nếu thư mục đã có)
-                    Directory.CreateDirectory(folderPath);
-
-                    // Đường dẫn tệp đầy đủ
-                    var filePath = Path.Combine(folderPath, uniqueFileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    for (int i = 0; i < files.Count; i++)
                     {
-                        await file.CopyToAsync(stream);
+                        var thumbnail = files[i];
+                        var imageExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+                        var videoExtensions = new[] { ".mp4", ".avi", ".mkv", ".mov", ".wmv" };
+
+                        var fileExtension = Path.GetExtension(thumbnail.FileName).ToLower();
+
+                        bool isImage = imageExtensions.Contains(fileExtension);
+                        bool isVideo = videoExtensions.Contains(fileExtension);
+
+                        if (!isImage && !isVideo)
+                            return BadRequest(new { Message = "Invalid file format. Only images or videos are allowed." });
+
+                        // Xác định thư mục theo loại file
+                        string subFolder = isImage ? "images" : "videos";
+                        string uniqueFileName = $"{Guid.NewGuid()}_{thumbnail.FileName}";
+                        // Tạo đường dẫn lưu file trên FTP
+                        string remoteDir = Path.Combine(GlobalConfig.Ftp.RemoteDirectory, subFolder).Replace("\\", "/");
+                        string remoteFilePath = Path.Combine(remoteDir, uniqueFileName).Replace("\\", "/");
+
+
+                        // Upload file từ stream
+                        using (var stream = thumbnail.OpenReadStream())
+                        {
+                            ftpClient.Upload(stream, remoteFilePath);
+                        }
+                        // Ngắt kết nối
+
+
+                        var anh = new Anh_AlbumDtoCreate
+                        {
+                            LinkAnh = GlobalConfig.Ftp.link_http + remoteFilePath,
+                            idalbum = idalbum,
+                            thutu = i + 1,
+                            TenAnh = contents[i],
+                            createby = contextData.UserId
+                        };
+                        listAnh.Add(anh);
                     }
-
-                    var anh = new Anh_AlbumDtoCreate
-                    {
-                        LinkAnh = $"/Uploads/Anh_Album/{uniqueFileName}",
-                        idalbum = idalbum,
-                        thutu = i + 1,
-                        TenAnh = contents[i],
-                        createby = contextData.UserId
-                    };
-                    listAnh.Add(anh);
+                    ftpClient.Disconnect();
+                    var data = await _service.CreateAdrangeAsync(listAnh);
+                    return Ok(data);
                 }
-
-                var data = await _service.CreateAdrangeAsync(listAnh);
-                return Ok(data);
             }
             catch (Exception ex)
             {
@@ -125,75 +147,72 @@ namespace Xim.AppApi.Controllers
             }
         }
         [AllowAnonymous]
-        [HttpPost("upload-video")]
-        public async Task<IActionResult> UploadVideo([FromForm] Anh_AlbumDtoCreate model, IFormFile thumbnail)
+        [HttpPost("upload-media")]
+        public async Task<IActionResult> UploadMedia([FromForm] Anh_AlbumDtoCreate model, IFormFile thumbnail)
         {
             if (thumbnail == null || thumbnail.Length == 0)
                 return BadRequest(new { Message = "No file uploaded." });
 
-            // Kiểm tra định dạng video
-            //var allowedExtensions = new[] { ".mp4", ".avi", ".mkv", ".mov" };
-            //var fileExtension = Path.GetExtension(thumbnail.FileName).ToLower();
-            //if (!allowedExtensions.Contains(fileExtension))
-            //    return BadRequest(new { Message = "Invalid video format." });
+            // Định nghĩa các định dạng được phép
+            var imageExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+            var videoExtensions = new[] { ".mp4", ".avi", ".mkv", ".mov", ".wmv" };
+
+            var fileExtension = Path.GetExtension(thumbnail.FileName).ToLower();
+
+            bool isImage = imageExtensions.Contains(fileExtension);
+            bool isVideo = videoExtensions.Contains(fileExtension);
+
+            if (!isImage && !isVideo)
+                return BadRequest(new { Message = "Invalid file format. Only images or videos are allowed." });
+
+            // Xác định thư mục theo loại file
+            string subFolder = isImage ? "images" : "videos";
+            string uniqueFileName = $"{Guid.NewGuid()}_{thumbnail.FileName}";
+
 
             // Tạo đường dẫn lưu file trên FTP
-            string remoteFilePath = Path.Combine(GlobalConfig.Ftp.RemoteDirectory, thumbnail.FileName );
+            string remoteDir = Path.Combine(GlobalConfig.Ftp.RemoteDirectory, subFolder).Replace("\\", "/");
 
-            // Upload file lên FTP
+            string remoteFilePath = Path.Combine(remoteDir, uniqueFileName).Replace("\\", "/");
+
             try
             {
-                // Khởi tạo FtpClient và cấu hình kết nối FTP
-                var ftpClient = new FtpClient
+                using (var ftpClient = new FtpClient
                 {
                     Host = GlobalConfig.Ftp.Host,
                     Port = GlobalConfig.Ftp.Port,
-                    Credentials = new NetworkCredential(GlobalConfig.Ftp.Username, GlobalConfig.Ftp.Password)
-                };
-               
-               
-
-                ftpClient.Connect();  // Kết nối đến FTP
-                //try
-                //{
+                    Credentials = new NetworkCredential(GlobalConfig.Ftp.Username, GlobalConfig.Ftp.Password),
+                    DataConnectionType = FtpDataConnectionType.AutoActive
+                })
+                {
+                    // Kết nối
+                    ftpClient.Connect();
+                    // Upload file từ stream
                     using (var stream = thumbnail.OpenReadStream())
                     {
-                      
-                        ftpClient.UploadStream(stream, remoteFilePath);
+                        ftpClient.Upload(stream, remoteFilePath);
                     }
-                //}
-                //catch (Exception ex)
-                //{
-                //    // In ra thông báo lỗi chi tiết
-                //    Console.WriteLine("Error: " + ex.Message);
-                //    if (ex.InnerException != null)
-                //    {
-                //        Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
-                //    }
-                //}
-               
-                // Sử dụng UploadFile đúng cách: 
-                //using (var stream = thumbnail.OpenReadStream())
-                //{
-                //    // Upload file từ stream lên FTP
-                //    ftpClient.UploadFile(stream, remoteFilePath);
-                //}
 
-                ftpClient.Disconnect();  // Ngắt kết nối FTP
+                    // Ngắt kết nối
+                    ftpClient.Disconnect();
+                }
+                // Gán đường dẫn file vào model
+                model.LinkAnh = GlobalConfig.Ftp.link_http + remoteFilePath;
+
+                // Lưu dữ liệu
+                var data = await _service.CreateAsync(model);
+
+                return Ok(data);
             }
             catch (Exception ex)
             {
-                return BadRequest(new { Message = "Error uploading file to FTP", Error = ex.Message });
+                return BadRequest(new
+                {
+                    Message = "Error uploading file to FTP",
+                    Error = ex.Message
+                });
             }
-            model.LinkAnh = remoteFilePath;
-            //var contextData = this.GetContext();
-            //model.createby = contextData.UserId;
-            var data = await _service.CreateAsync(model);
-            return Ok(data);
-
-           
         }
-
         /// <summary>
         /// ADmin: Thêm mới
         /// </summary>
@@ -205,25 +224,46 @@ namespace Xim.AppApi.Controllers
         {
             try
             {
+                if (thumbnail == null || thumbnail.Length == 0)
+                    return BadRequest(new { Message = "No file uploaded." });
+                var imageExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+                var videoExtensions = new[] { ".mp4", ".avi", ".mkv", ".mov", ".wmv" };
 
-                if (thumbnail != null && thumbnail.Length > 0)
+                var fileExtension = Path.GetExtension(thumbnail.FileName).ToLower();
+
+                bool isImage = imageExtensions.Contains(fileExtension);
+                bool isVideo = videoExtensions.Contains(fileExtension);
+
+                if (!isImage && !isVideo)
+                    return BadRequest(new { Message = "Invalid file format. Only images or videos are allowed." });
+
+                // Xác định thư mục theo loại file
+                string subFolder = isImage ? "images" : "videos";
+                string uniqueFileName = $"{Guid.NewGuid()}_{thumbnail.FileName}";
+                // Tạo đường dẫn lưu file trên FTP
+                string remoteDir = Path.Combine(GlobalConfig.Ftp.RemoteDirectory, subFolder).Replace("\\", "/");
+                string remoteFilePath = Path.Combine(remoteDir, uniqueFileName).Replace("\\", "/");
+
+                using (var ftpClient = new FtpClient
                 {
-                    string uniqueFileName = $"{Guid.NewGuid()}_{thumbnail.FileName}";
-                    // Đường dẫn tới thư mục lưu trữ
-                    var folderPath = Path.Combine(_environment.WebRootPath, "Uploads", "Anh_Album");
-
-                    // Chỉ tạo thư mục nếu chưa tồn tại (CreateDirectory sẽ không tạo mới nếu thư mục đã có)
-                    Directory.CreateDirectory(folderPath);
-
-                    // Đường dẫn tệp đầy đủ
-
-                    var filePath = Path.Combine(folderPath, uniqueFileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    Host = GlobalConfig.Ftp.Host,
+                    Port = GlobalConfig.Ftp.Port,
+                    Credentials = new NetworkCredential(GlobalConfig.Ftp.Username, GlobalConfig.Ftp.Password),
+                    DataConnectionType = FtpDataConnectionType.AutoActive
+                })
+                {
+                    // Kết nối
+                    ftpClient.Connect();
+                    // Upload file từ stream
+                    using (var stream = thumbnail.OpenReadStream())
                     {
-                        await thumbnail.CopyToAsync(stream);
+                        ftpClient.Upload(stream, remoteFilePath);
                     }
-                    model.LinkAnh = $"/Uploads/Anh_Album/{uniqueFileName}";
+                    // Ngắt kết nối
+                    ftpClient.Disconnect();
                 }
+                // Gán đường dẫn file vào model
+                model.LinkAnh = GlobalConfig.Ftp.link_http + remoteFilePath;
                 var contextData = this.GetContext();
                 model.createby = contextData.UserId;
                 var data = await _service.CreateAsync(model);
@@ -231,10 +271,8 @@ namespace Xim.AppApi.Controllers
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex.Message);
             }
-
         }
         /// <summary>
         /// Admin, Cổng: Lấy thông tin chi tiết của một thủ trưởng hiển thị để sửa...
@@ -268,21 +306,44 @@ namespace Xim.AppApi.Controllers
             }
             if (thumbnail != null)
             {
+                var imageExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp" };
+                var videoExtensions = new[] { ".mp4", ".avi", ".mkv", ".mov", ".wmv" };
 
+                var fileExtension = Path.GetExtension(thumbnail.FileName).ToLower();
+
+                bool isImage = imageExtensions.Contains(fileExtension);
+                bool isVideo = videoExtensions.Contains(fileExtension);
+
+                if (!isImage && !isVideo)
+                    return BadRequest(new { Message = "Invalid file format. Only images or videos are allowed." });
+
+                // Xác định thư mục theo loại file
+                string subFolder = isImage ? "images" : "videos";
                 string uniqueFileName = $"{Guid.NewGuid()}_{thumbnail.FileName}";
-                // Đường dẫn tới thư mục lưu trữ
-                var folderPath = Path.Combine(_environment.WebRootPath, "Uploads", "Anh_Album");
+                // Tạo đường dẫn lưu file trên FTP
+                string remoteDir = Path.Combine(GlobalConfig.Ftp.RemoteDirectory, subFolder).Replace("\\", "/");
+                string remoteFilePath = Path.Combine(remoteDir, uniqueFileName).Replace("\\", "/");
 
-                // Chỉ tạo thư mục nếu chưa tồn tại (CreateDirectory sẽ không tạo mới nếu thư mục đã có)
-                Directory.CreateDirectory(folderPath);
-
-                // Đường dẫn tệp đầy đủ
-                var filePath = Path.Combine(folderPath, uniqueFileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                using (var ftpClient = new FtpClient
                 {
-                    await thumbnail.CopyToAsync(stream);
+                    Host = GlobalConfig.Ftp.Host,
+                    Port = GlobalConfig.Ftp.Port,
+                    Credentials = new NetworkCredential(GlobalConfig.Ftp.Username, GlobalConfig.Ftp.Password),
+                    DataConnectionType = FtpDataConnectionType.AutoActive
+                })
+                {
+                    // Kết nối
+                    ftpClient.Connect();
+                    // Upload file từ stream
+                    using (var stream = thumbnail.OpenReadStream())
+                    {
+                        ftpClient.Upload(stream, remoteFilePath);
+                    }
+                    // Ngắt kết nối
+                    ftpClient.Disconnect();
                 }
-                model.LinkAnh = $"/Uploads/Anh_Album/{uniqueFileName}";
+                // Gán đường dẫn file vào model
+                model.LinkAnh = GlobalConfig.Ftp.link_http + remoteFilePath;
             }
             var contextData = this.GetContext();
             model.updateby = contextData.UserId;

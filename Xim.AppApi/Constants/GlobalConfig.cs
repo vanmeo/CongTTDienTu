@@ -7,6 +7,7 @@
         public string Password { get; set; }
         public int Port { get; set; }
         public string RemoteDirectory { get; set; }
+        public string link_http {  get; set; }
     }
     public static class GlobalConfig
     {
