@@ -1,6 +1,11 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using API.Constants;
+using FluentFTP;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using Xim.AppApi.Constants;
 using Xim.Application.Contracts.Album;
+using Xim.Domain.Entities;
 using Xim.Domain.Pagings;
 
 namespace Xim.AppApi.Controllers
@@ -13,6 +18,8 @@ namespace Xim.AppApi.Controllers
         {
             _service = serviceProvider.GetService<IAlbumService>();
         }
+       
+
         /// <summary>
         /// ADMIN: Lấy danh sách album tất cả
         /// </summary>

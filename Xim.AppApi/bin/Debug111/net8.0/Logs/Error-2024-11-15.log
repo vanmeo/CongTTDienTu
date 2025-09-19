@@ -1,9 +1,0 @@
-2024-11-15 10:35:01.7849-ERROR-Xim.AppApi.ActionFilters.ExceptionActionFilter-http://localhost/HoatDongs/getall-GetList:
-Object reference not set to an instance of an object.
-System.NullReferenceException: Object reference not set to an instance of an object.
-   at Xim.Application.Services.HoatDongService.GetListAsync(PagingParam param) in D:\Code\Cong TT\CodeBECong\Api\Xim.Application\Services\HoatDongService.cs:line 83
-   at Xim.AppApi.Controllers.HoatDongController.GetListAsync(paging paging) in D:\Code\Cong TT\CodeBECong\Api\Xim.AppApi\Controllers\HoatDongController.cs:line 45
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
-

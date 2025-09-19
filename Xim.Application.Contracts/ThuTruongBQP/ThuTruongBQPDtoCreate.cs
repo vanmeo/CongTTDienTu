@@ -8,7 +8,7 @@ namespace Xim.Application.Contracts.ThuTruongBQP
 {
     public class ThuTruongBQPDtoCreate
     {
-      
+        public Guid? IdDMThuTruong { get; set; }
         public int? thutu { get; set; }
         public string? SoHieuQuanNhan { get; set; }
         public string? HoVaTen { get; set; }

@@ -1,4 +1,5 @@
-﻿using API.Controllers;
+﻿using API.Constants;
+using API.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.Extensions.Options;
@@ -10,14 +11,15 @@ using System;
 using System.IO.Compression;
 using System.Reflection;
 using Xim.AppApi.ActionFilters;
+//using Xim.AppApi.Constants;
 using Xim.AppApi.Contexts;
 using Xim.AppApi.Models;
 using Xim.AppApi.Services;
 using Xim.Application;
+using Xim.Application.Services;
 using Xim.Domain.Mssql;
 using Xim.Library.Extensions;
 using Xim.Storage;
-using Xim.AppApi.Constants;
 const string CORS_KEY = "AllowAllOrigins";
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 
@@ -53,7 +55,8 @@ try
     {
         options.Level = CompressionLevel.Fastest;
     });
-
+    //
+    GlobalConfig.Ftp= builder.Configuration.GetSection("FTPSettings").Get<FTPSettings>();
     //repo-service
     var mysqlConnection = builder.Configuration.GetConnectionString("App");
     Console.WriteLine($"----- ConnectionString.App {mysqlConnection}");

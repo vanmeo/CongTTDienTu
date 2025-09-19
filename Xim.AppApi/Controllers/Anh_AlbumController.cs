@@ -1,13 +1,18 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using API.Constants;
+using FluentFTP;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NLog.Filters;
+using System.Net;
 using System.Reflection;
+using Xim.Application.Contracts.Album;
 using Xim.Application.Contracts.Anh_Album;
 using Xim.Application.Contracts.HoatDong;
 using Xim.Application.Contracts.NhatKy;
 using Xim.Domain.Entities;
 using Xim.Domain.Pagings;
 using Xim.Library.Extensions;
+using System.IO;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Xim.AppApi.Controllers
@@ -119,6 +124,76 @@ namespace Xim.AppApi.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [AllowAnonymous]
+        [HttpPost("upload-video")]
+        public async Task<IActionResult> UploadVideo([FromForm] Anh_AlbumDtoCreate model, IFormFile thumbnail)
+        {
+            if (thumbnail == null || thumbnail.Length == 0)
+                return BadRequest(new { Message = "No file uploaded." });
+
+            // Kiểm tra định dạng video
+            //var allowedExtensions = new[] { ".mp4", ".avi", ".mkv", ".mov" };
+            //var fileExtension = Path.GetExtension(thumbnail.FileName).ToLower();
+            //if (!allowedExtensions.Contains(fileExtension))
+            //    return BadRequest(new { Message = "Invalid video format." });
+
+            // Tạo đường dẫn lưu file trên FTP
+            string remoteFilePath = Path.Combine(GlobalConfig.Ftp.RemoteDirectory, thumbnail.FileName );
+
+            // Upload file lên FTP
+            try
+            {
+                // Khởi tạo FtpClient và cấu hình kết nối FTP
+                var ftpClient = new FtpClient
+                {
+                    Host = GlobalConfig.Ftp.Host,
+                    Port = GlobalConfig.Ftp.Port,
+                    Credentials = new NetworkCredential(GlobalConfig.Ftp.Username, GlobalConfig.Ftp.Password)
+                };
+               
+               
+
+                ftpClient.Connect();  // Kết nối đến FTP
+                //try
+                //{
+                    using (var stream = thumbnail.OpenReadStream())
+                    {
+                      
+                        ftpClient.UploadStream(stream, remoteFilePath);
+                    }
+                //}
+                //catch (Exception ex)
+                //{
+                //    // In ra thông báo lỗi chi tiết
+                //    Console.WriteLine("Error: " + ex.Message);
+                //    if (ex.InnerException != null)
+                //    {
+                //        Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+                //    }
+                //}
+               
+                // Sử dụng UploadFile đúng cách: 
+                //using (var stream = thumbnail.OpenReadStream())
+                //{
+                //    // Upload file từ stream lên FTP
+                //    ftpClient.UploadFile(stream, remoteFilePath);
+                //}
+
+                ftpClient.Disconnect();  // Ngắt kết nối FTP
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = "Error uploading file to FTP", Error = ex.Message });
+            }
+            model.LinkAnh = remoteFilePath;
+            //var contextData = this.GetContext();
+            //model.createby = contextData.UserId;
+            var data = await _service.CreateAsync(model);
+            return Ok(data);
+
+           
+        }
+
         /// <summary>
         /// ADmin: Thêm mới
         /// </summary>
@@ -139,7 +214,7 @@ namespace Xim.AppApi.Controllers
 
                     // Chỉ tạo thư mục nếu chưa tồn tại (CreateDirectory sẽ không tạo mới nếu thư mục đã có)
                     Directory.CreateDirectory(folderPath);
-                    
+
                     // Đường dẫn tệp đầy đủ
 
                     var filePath = Path.Combine(folderPath, uniqueFileName);
